@@ -1,0 +1,24 @@
+{"id": "091-1-01", "answer": {"declare": "GIVE", "message": "Let's cooperate; I'll give first this encounter."}}
+{"id": "091-1-02", "answer": {"declare": "ASK", "message": "Let's ask first and see how you play."}}
+{"id": "091-1-03", "answer": {"declare": "GIVE", "message": "Cooperating in vorn; I'll give first."}}
+{"id": "091-1-04", "answer": {"declare": "ASK", "message": "Your recent TAKE worries me; let's ask first."}}
+{"id": "091-1-05", "answer": {"declare": "GIVE", "message": "Let's cooperate in glim; giving first."}}
+{"id": "091-1-06", "answer": {"declare": "ASK", "message": "Your recent TAKE worries me; asking first."}}
+{"id": "091-1-07", "answer": {"declare": "GIVE", "message": "Let's both give in glim; mutual cooperation pays."}}
+{"id": "091-1-08", "answer": {"declare": "GIVE", "message": "Let's both give in glim; mutual cooperation pays."}}
+{"id": "091-1-09", "answer": {"declare": "GIVE", "message": "Let's both give in vorn; mutual cooperation pays."}}
+{"id": "091-1-10", "answer": {"declare": "GIVE", "message": "Let's both give in vorn; mutual cooperation pays."}}
+{"id": "091-1-11", "answer": {"declare": "ASK", "message": "Your recent ASK-then-TAKE worries me; asking first."}}
+{"id": "091-1-12", "answer": {"declare": "GIVE", "message": "I'll give first in glim to rebuild trust."}}
+{"id": "091-1-13", "answer": {"declare": "ASK", "message": "Your recent TAKE worries me; asking first."}}
+{"id": "091-1-14", "answer": {"declare": "GIVE", "message": "I'll give first in vorn to rebuild trust."}}
+{"id": "091-1-15", "answer": {"declare": "GIVE", "message": "I'll give first in vorn to rebuild trust."}}
+{"id": "091-1-16", "answer": {"declare": "ASK", "message": "Your recent TAKE worries me; asking first."}}
+{"id": "091-1-17", "answer": {"declare": "ASK", "message": "Both of us took recently; let's ask safely."}}
+{"id": "091-1-18", "answer": {"declare": "ASK", "message": "Both of us took recently; let's ask safely."}}
+{"id": "091-1-19", "answer": {"declare": "ASK", "message": "Both of us took recently; let's ask safely."}}
+{"id": "091-1-20", "answer": {"declare": "ASK", "message": "Both of us took recently; let's ask safely."}}
+{"id": "091-1-21", "answer": {"declare": "ASK", "message": "Your recent TAKE worries me; asking first."}}
+{"id": "091-1-22", "answer": {"declare": "GIVE", "message": "I'll give first in glim to rebuild trust."}}
+{"id": "091-1-23", "answer": {"declare": "GIVE", "message": "I'll give first in vorn to rebuild trust."}}
+{"id": "091-1-24", "answer": {"declare": "ASK", "message": "Your recent TAKE worries me; asking first."}}

@@ -1,0 +1,8 @@
+{"id": "099-1-01", "answer": {"op": "insert", "target_id": "s1D-s00054", "new_sentence": "When your partner declares GIVE and shows no exposed TAKEs, choose GIVE so that both of you earn +1."}}
+{"id": "099-1-02", "answer": {"op": "replace", "target_id": "s1D-s00010", "new_sentence": "Declare GIVE and choose GIVE when your partner also declares GIVE, since mutual giving earns +1 each, but choose ASK when your partner declares TAKE."}}
+{"id": "099-1-03", "answer": {"op": "insert", "target_id": "s1D-s00043", "new_sentence": "Choose ASK against any partner whose last exposed TAKEs appear in their public record, even if they declare GIVE."}}
+{"id": "099-1-04", "answer": {"op": "insert", "target_id": "s1D-s00046", "new_sentence": "Check your partner's last three exposed TAKEs before choosing GIVE, and choose ASK if any appear."}}
+{"id": "099-1-05", "answer": {"op": "insert", "target_id": "s1D-s00044", "new_sentence": "Choose ASK when your partner's recent exposed TAKEs show a pattern, even if it declares GIVE."}}
+{"id": "099-1-06", "answer": {"op": "insert", "target_id": "s1D-s00047", "new_sentence": "When your partner declares GIVE and has no recent exposed TAKEs, choose GIVE so both of you earn +1."}}
+{"id": "099-1-07", "answer": {"op": "insert", "target_id": "s1D-s00046", "new_sentence": "When your partner declares GIVE and has no recent exposed TAKEs, choose GIVE so both of you earn +1."}}
+{"id": "099-1-08", "answer": {"op": "insert", "target_id": "s1D-s00061", "new_sentence": "Also choose ASK when your partner's last exposed TAKEs are recent, even if it declares GIVE, because declarations are not binding."}}
