@@ -1,0 +1,8 @@
+{"id": "077-2-01", "answer": {"op": "insert", "target_id": "s1L-s00002", "new_sentence": "Never play TAKE yourself, since exposed TAKEs on your record make future partners refuse to cooperate with you."}}
+{"id": "077-2-02", "answer": {"op": "replace", "target_id": "s1L-s00041", "new_sentence": "Keep your declaration message short, mention that your record is clean, and propose that both sides play GIVE."}}
+{"id": "077-2-03", "answer": {"op": "insert", "target_id": "s1L-s00043", "new_sentence": "If a partner declares anything other than GIVE, play ASK, because it costs nothing and avoids losing 2."}}
+{"id": "077-2-04", "answer": {"op": "insert", "target_id": "s1L-s00048", "new_sentence": "If a partner declares GIVE but their record shows exposed TAKEs, play ASK rather than trusting their words."}}
+{"id": "077-2-05", "answer": {"op": "insert", "target_id": "s1L-s00019", "new_sentence": "Keep your declaration message short and mention that your record is clean."}}
+{"id": "077-2-06", "answer": {"op": "insert", "target_id": "s1L-s00034", "new_sentence": "Keep your declaration message short and mention that your record is clean to invite mutual GIVE."}}
+{"id": "077-2-07", "answer": {"op": "replace", "target_id": "s1L-s00026", "new_sentence": "Keep your declaration message short, mention that your record is clean, and invite your partner to GIVE together."}}
+{"id": "077-2-08", "answer": {"op": "insert", "target_id": "s1L-s00021", "new_sentence": "If a partner declares GIVE but has played TAKE before, remember it and play ASK against them."}}
