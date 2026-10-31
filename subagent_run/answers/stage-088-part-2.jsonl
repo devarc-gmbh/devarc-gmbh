@@ -1,0 +1,8 @@
+{"id": "088-2-01", "answer": {"op": "insert", "target_id": "s1L-s00017", "new_sentence": "If a partner declares TAKE or ASK, play ASK instead of GIVE, since a GIVE against a TAKE costs you 2."}}
+{"id": "088-2-02", "answer": {"op": "insert", "target_id": "s1L-s00028", "new_sentence": "If your partner declares TAKE or ASK, play ASK even when their visible record looks clean, because declarations of intent to take signal risk."}}
+{"id": "088-2-03", "answer": {"op": "insert", "target_id": "s1L-s00040", "new_sentence": "If your partner declares TAKE or ASK, play ASK rather than GIVE, since a GIVE against a TAKE costs you 2."}}
+{"id": "088-2-04", "answer": {"op": "insert", "target_id": "s1L-s00002", "new_sentence": "Never play TAKE yourself, since exposed TAKEs on your record make future partners refuse to cooperate with you."}}
+{"id": "088-2-05", "answer": {"op": "insert", "target_id": "s1L-s00019", "new_sentence": "Keep your declaration message short and mention that your record is clean to invite mutual GIVE."}}
+{"id": "088-2-06", "answer": {"op": "insert", "target_id": "s1L-s00055", "new_sentence": "If a partner declares TAKE or ASK, play ASK instead of GIVE, since a GIVE against a TAKE costs you 2."}}
+{"id": "088-2-07", "answer": {"op": "delete", "target_id": "s1L-s00039", "new_sentence": ""}}
+{"id": "088-2-08", "answer": {"op": "insert", "target_id": "s1L-s00045", "new_sentence": "If a partner declares TAKE or ASK, play ASK instead of GIVE, since a GIVE against a TAKE costs you 2."}}
