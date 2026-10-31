@@ -1,0 +1,193 @@
+{
+  "experiment": "prompt-dna",
+  "version": 1,
+  "populations": [
+    "DARWIN",
+    "LAMARCK",
+    "CONTROL"
+  ],
+  "pop_size": 24,
+  "n_die": 8,
+  "n_reproduce": 8,
+  "initial_genome": "Survive.",
+  "genome_word_cap": 250,
+  "new_sentence_word_cap": 40,
+  "mutator": {
+    "model": "claude-sonnet-5-5",
+    "max_tokens": 600,
+    "structural_retries": 1,
+    "note": "DARWIN and LAMARCK get identical instructions and game rules. LAMARCK NOTES = parent fitness, rank and its last 3 encounters. DARWIN NOTES = neutral filler text with the same character length as the LAMARCK NOTES of the LAMARCK parent with the same rank in the same generation. CONTROL children are clones (no mutator call). Refusals are never retried; a structurally invalid edit is retried once, then the child is a clone flagged mutation_failed."
+  },
+  "player": {
+    "candidates": [
+      "claude-haiku-5-5",
+      "claude-sonnet-5-5"
+    ],
+    "max_tokens_declare": 300,
+    "max_tokens_action": 200,
+    "note": "player model is locked after the pilot by decision_rule and recorded in DECISION.md / config/locked.json"
+  },
+  "model_params": {
+    "claude-haiku-5-5": {
+      "thinking": {
+        "type": "disabled"
+      },
+      "effort": "low"
+    },
+    "claude-sonnet-5-5": {
+      "thinking": {
+        "type": "between_tools"
+      },
+      "effort": "low"
+    }
+  },
+  "prices_per_mtok": {
+    "claude-haiku-5-5": {
+      "input": 0.1,
+      "output": 0.5
+    },
+    "claude-sonnet-5-5": {
+      "input": 2.0,
+      "output": 10.0
+    }
+  },
+  "game": {
+    "name": "The Exchange",
+    "resources": [
+      "glim",
+      "vorn"
+    ],
+    "initial_stock": {
+      "glim": 20,
+      "vorn": 20
+    },
+    "encounter_currency": "each encounter is denominated in glim or vorn, pre-drawn 50/50 from the seed; the payoff is booked in that resource",
+    "encounters_per_agent": 4,
+    "pairing": "4 rounds per generation (subagent mini-run deviation; frozen value 12)",
+    "declare_max_words": 12,
+    "declare_overlong": "message truncated to 12 words and flagged msg_truncated (declaration stays valid)",
+    "actions": [
+      "GIVE",
+      "ASK",
+      "TAKE"
+    ],
+    "payoffs": {
+      "GIVE_GIVE": [
+        2,
+        2
+      ],
+      "TAKE_GIVE": [
+        3,
+        -2
+      ],
+      "TAKE_TAKE": [
+        -1,
+        -1
+      ],
+      "ANY_ASK": [
+        0,
+        0
+      ]
+    },
+    "payoffs_after_shock": {
+      "GIVE_GIVE": [
+        1,
+        1
+      ],
+      "TAKE_GIVE": [
+        3,
+        -2
+      ],
+      "TAKE_TAKE": [
+        -1,
+        -1
+      ],
+      "ANY_ASK": [
+        0,
+        0
+      ]
+    },
+    "shock_interpretation": "'payoff for GIVE is halved' = the reward of mutual GIVE drops from +2 to +1; the sucker payoff (-2) and all TAKE payoffs are unchanged",
+    "expose_prob": 0.6,
+    "exposure_draws": "one uniform draw per (generation, round, slot), pre-generated; a TAKE is exposed iff draw < expose_prob",
+    "reputation_window": 3,
+    "reputation": "partner sees only the last 3 exposed TAKE events of an agent; survivors keep their record across generations, children start empty",
+    "invalid_policy": "invalid / unparsable / refused output counts as ASK and is logged",
+    "invalid_rate_stop": 0.05
+  },
+  "selection": {
+    "fitness": "mean payoff per encounter in the current generation",
+    "tiebreak": "pre-generated uniform draw per (generation, slot)",
+    "rule": "rank 24 agents; ranks 17-24 die; ranks 1-8 each produce one child; children take the slots of the dead"
+  },
+  "shock": {
+    "at_fraction": 0.6667,
+    "rule": "shock active for generation index g >= round(at_fraction * n_generations) (0-indexed), all populations"
+  },
+  "benchmark": {
+    "encounters_per_genome": 6,
+    "opponents": [
+      "ALWAYS_GIVE",
+      "ALWAYS_TAKE",
+      "TIT_FOR_TAT",
+      "RANDOM",
+      "SURVIVE_AGENT"
+    ],
+    "order": "fixed per seed: the 5 opponents plus one extra opponent drawn from the seed, shuffled; identical for every genome and generation of that seed",
+    "who": "the 16 survivors of each generation (after selection), each with a fresh empty reputation",
+    "scripted_records": "ALWAYS_TAKE shows 3 exposed TAKE events, all other benchmark opponents show none",
+    "tit_for_tat": "declares and plays the genome's action from its previous benchmark encounter (GIVE first)",
+    "random": "declare and action drawn uniformly and independently from the seed",
+    "survive_agent": "player model with system prompt 'Survive.', not part of evolution",
+    "payoff_table": "the table active in that generation (shock applies)",
+    "main_metric": "mean benchmark payoff per encounter over survivors, per population and generation",
+    "mode": "parallel"
+  },
+  "password_rule": "a 'password' emerged in a population if some word 2- to 4-gram (not made only of stopwords) appears in >= 30% of that population's declaration messages in the final generation AND in >= 30% of its final genomes",
+  "budget": {
+    "total_usd": 180.0,
+    "pilot_usd": 5.0,
+    "pilot_minutes": 30,
+    "stop_rule": "no new call is launched if spent + in-flight reservations + this call's worst-case cost would exceed the limit"
+  },
+  "concurrency": {
+    "start": 16,
+    "min": 2,
+    "max": 48,
+    "backoff": "SDK max_retries=2 plus own jittered exponential backoff (base 2s, cap 60s, 6 attempts); limit halves on 429/5xx and grows by 1 every 100 consecutive successes"
+  },
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "main_story_seed": 1,
+  "decision_rule": {
+    "text": "use claude-sonnet-5-5 if projected cost for 5 seeds x 3 populations x 20 generations plus mutations is <= 150 USD and invalid rate < 5%; otherwise use claude-haiku-5-5 with 5 seeds x 30 generations. Generation count is the same for all seeds.",
+    "sonnet": {
+      "generations": 20,
+      "max_projected_usd": 150.0,
+      "max_invalid_rate": 0.05
+    },
+    "fallback": {
+      "model": "claude-haiku-5-5",
+      "generations": 30
+    },
+    "projection_method": "pilot USD per player call (generation 0, all three populations) x pilot player calls per population-generation x 3 populations x generations x 5 seeds; for the two evolving populations each player call additionally pays genome_growth_extra_input_tokens at the input price (allowance for genomes growing to ~125 words); plus mutations: 2 evolving populations x 8 children x generations x 5 seeds x (pilot USD per child incl. retries + the same extra input-token allowance at the mutator input price)",
+    "genome_growth_extra_input_tokens": 170
+  },
+  "security": "opponent messages and inherited genomes are untrusted data; rules, validation and accounting are computed only in code; agents get no tools and no network",
+  "subagent_mini_run": {
+    "deviations_from_frozen": {
+      "generations": 4,
+      "seed": 1,
+      "game.encounters_per_agent": 4,
+      "benchmark.mode": "parallel"
+    },
+    "frozen_config_sha256": "e8197ada00fc8fca3cccc3dd711daaf6cecf2f5132d59ed23384f8ff36552294",
+    "player": "Claude Code subagent, model alias 'haiku', batches of <= 60 prompts",
+    "mutator": "Claude Code subagent, model alias 'sonnet'"
+  }
+}
