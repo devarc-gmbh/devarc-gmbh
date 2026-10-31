@@ -5,3 +5,7 @@
 {"stage": 5, "n_items": 72, "n_missing": 0, "parts": ["queue/stage-005-part-1.md", "queue/stage-005-part-2.md", "queue/stage-005-part-3.md"]}
 {"stage": 6, "n_items": 72, "n_missing": 0, "parts": ["queue/stage-006-part-1.md", "queue/stage-006-part-2.md", "queue/stage-006-part-3.md"]}
 {"stage": 7, "n_items": 72, "n_missing": 0, "parts": ["queue/stage-007-part-1.md", "queue/stage-007-part-2.md", "queue/stage-007-part-3.md"]}
+{"stage": 8, "n_items": 72, "n_missing": 0, "parts": ["queue/stage-008-part-1.md", "queue/stage-008-part-2.md", "queue/stage-008-part-3.md"]}
+{"stage": 9, "n_items": 336, "n_missing": 0, "parts": ["queue/stage-009-part-1.md", "queue/stage-009-part-2.md", "queue/stage-009-part-3.md", "queue/stage-009-part-4.md", "queue/stage-009-part-5.md", "queue/stage-009-part-6.md"]}
+{"stage": 10, "n_items": 336, "n_missing": 0, "parts": ["queue/stage-010-part-1.md", "queue/stage-010-part-2.md", "queue/stage-010-part-3.md", "queue/stage-010-part-4.md", "queue/stage-010-part-5.md", "queue/stage-010-part-6.md"]}
+{"stage": 11, "n_items": 16, "n_missing": 0, "parts": ["queue/stage-011-part-1.md", "queue/stage-011-part-2.md"]}

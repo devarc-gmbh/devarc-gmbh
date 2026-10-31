@@ -223,7 +223,7 @@ class SeedRun:
                            "own_record": game.format_record([], win), "partner_record": game.format_record([], win)}
         jobs = [self._declare(agent.genome.text, rules, ctxs[k], metas[k]) for k in range(len(order))]
         skeys = sorted(sctx)
-        jobs += [self._declare(SURVIVE, rules, sctx[k], {**metas[k], "agent": "BENCH_SURVIVE"}) for k in skeys]
+        jobs += [self._declare(SURVIVE, rules, sctx[k], {**metas[k], "agent": "BENCH_SURVIVE", "vs_agent": agent.id}) for k in skeys]
         res = await asyncio.gather(*jobs)
         dg = res[: len(order)]
         ds = dict(zip(skeys, res[len(order):]))
@@ -245,7 +245,7 @@ class SeedRun:
                 sctx[k].update(own_decl=ds[k]["value"], own_msg=ds[k]["message"], partner_decl=dg[k]["value"],
                                partner_msg=dg[k]["message"])
         jobs = [self._act(agent.genome.text, rules, ctxs[k], metas[k]) for k in range(len(order))]
-        jobs += [self._act(SURVIVE, rules, sctx[k], {**metas[k], "agent": "BENCH_SURVIVE"}) for k in skeys]
+        jobs += [self._act(SURVIVE, rules, sctx[k], {**metas[k], "agent": "BENCH_SURVIVE", "vs_agent": agent.id}) for k in skeys]
         res = await asyncio.gather(*jobs)
         xg = res[: len(order)]
         xs = dict(zip(skeys, res[len(order):]))

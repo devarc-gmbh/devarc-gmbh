@@ -69,6 +69,8 @@ class CacheBackend:
         m = _meta.get()
         ident = {f: m.get(f) for f in ("kind", "pop", "gen", "round", "agent", "partner", "bench_k", "parent_agent",
                                        "try", "phase")}
+        if m.get("vs_agent"):
+            ident["vs_agent"] = m["vs_agent"]
         k = key_of(model, system, user, [schema, ident])  # one independent answer per call, never shared
         if k in self.cache:
             return RawResponse(text=self.cache[k], stop_reason="end_turn",
