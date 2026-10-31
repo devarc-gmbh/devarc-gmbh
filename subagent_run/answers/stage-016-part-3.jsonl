@@ -1,0 +1,24 @@
+{"id": "016-3-01", "answer": {"declare": "GIVE", "message": "Proposing mutual GIVE; both records are clean."}}
+{"id": "016-3-02", "answer": {"declare": "GIVE", "message": "Let's both give; clean records so far."}}
+{"id": "016-3-03", "answer": {"declare": "GIVE", "message": "Mutual GIVE pays us both; records are clean."}}
+{"id": "016-3-04", "answer": {"declare": "GIVE", "message": "Let's both give; no exposed TAKEs on either side."}}
+{"id": "016-3-05", "answer": {"declare": "GIVE", "message": "Mutual give in vorn; keeping it clean."}}
+{"id": "016-3-06", "answer": {"declare": "GIVE", "message": "Happy to give; records clean on both sides."}}
+{"id": "016-3-07", "answer": {"declare": "ASK", "message": "Both of us have an exposed TAKE; I'll ASK to stay safe."}}
+{"id": "016-3-08", "answer": {"declare": "ASK", "message": "Both records show a past TAKE; ASK this round."}}
+{"id": "016-3-09", "answer": {"declare": "ASK", "message": "Your record shows a past TAKE; I'll ASK this round."}}
+{"id": "016-3-10", "answer": {"declare": "ASK", "message": "My record shows a past TAKE; ASK until it clears."}}
+{"id": "016-3-11", "answer": {"declare": "GIVE", "message": "Clean records both ways; let's give."}}
+{"id": "016-3-12", "answer": {"declare": "GIVE", "message": "Inviting mutual GIVE; both records are clean."}}
+{"id": "016-3-13", "answer": {"declare": "ASK", "message": "My past TAKE is on record; ASK this round."}}
+{"id": "016-3-14", "answer": {"declare": "ASK", "message": "Your record shows a past TAKE; ASK until it clears."}}
+{"id": "016-3-15", "answer": {"declare": "ASK", "message": "Your record has an exposed TAKE; ASK until clean."}}
+{"id": "016-3-16", "answer": {"declare": "ASK", "message": "My exposed TAKE is on record; ASK this round."}}
+{"id": "016-3-17", "answer": {"declare": "GIVE", "message": "Clean records both sides; let's give in vorn."}}
+{"id": "016-3-18", "answer": {"declare": "GIVE", "message": "Mutual GIVE in vorn; no exposed TAKEs."}}
+{"id": "016-3-19", "answer": {"declare": "ASK", "message": "Your exposed TAKE means I'll ASK this encounter."}}
+{"id": "016-3-20", "answer": {"declare": "ASK", "message": "My exposed TAKE is on record; ASK this round."}}
+{"id": "016-3-21", "answer": {"declare": "ASK", "message": "Your record shows a past TAKE; ASK this round."}}
+{"id": "016-3-22", "answer": {"declare": "ASK", "message": "My exposed TAKE is on record; ASK this round."}}
+{"id": "016-3-23", "answer": {"declare": "GIVE", "message": "Opening with GIVE; both records are clean."}}
+{"id": "016-3-24", "answer": {"declare": "GIVE", "message": "Clean records both ways; let's give."}}

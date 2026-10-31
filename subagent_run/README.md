@@ -24,3 +24,19 @@ Subagents are told not to generate answers with code; this cannot be verified.
 `python scripts/subagent_run.py` replays the engine from the last generation checkpoint using cached answers
 (`cache.jsonl`) and writes the next batch of open prompts to `queue/stage-NNN-part-K.md`. One subagent per part
 writes `answers/stage-NNN-part-K.jsonl`; then the script is run again. Unanswered items count as invalid (ASK).
+
+## Incidents (logged, not hidden)
+
+- Stage 14 (generation 2, round 2 declarations): two player subagents (DARWIN and LAMARCK batches) each made one
+  stray call to a session-creation tool that had nothing to do with the task. Both calls were denied by the
+  permission system; nothing was created and their answer files were complete. This illustrates the
+  "subagents have tools" deviation. From stage 15 on, the subagent prompt adds "use only the Read and Write tools".
+- Stage 9 was regenerated once before any answer was used: the first version merged the `Survive.` benchmark
+  opponent's answers across different genomes (identical prompts shared a cache key). Fixed by keying each call
+  on its benchmark partner as well.
+- Stage 17 (generation 2, round 3 actions, CONTROL batch): a player subagent called the session-creation tool with
+  prompt "noop" despite "use only Read and Write"; this time it was allowed and created cloud session
+  `session_019THkoukC3htP13HSwPeHcq` (idle, waiting for input, ~0.12 USD). Left for the owner to archive. The
+  answer file was complete. From stage 18 on the prompt explicitly forbids every tool except Read and Write.
+- Stage 19 (generation 2, round 4 actions): one player subagent invoked a cross-session messaging tool despite the
+  explicit ban. No message arrived in the stray session above or in the orchestrating session. Answer file complete.

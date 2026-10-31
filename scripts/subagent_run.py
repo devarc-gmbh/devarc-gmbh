@@ -117,7 +117,7 @@ def ingest(cache: dict, accept_missing: bool) -> bool:
                 try:
                     d = json.loads(line)
                     a = d.get("answer")
-                    ans[str(d.get("id"))] = json.dumps(a) if isinstance(a, (dict, list)) else str(a)
+                    ans[str(d.get("id")).replace("ITEM", "").strip()] = json.dumps(a) if isinstance(a, (dict, list)) else str(a)
                 except Exception:
                     continue
         for iid, k in part["ids"].items():
