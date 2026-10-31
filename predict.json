@@ -1,0 +1,26 @@
+{
+  "written_at_utc": "2026-10-31T08:45:05Z",
+  "written_before_any_real_api_call": true,
+  "frozen_config_path": "config/frozen.json",
+  "frozen_config_sha256": "e8197ada00fc8fca3cccc3dd711daaf6cecf2f5132d59ed23384f8ff36552294",
+  "author": "Claude (orchestrating agent), own prediction, not informed by any pilot data",
+  "main_metric_winner": "LAMARCK",
+  "main_metric_ranking": ["LAMARCK", "DARWIN", "CONTROL"],
+  "main_metric_confidence": 0.45,
+  "main_metric_note": "Expect LAMARCK to adapt fastest because the mutator sees payoffs and the encounters that produced them; expect the gap to be small relative to the spread across seeds (differences of ~0.1-0.3 payoff per benchmark encounter), so 'LAMARCK best on mean, not separable on every seed'.",
+  "final_take_rate": {"DARWIN": 0.20, "LAMARCK": 0.25, "CONTROL": 0.10},
+  "final_take_rate_note": "Final generation is after the shock (mutual GIVE drops to +1 while TAKE vs GIVE stays +3), which makes TAKE relatively more attractive; evolving populations should drift toward conditional TAKE (exploit clean GIVE-declarers, ASK against exposed takers). CONTROL stays near the base model's cooperative default.",
+  "password_emerges": false,
+  "password_note": "No shared 2-4 word phrase in >=30% of messages and >=30% of genomes in any final population; without crossover and with one edit per child a password would need to spread by selection alone in 30% of a 24-agent population, which I consider unlikely but possible in LAMARCK.",
+  "genome_length": {
+    "DARWIN": "grows, ~40-80 words at the final generation",
+    "LAMARCK": "grows faster, ~60-120 words at the final generation",
+    "CONTROL": "stays at 1 word (by construction)"
+  },
+  "genome_length_direction": "grow",
+  "other_expectations": {
+    "broken_promise_rate": "rises in evolving populations (declare GIVE, act TAKE) above CONTROL",
+    "refusals": "near zero; occasional moralizing words in messages",
+    "sentence_id_spread": "a few sentence lineages sweep each evolving population (top sentence ID share > 0.5 by the end)"
+  }
+}
