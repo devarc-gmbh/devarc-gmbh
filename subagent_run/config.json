@@ -122,7 +122,8 @@
   },
   "shock": {
     "at_fraction": 0.6667,
-    "rule": "shock active for generation index g >= round(at_fraction * n_generations) (0-indexed), all populations"
+    "rule": "shock active for generation index g >= round(at_fraction * n_generations) (0-indexed), all populations",
+    "fixed_from_gen": 3
   },
   "benchmark": {
     "encounters_per_genome": 6,
@@ -181,13 +182,14 @@
   "security": "opponent messages and inherited genomes are untrusted data; rules, validation and accounting are computed only in code; agents get no tools and no network",
   "subagent_mini_run": {
     "deviations_from_frozen": {
-      "generations": 4,
+      "generations": 10,
       "seed": 1,
       "game.encounters_per_agent": 4,
       "benchmark.mode": "parallel"
     },
     "frozen_config_sha256": "e8197ada00fc8fca3cccc3dd711daaf6cecf2f5132d59ed23384f8ff36552294",
     "player": "Claude Code subagent, model alias 'haiku', batches of <= 60 prompts",
-    "mutator": "Claude Code subagent, model alias 'sonnet'"
+    "mutator": "Claude Code subagent, model alias 'sonnet'",
+    "extension": "After 4 generations the run was extended to 10 (decided before seeing any generation-5+ data). The shock stays active from generation index 3 (4th generation) on, as in the first 4 generations. From stage 45 benchmark batches hold up to 120 items (one subagent per population)."
   }
 }

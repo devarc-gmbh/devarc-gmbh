@@ -98,7 +98,9 @@ class SeedRun:
         if not self.ckpt_path.exists():
             return False
         d = json.loads(self.ckpt_path.read_text())
-        assert d["seed"] == self.seed and d["n_gens"] == self.n_gens and d["player_model"] == self.player_model
+        assert d["seed"] == self.seed and d["player_model"] == self.player_model
+        # a run may be extended to more generations, never shortened
+        assert d["n_gens"] <= self.n_gens, (d["n_gens"], self.n_gens)
         self.state = {p: [Agent.from_dict(a) for a in ags] for p, ags in d["pops"].items()}
         self.ids = {p: IdFactory(f"s{self.seed}{p[0]}", c) for p, c in d["ids"].items()}
         self.next_gen = d["next_gen"]

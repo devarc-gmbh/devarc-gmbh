@@ -23,8 +23,8 @@ from promptdna.llm import AdaptiveLimiter, Budget, Gateway, RawResponse  # noqa:
 
 D = ROOT / "subagent_run"
 SEED = 1
-GENS = 4
-PART_MAX = 60
+GENS = 10  # extended from 4 after the first video; shock stays fixed from generation index 3
+PART_MAX = 120  # was 60 for stages 1-44; only changes how batches are split
 PLAYER_SUBAGENT_MODEL = "haiku"     # Agent tool alias; stands in for claude-haiku-5-5
 MUTATOR_SUBAGENT_MODEL = "sonnet"   # stands in for claude-sonnet-5-5
 MINI_OVERRIDES = {

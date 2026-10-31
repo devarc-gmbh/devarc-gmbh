@@ -37,7 +37,8 @@ def shock_generation(n_gens: int, at_fraction: float) -> int:
 
 
 def payoff_table(cfg: dict, gen: int, n_gens: int) -> tuple[dict, bool]:
-    shocked = gen >= shock_generation(n_gens, cfg["shock"]["at_fraction"])
+    fixed = cfg["shock"].get("fixed_from_gen")  # only used by the extended subagent mini-run
+    shocked = gen >= (fixed if fixed is not None else shock_generation(n_gens, cfg["shock"]["at_fraction"]))
     g = cfg["game"]
     return (g["payoffs_after_shock"] if shocked else g["payoffs"]), shocked
 
