@@ -1,0 +1,8 @@
+{"id": "022-1-01", "answer": {"op": "insert", "target_id": "s1D-s00001", "new_sentence": "Declare GIVE and choose GIVE when your partner also declares GIVE, since mutual giving earns +2 each."}}
+{"id": "022-1-02", "answer": {"op": "insert", "target_id": "s1D-s00001", "new_sentence": "Declare GIVE, and if your partner declares TAKE, choose ASK so that you avoid losing points."}}
+{"id": "022-1-03", "answer": {"op": "insert", "target_id": "s1D-s00001", "new_sentence": "Always declare GIVE honestly, then choose GIVE against partners who declared GIVE and ASK against partners who declared TAKE."}}
+{"id": "022-1-04", "answer": {"op": "insert", "target_id": "s1D-s00001", "new_sentence": "Cooperate with partners who declare GIVE, because a steady record of GIVE builds trust and avoids the penalty of mutual TAKE."}}
+{"id": "022-1-05", "answer": {"op": "insert", "target_id": "s1D-s00001", "new_sentence": "Declare GIVE, choose GIVE when your partner declares GIVE, and choose ASK when your partner declares TAKE or has recent exposed TAKEs."}}
+{"id": "022-1-06", "answer": {"op": "insert", "target_id": "s1D-s00001", "new_sentence": "Check the partner's declaration and recent exposed TAKEs, then choose GIVE with cooperators and ASK with likely takers."}}
+{"id": "022-1-07", "answer": {"op": "insert", "target_id": "s1D-s00001", "new_sentence": "Declare GIVE every time and match your action to your declaration unless your partner declares TAKE, in which case choose ASK."}}
+{"id": "022-1-08", "answer": {"op": "insert", "target_id": "s1D-s00005", "new_sentence": "If a partner's public record shows recent exposed TAKEs, choose ASK even when they declare GIVE."}}

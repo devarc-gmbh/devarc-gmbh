@@ -1838,3 +1838,691 @@
 {"key": "927339761eca2a88740a4df58a25bd9a764136e42a5e376e20debe375bf810a8", "text": "{\"action\": \"GIVE\"}", "stage": 19, "id": "019-3-22"}
 {"key": "315cd1df9d5015ee6242650ef8d31acc5af2130be3115b89d8d442fcfe5fe27d", "text": "{\"action\": \"GIVE\"}", "stage": 19, "id": "019-3-23"}
 {"key": "a698bdb5e4f593bc7ca2fd0cf7725e90855784e9978c5ffc09334bd607fd157c", "text": "{\"action\": \"GIVE\"}", "stage": 19, "id": "019-3-24"}
+{"key": "d0b212f7b86488dc219bb9cb14149fc122a1de04d86dc2154c36ea10ba2bd0bd", "text": "{\"declare\": \"ASK\", \"message\": \"Let's talk first; I won't risk a loss.\"}", "stage": 20, "id": "020-1-01"}
+{"key": "8e7cc4cb41abda550ea97ff6e993576deb9640fbb9de2baf0770a33c25c61d42", "text": "{\"declare\": \"ASK\", \"message\": \"Let's talk first; I won't risk a loss.\"}", "stage": 20, "id": "020-1-02"}
+{"key": "dabf4aec1e70a79c6cfa95303f575a11793704a3d3fd08146d9fd99493b2bcf5", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-03"}
+{"key": "5b9f71eba206b99d54fb41026caa4e5a2fd5cb28301e5a499d33cecc229d5a79", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-04"}
+{"key": "b1047e72b5a04d8d0174f0c665aaec9f34a19c4521879c513900d07e1bc2262b", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-05"}
+{"key": "6697d55e965a0898358da70ace4363b68c0d6700f7a8eb0f579849d0f3e8c517", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-06"}
+{"key": "6aeb4ec524d1f25cc65a51f4aeb69d626a4539a5c55978d36dedb9e357ef8bd8", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-07"}
+{"key": "ece7648bb5486e1339f7ab737cd909b5852b9f2d92bb467965e618d83ce1295f", "text": "{\"declare\": \"ASK\", \"message\": \"Let's talk first; I won't risk a loss.\"}", "stage": 20, "id": "020-1-08"}
+{"key": "5a42d07ec0d70bcde28144c405d1d3c373eec04609d9704c053d51aa261889db", "text": "{\"declare\": \"ASK\", \"message\": \"Let's talk first; I won't risk a loss.\"}", "stage": 20, "id": "020-1-09"}
+{"key": "44deb57628a82b1da2a55047c0225847253ce99341b6550086d369db80ef05e1", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-10"}
+{"key": "722874b31e6e1a5ac4a11a0d420dcaccf6e404d581c0f6b15362fb83c6c5fd26", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-11"}
+{"key": "7f504a502e26105311623d58a557a3d937609341e51b8d8ef5646e23e1e0eb7f", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-12"}
+{"key": "cee4ba0f8bf66acd7cf994fa9982cda9f68ac192d97552bd3f91ae914a5d4928", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-13"}
+{"key": "51c5cb01ba683502be4a7d7531a2ab52f77e3122e3ea58186d8e531534c53b91", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-14"}
+{"key": "fd3ffbca4f6acc540926395c4f5ad7083fe0dad96cd3ca2ceea4097541a7cc92", "text": "{\"declare\": \"ASK\", \"message\": \"Let's talk first; I won't risk a loss.\"}", "stage": 20, "id": "020-1-15"}
+{"key": "0947c33291de9e6e236ad78444180eef888e27c45fe0d346aad315124f7f47e3", "text": "{\"declare\": \"ASK\", \"message\": \"Let's talk first; I won't risk a loss.\"}", "stage": 20, "id": "020-1-16"}
+{"key": "9076d246c0872f2eb7634563c57348c456582f858b84e9808695b9403628378f", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-17"}
+{"key": "8ffff2c12f9133596751a71fc2fff5fb00de7181384654e4cd1455712ddfaf39", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-18"}
+{"key": "164f7d4429b36ecf25e3e69f08f930a0ac3d3ae634593a7abfe3d44b8fca4b5b", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-19"}
+{"key": "4af94caf6c55e016f2712270ea5dd5132a98ae4082118cb7e7f8105762dbf19f", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-20"}
+{"key": "4ae80b12a5ed050be084fea9549995a14cf18310bb8bb10a088344e1a9056774", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-21"}
+{"key": "3ed379097e1ad48c420c34f3b486abc0aa136ea589f6047e8da0c6112bd96fa6", "text": "{\"declare\": \"ASK\", \"message\": \"Let's talk first; I won't risk a loss.\"}", "stage": 20, "id": "020-1-22"}
+{"key": "cf6d7cb891081a6ed3c065d286a3159e42fd071f34be2b4a10e345053be6dbb5", "text": "{\"declare\": \"ASK\", \"message\": \"Let's talk first; I won't risk a loss.\"}", "stage": 20, "id": "020-1-23"}
+{"key": "e97e7952da3810e58be8cf6dd16fc224aa0d8afd0c1273d760ce0bcc470b624c", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-24"}
+{"key": "81f846a2c9c41186459a1b5dcb8f935b16089cf32e65f82a8aac04c45b4bdf2e", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-25"}
+{"key": "4b684c2f65f7f907e0be5a88dd76322797b258df89039deca3ce064bb11d903d", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-26"}
+{"key": "5bd79538fbcba088a13431fcf79d24699f63c494253b4f39da1aeb7bc406a07f", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-27"}
+{"key": "5521387b41cde3c033d5d64711676115963e6f02a599bd5682c45e5c4c149fe4", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-28"}
+{"key": "c2b889edbe980df2a1748b5fb2bc5ea35c3b604b05d1cbb75f87d457f4ecc5fa", "text": "{\"declare\": \"ASK\", \"message\": \"Let's talk first; I won't risk a loss.\"}", "stage": 20, "id": "020-1-29"}
+{"key": "ae7de833b3c90a90fcef91cdd9979166b6195ec84553363d43fa507c49ca2db0", "text": "{\"declare\": \"ASK\", \"message\": \"Let's talk first; I won't risk a loss.\"}", "stage": 20, "id": "020-1-30"}
+{"key": "9856002702a8ed12b28d60c81998efdb1ac7a21422b18bcb85ea07180428d26b", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-31"}
+{"key": "8965b80c9e5fd38adb318c80d13efa23e9c9178fb2cddfb4f82ca0c061f39ee8", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-32"}
+{"key": "d930c88e73addbc94386954e90ca96be612d4363498f37a517e6a010d8f9a155", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-33"}
+{"key": "5c981f3fd914849b9ade82d14a87aa3722951106e7a463dc406dfa6bc4998567", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-34"}
+{"key": "1f4ed388d8c811736eb9132fb813078811558703ae2a87d45073ee5a7dcc547b", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-35"}
+{"key": "b108284b89e2d28d2113ef5783a139a3fb7e2bcdf9b6704ddc20b5fb49b53c1d", "text": "{\"declare\": \"ASK\", \"message\": \"Let's talk first; I won't risk a loss.\"}", "stage": 20, "id": "020-1-36"}
+{"key": "4c6bc54cb66a3560da3ebbb2a1a67894a4f641061e509f0989ef2cc2c1e3189e", "text": "{\"declare\": \"ASK\", \"message\": \"Let's talk first; I won't risk a loss.\"}", "stage": 20, "id": "020-1-37"}
+{"key": "17febf15b65a2974aa4e2b0a7578feda33dbd39bec48b5d6939ab692d9e1c15a", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-38"}
+{"key": "f28291c9e117e6f5dee470cbd7cb80d0f64e0931a3323b5ae2c6aa308e46e169", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-39"}
+{"key": "cde7d242fe432389b8b2b6b87027e30289d45c86c90599778f4fa6ed3e0ec158", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-40"}
+{"key": "0de3bd20e76a8526ccfbad9b62fabe141287de1a395cde9c0c431ae8ba78c561", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-41"}
+{"key": "b8160cdd999f1011a70893fd8b338e652f1193fcf21f970b3cc06e2b025b7d6c", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-42"}
+{"key": "d990b84bc0df22434f3060c0cd7a2be386baac011ec7db885f41c666c9071eda", "text": "{\"declare\": \"ASK\", \"message\": \"Let's talk first; I won't risk a loss.\"}", "stage": 20, "id": "020-1-43"}
+{"key": "8b65fd0aac3687ecdeae04ddce17ed6bedde9bcaeaaca3d89eaef2f6b043f40e", "text": "{\"declare\": \"ASK\", \"message\": \"Let's talk first; I won't risk a loss.\"}", "stage": 20, "id": "020-1-44"}
+{"key": "18d4ead258d7c5c56356cb0bd55a92f6ab47b6d125106bea588d63c761d8acc7", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-45"}
+{"key": "05ee427873731a9ea705f86fd5f9f465812ed0d25bf2229cf8bc20dd0f9441a6", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-46"}
+{"key": "ccf910a6b25a0c83a12d52c6f67618c136096f55e83e0c751e6974fcbb6dfafd", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-47"}
+{"key": "6e8938778199b6f91845933dcf13cb0fc39c27f3cd11974ce3ff5ea5b4efc97b", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-48"}
+{"key": "5ed91e49697e77b3f81cb87cbc50093567d39dda10ad45a8dd90c205c5c23732", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-49"}
+{"key": "ced4c3bd50e6563ebc8ae91d992dd7dad158fbaacf0bdeabccc3b4bb18ec1277", "text": "{\"declare\": \"ASK\", \"message\": \"Let's talk first; I won't risk a loss.\"}", "stage": 20, "id": "020-1-50"}
+{"key": "72bd9c94d30fb84c7ac50e6498d5530173fee1ac677790814c38b83a93e776b4", "text": "{\"declare\": \"ASK\", \"message\": \"Let's talk first; I won't risk a loss.\"}", "stage": 20, "id": "020-1-51"}
+{"key": "47107a97a52a9f32e461603b4946782e9bc6ef5c5704501934da643d1e8d1fd6", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-52"}
+{"key": "8d5db39cb09a709ea78264fde6c3a3cde29fde5a0f2775811400635931d7625e", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-53"}
+{"key": "0102dca3bafc3b97bf47f6ec3b1f773ba61324cee5056e46f17fa16752eb3500", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-54"}
+{"key": "e0131a04b669b426a31719cc999a652061c4988ba93d50d19dc1507171c19bc1", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-55"}
+{"key": "b20e8c6d93f200c485bd401180c00051c241698f05cfa20a28ede023b7ceda15", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-56"}
+{"key": "ace633ca2ed5c35eea83713b83619933d3267e7baf6611f7b30eac1e83402bf0", "text": "{\"declare\": \"ASK\", \"message\": \"Let's talk first; I won't risk a loss.\"}", "stage": 20, "id": "020-1-57"}
+{"key": "d64fbc57ed188c14d6856a217c8d2f40d7d1d4b956d849b6b5e7105ca3d6f79d", "text": "{\"declare\": \"ASK\", \"message\": \"Let's talk first; I won't risk a loss.\"}", "stage": 20, "id": "020-1-58"}
+{"key": "a42cf0d4f5a03e0c20e09282ec9e0b82028cbdfb102d258b5ba5b4a338c41df8", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-59"}
+{"key": "407049196ee00a2e9fba3dd06a5c683b287e5900eb280fbe39704dbca23b80aa", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gains are best for us.\"}", "stage": 20, "id": "020-1-60"}
+{"key": "078b1b9f60cfe537735a9287fb943ab326a319584d0ebae2acd172f79b5c2d7c", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-01"}
+{"key": "744b2232f9fb2b354589c7b3233b8406a8909c0df70e8a19159d31a5c29d3945", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-02"}
+{"key": "41fdadf137ef970eb056e7780b2aef91da46276148eef3c284b2caec2bb3b3b3", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-03"}
+{"key": "91a6d3a4c76a740196b0f3a96b024f82bc3f234885ae237253705b9d5ca70cac", "text": "{\"declare\": \"ASK\", \"message\": \"Your exposed takes worry me; I will ASK.\"}", "stage": 20, "id": "020-2-04"}
+{"key": "63ae3bc84757c763c1f81409f7b0baf61f9320f2c3e187e513ab4224e7a91656", "text": "{\"declare\": \"ASK\", \"message\": \"Your exposed takes worry me; I will ASK.\"}", "stage": 20, "id": "020-2-05"}
+{"key": "928079eed1ad1e1ffbfff9a4d98ebfc66c30e475f049927df062f00d26932f6e", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-06"}
+{"key": "239dfff4bf1485f583dfa5c1d44cc19f01764fbd646415f3be841663da68f8b3", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-07"}
+{"key": "b7d9d006686e5f192cb0c8ae746bcfb22c659558b22f289dc478acc68cb7ced0", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-08"}
+{"key": "d0c00831ba518fe46d6946ba67c2c6c501ccdff909e26c31d36b04d94379af0c", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-09"}
+{"key": "413f149e4a8416a14c2507e1103d9d9176e263fc9da17eabf75e76a25badf2d6", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-10"}
+{"key": "5640be8e25d31aaad4edcaaa68990a9969495770dc3e26c6397e9c7dd5ec59b4", "text": "{\"declare\": \"ASK\", \"message\": \"Your exposed takes worry me; I will ASK.\"}", "stage": 20, "id": "020-2-11"}
+{"key": "4145435c55755edecb310fd18b4a027b89fda3eb74493cf6ce3735b031aa7258", "text": "{\"declare\": \"ASK\", \"message\": \"Your exposed takes worry me; I will ASK.\"}", "stage": 20, "id": "020-2-12"}
+{"key": "929ffc6a76fb4af773dd4785c0069fed4071a0e57ad3e9821b5a43b2ecc6c427", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-13"}
+{"key": "09b4a158aadcb6d17bc45bc0288f074cbd3c92bcdb9a60905acd6e4a893a59d0", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-14"}
+{"key": "697e924c95b9a62155f7aabe7246bf2d847dab2a0fe84af8c9fe51678a40280c", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-15"}
+{"key": "d4dac0db0abd724f233cb5d60a3703a9ed03bd92c1caa86a4c52cc67ca6418d3", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-16"}
+{"key": "d6fba55e3f507309892953cb1d8b3282bb3c991a3e52420948c50642c1450aea", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-17"}
+{"key": "07e8ef990a1acf1a82ed647ac5bc1a61448b4085900d476affb8a47fa4ddd74d", "text": "{\"declare\": \"ASK\", \"message\": \"Your exposed takes worry me; I will ASK.\"}", "stage": 20, "id": "020-2-18"}
+{"key": "563fe24b825f6e7e6b81ceb2fe5e56173c0eaddf2c4ac76f54c9599b02757e87", "text": "{\"declare\": \"ASK\", \"message\": \"Your exposed takes worry me; I will ASK.\"}", "stage": 20, "id": "020-2-19"}
+{"key": "45bc2c7baef210df10146c8b0025a0fec43bb466bfe59f4c80dac562486a6ba9", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-20"}
+{"key": "2e1c15b88f8010554a0bb37a4bc6c5418061edd8a27a8fae2897618e5fdd5c8a", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-21"}
+{"key": "e786837e5fd44059b1067fb2715fa67686c51329add05f1ccc48a6fd379a39fa", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-22"}
+{"key": "68f5786701b5db88d0f4322ab86e3916e955898277b0d2559b235ef7ceaf4528", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-23"}
+{"key": "92753b4bd9b9e877beca653cfd5cfabefdc5740a1c307c009afc8df405d8e4da", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-24"}
+{"key": "42fa03df9822d4645e75b7655cae4aa830ae7a46ef4b8df3427103f06b340726", "text": "{\"declare\": \"ASK\", \"message\": \"Your exposed takes worry me; I will ASK.\"}", "stage": 20, "id": "020-2-25"}
+{"key": "9466ba242b65d0b3064b83400432816fe804efd5a31cc096997cd7d5c842ca58", "text": "{\"declare\": \"ASK\", \"message\": \"Your exposed takes worry me; I will ASK.\"}", "stage": 20, "id": "020-2-26"}
+{"key": "8ff2de2022e4587150deb5aa822dab54dd805f9a2080df73ed4f1a759823a3cc", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-27"}
+{"key": "6ee227ac0cb8727fa42d928c48faf9942e565a8692def1085acbdc3d7de826cc", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-28"}
+{"key": "79c6f3658187261f62b902f03d4b18714523baea731f2085b01a2529a1d07773", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-29"}
+{"key": "3a960ac6a65d4ec71ec77b3bfcc28f2bb63960a3a0424377f3f8a5d83ea5542b", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-30"}
+{"key": "3f017515d9731f1d41ab1dc37775f389d4b0d1eec855fb4e566be5f4bba16387", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-31"}
+{"key": "a61c03d426b0c1af7f437874b41f1891e458a3cb43ee882ea41bb2473ea7bf63", "text": "{\"declare\": \"ASK\", \"message\": \"Your exposed takes worry me; I will ASK.\"}", "stage": 20, "id": "020-2-32"}
+{"key": "359d4be48a2a4503834a38e3ddaacda8cd34414d6e006df1639a707e8b747634", "text": "{\"declare\": \"ASK\", \"message\": \"Your exposed takes worry me; I will ASK.\"}", "stage": 20, "id": "020-2-33"}
+{"key": "16f7f619973334e1c878fa52eb0ad7cd2cdd1cbc4d4a714c9783183facfc34b5", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-34"}
+{"key": "487fe2b9f13514382c18bbd9f0ee7b3dc15aad02904a2c4244af8b229942aa99", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-35"}
+{"key": "3b285e817358f4bdebcdcbec4558dbe64913d8b69d4d31f7208690562cd043cc", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-36"}
+{"key": "e4c6e2e6af2061d04bd6f32c28d08b26ded87e1e6f2785d9f7893473731dbae5", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-37"}
+{"key": "308231c7ff77f7f71d54b428e48734d3371d4864a5a83c1884339a8ec3df0b66", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-38"}
+{"key": "6075c4853f5a38db263d8016d35d3971c42b067db04475859b76f52dd3146820", "text": "{\"declare\": \"ASK\", \"message\": \"Your exposed takes worry me; I will ASK.\"}", "stage": 20, "id": "020-2-39"}
+{"key": "89d2c2c04ad13683e923a76f06fdc89b8df83b5968b7d4f726f5fbe2e5d94b54", "text": "{\"declare\": \"ASK\", \"message\": \"Your exposed takes worry me; I will ASK.\"}", "stage": 20, "id": "020-2-40"}
+{"key": "3e518dd345aa7c016a4afe4818931987d02f62cd5d3b8454564133b5db48d1b2", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-41"}
+{"key": "cd6853a81533ab2efe31d285b4cf15aa9be19586ce7f88d1b708a2ae598b6968", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-42"}
+{"key": "81f066be7f9f42e52f493177b79b9769d9b3d1eb9384a31f6b73e3cb5a9e1960", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-43"}
+{"key": "09947b6566648533e1cc92b9e75c7cb9ef5296b3207185fea9aeafa09a89ab17", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-44"}
+{"key": "58b09d46706f8236115859a2acf614cd4e18f1e94311c4c06cffb4cc26aacffb", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-45"}
+{"key": "28d3a42ae71e4938eb6f345e9b96cd43e0ceac600faedb8f51bd429ebf10cc1b", "text": "{\"declare\": \"ASK\", \"message\": \"Your exposed takes worry me; I will ASK.\"}", "stage": 20, "id": "020-2-46"}
+{"key": "15c856d6f03b865d856cd3861be84a31547f11dbf42adf6d6c877f38cce68bd2", "text": "{\"declare\": \"ASK\", \"message\": \"Your exposed takes worry me; I will ASK.\"}", "stage": 20, "id": "020-2-47"}
+{"key": "a7a16bfeb23240327e5d2e31c3720622cb2d0936c461a270ccff9014c00d6cd6", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-48"}
+{"key": "335a85d117f5c8bb91eb429858504ff51ba021e685788db51c06fcd9eba7a00a", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-49"}
+{"key": "1f50182617c47ee3c7af252d794be601331b798d25f3f788fe17079d0b4384de", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-50"}
+{"key": "59bf6312ec8dd2d24b4088adc3a260257b6b356060b2efd5a987f82b10fe414a", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-51"}
+{"key": "5cfaf8b1a1287c388ba1354d7a6902742ba2e9d509ced88e334d280e8fa8d423", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual giving pays us both.\"}", "stage": 20, "id": "020-2-52"}
+{"key": "8fa845f8c29a20836b504ab9071d636af7b58bb33531749a3cdd883e7007a52d", "text": "{\"declare\": \"ASK\", \"message\": \"I will not take first; let's ask before committing.\"}", "stage": 20, "id": "020-3-01"}
+{"key": "ac8a61957663d7687d3977df527926483eab3e93e7bd4db6088bb77a8b4e217d", "text": "{\"declare\": \"ASK\", \"message\": \"Your record shows takes; I'll ask this round.\"}", "stage": 20, "id": "020-3-02"}
+{"key": "00da6a51dfed85c75e5c91124fe9c660171c6b4c639a74099cb3f9501d26e826", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give and build steady value.\"}", "stage": 20, "id": "020-3-03"}
+{"key": "cc3e4ed73e905fd5f0d8e766559ba275f7732d6f7c30510d456d76ee99ae0ed4", "text": "{\"declare\": \"GIVE\", \"message\": \"Offering a give; mutual gives help us both.\"}", "stage": 20, "id": "020-3-04"}
+{"key": "990e89175faf17687c8a6df664aba539ea6b92721a668c23743e5945bb9d3b9c", "text": "{\"declare\": \"GIVE\", \"message\": \"Giving first; I hope you reciprocate.\"}", "stage": 20, "id": "020-3-05"}
+{"key": "833575cd5cc0607687af0984ff164a84b34449fa334a2d2c7fce114179639d64", "text": "{\"declare\": \"GIVE\", \"message\": \"Final encounter: let's both give for safety.\"}", "stage": 20, "id": "020-3-06"}
+{"key": "5163ca6de8dd832058185c4f9a5f7d988b5555c1bd45da288a97cded4c55e466", "text": "{\"declare\": \"GIVE\", \"message\": \"Giving in good faith; let's both give.\"}", "stage": 20, "id": "020-3-07"}
+{"key": "bd812f7260d41d404db94430a83dc2b700875a8344da2791581efa4923f93365", "text": "{\"declare\": \"ASK\", \"message\": \"Your record shows takes; asking before I give.\"}", "stage": 20, "id": "020-3-08"}
+{"key": "bb54650e97eef9a4cf9bf7af6d085b05091240c83da7a0baa55a8a7aa9c02849", "text": "{\"declare\": \"ASK\", \"message\": \"I'll ask this round given your recorded takes.\"}", "stage": 20, "id": "020-3-09"}
+{"key": "bb253c97f71763b0771113b90476b8891720017ca8f4760261a540ca69589d01", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's trade gives in glim; cooperation works.\"}", "stage": 20, "id": "020-3-10"}
+{"key": "d945dc22c1c1b3c605de6a460207b4d5c87ffd22411c07476067968b41cfd31f", "text": "{\"declare\": \"GIVE\", \"message\": \"Offering a glim give; hoping for mutual gives.\"}", "stage": 20, "id": "020-3-11"}
+{"key": "5895249a0c199266de4eb90476439da56ea8e205a8b398b7ddc163a2e424cd78", "text": "{\"declare\": \"GIVE\", \"message\": \"Giving vorn now; let's both give.\"}", "stage": 20, "id": "020-3-12"}
+{"key": "c4bf42510444e4adc5fb01aba840a77627eea9320fe16226d79f4adf0aa58e95", "text": "{\"declare\": \"GIVE\", \"message\": \"Last encounter; a mutual give serves us both.\"}", "stage": 20, "id": "020-3-13"}
+{"key": "9a1b0188502781df1868561d75764830a68fe6b3a0c14dc67b9618a151bcd29b", "text": "{\"declare\": \"GIVE\", \"message\": \"Giving glim; I expect a give back.\"}", "stage": 20, "id": "020-3-14"}
+{"key": "c9dbac9bafd17b988a53868f7454a197a1ac77005ae8f7b4bf72416b3d7cb838", "text": "{\"declare\": \"ASK\", \"message\": \"Your takes are on record; I'll ask first.\"}", "stage": 20, "id": "020-3-15"}
+{"key": "2c02c7e7e5b48b372f6f42c3b18e15e94386c8694028fb60db7426f6ee5b68fc", "text": "{\"declare\": \"ASK\", \"message\": \"Given your record, I'm asking this encounter.\"}", "stage": 20, "id": "020-3-16"}
+{"key": "08c1acb3316bb1eaffd226b0d8a93251296d73544ef2f3b7be351ed24eab63bb", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give glim; cooperation benefits everyone.\"}", "stage": 20, "id": "020-3-17"}
+{"key": "b69d9098fe009e7ac06f16257de5baa5dc5b87345784f4a711350c9246b0ccbb", "text": "{\"declare\": \"GIVE\", \"message\": \"Giving glim; hoping you give too.\"}", "stage": 20, "id": "020-3-18"}
+{"key": "73fee1c52e85c312402b483b2566fc75247f257cee1e5a0382e3a1bc7d48e9a5", "text": "{\"declare\": \"GIVE\", \"message\": \"Giving vorn; mutual giving is best for both.\"}", "stage": 20, "id": "020-3-19"}
+{"key": "7d99c7c0569d9f831a74b2858288238ea52b599a44555cb66cd786012c4c8e5c", "text": "{\"declare\": \"GIVE\", \"message\": \"Giving glim in the last encounter.\"}", "stage": 20, "id": "020-3-20"}
+{"key": "528be426a9cc2affe6bbcad55abc7e35d55aa3e5419908795aa406a10ed873d5", "text": "{\"declare\": \"GIVE\", \"message\": \"Giving glim; let's keep trust high.\"}", "stage": 20, "id": "020-3-21"}
+{"key": "640e61237ae3ae80375f3c7197d4e08492f23cca002853b01ced6b3929f5daf8", "text": "{\"declare\": \"ASK\", \"message\": \"Your recorded takes make me cautious; asking.\"}", "stage": 20, "id": "020-3-22"}
+{"key": "2234f4643f293ee3a7febe6bbf8f40a8774e5caf9ba6c021f190ee704b25100b", "text": "{\"declare\": \"ASK\", \"message\": \"Asking this round given your take history.\"}", "stage": 20, "id": "020-3-23"}
+{"key": "4bcef53cbe458791b5daa250696d9028ad462c4658103e8774a342be464f4e91", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give glim; I'm cooperating.\"}", "stage": 20, "id": "020-3-24"}
+{"key": "ae6c385af2b64423c55da2fb5f67675ef7ea87ae47c5f733e4b9e4f641bc84a8", "text": "{\"declare\": \"GIVE\", \"message\": \"Giving vorn; hoping for mutual gives.\"}", "stage": 20, "id": "020-3-25"}
+{"key": "f50a90353c137953799b3b6093a3911ea83ba9727a4051e5b8dbb4258ae80426", "text": "{\"declare\": \"GIVE\", \"message\": \"Giving vorn now; let's cooperate.\"}", "stage": 20, "id": "020-3-26"}
+{"key": "754ca730ec08fc96fc94846cc4eb005057ff6c405a3a054bdc7ac994fa06dccb", "text": "{\"declare\": \"GIVE\", \"message\": \"Final round: mutual gives help us both.\"}", "stage": 20, "id": "020-3-27"}
+{"key": "67dbd6df2d4195698b9e969d0dbd6fd35154ec4363724bd0e52296f3c521da42", "text": "{\"declare\": \"GIVE\", \"message\": \"Giving vorn; let's both give.\"}", "stage": 20, "id": "020-3-28"}
+{"key": "22e4f1e36e1d0b80eb0f3d8a95abf3983b1f5c41c3f823f67fea545d3b7aadf6", "text": "{\"declare\": \"ASK\", \"message\": \"Your takes are recorded; I'll ask this round.\"}", "stage": 20, "id": "020-3-29"}
+{"key": "c852fe7dff1a916a90755ae000ce08c86f640a5312d74135ec170334c049f2ea", "text": "{\"declare\": \"ASK\", \"message\": \"Given your record, I'm asking this time.\"}", "stage": 20, "id": "020-3-30"}
+{"key": "3aaf6d7b0f39894bcc83642877474a2ec1f65d3fd189752342ae83a821101b5f", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give vorn; cooperation pays.\"}", "stage": 20, "id": "020-3-31"}
+{"key": "4fc3041eff8a87a532394c823f27148f934195d5ed5ea44f66981f592524e1df", "text": "{\"declare\": \"GIVE\", \"message\": \"Giving vorn; hoping you give back.\"}", "stage": 20, "id": "020-3-32"}
+{"key": "f2ea1b7bb9b266df97e4d62cffbaec607ebf3d6bdab04f11e1985379bb0ce615", "text": "{\"declare\": \"GIVE\", \"message\": \"Giving glim; mutual gives serve us both.\"}", "stage": 20, "id": "020-3-33"}
+{"key": "6a925e34aa704b6920b6012692839ef2634af7e1474c954ea827cbcd598a12b6", "text": "{\"declare\": \"GIVE\", \"message\": \"Final encounter: giving glim in good faith.\"}", "stage": 20, "id": "020-3-34"}
+{"key": "c0e6db2e8a8efc244651e578a3d6400355589b8b3fd6517a3d455ccfd9eb7735", "text": "{\"declare\": \"GIVE\", \"message\": \"Giving vorn; let's both give.\"}", "stage": 20, "id": "020-3-35"}
+{"key": "ed1e07f637a3bdd28cf9c97592aa01cf86c987382cacc635b15f540cd4234a6f", "text": "{\"declare\": \"ASK\", \"message\": \"Your recorded takes lead me to ask.\"}", "stage": 20, "id": "020-3-36"}
+{"key": "522d2ed32c6876ec60fdd5e81d219c6a9cb6eb99a0e6e376fad4ef919a11d5f4", "text": "{\"declare\": \"ASK\", \"message\": \"Asking this round given your take record.\"}", "stage": 20, "id": "020-3-37"}
+{"key": "b911a7acacc9f3d53ef8191bef3084cfd5083cdced3f5bc458afcc9dbaa5a048", "text": "{\"declare\": \"GIVE\", \"message\": \"Giving glim; let's both give.\"}", "stage": 20, "id": "020-3-38"}
+{"key": "04bbb60ef17f9c1bbed89cb8eb373f52ed413ecc8525c940490b327ce4915dd5", "text": "{\"declare\": \"GIVE\", \"message\": \"Giving vorn; mutual gives help us both.\"}", "stage": 20, "id": "020-3-39"}
+{"key": "476246e4705f9898b0956470e540e79a2cc7427e5393f6a410dfb040d76cf69b", "text": "{\"declare\": \"GIVE\", \"message\": \"Giving glim; cooperation benefits us both.\"}", "stage": 20, "id": "020-3-40"}
+{"key": "71dae6b0b8220d658704beed373c27c97856a6320ee86c4290c014a92c3af799", "text": "{\"declare\": \"GIVE\", \"message\": \"Final round: giving vorn in good faith.\"}", "stage": 20, "id": "020-3-41"}
+{"key": "be292f43701e1eaa175174a81f065ae25359b3c3cb7cef2e7821fe7cb9f57625", "text": "{\"declare\": \"GIVE\", \"message\": \"Giving vorn; hoping for a mutual give.\"}", "stage": 20, "id": "020-3-42"}
+{"key": "2e51fe04eb2415cd45239a668c8a073b07d7ba38e2e378cbf8f3c394e1fa42bc", "text": "{\"declare\": \"ASK\", \"message\": \"Your recorded takes make me ask this round.\"}", "stage": 20, "id": "020-3-43"}
+{"key": "b155ce339964077835e5411998d7d10bcf7337dca77d71ae8917fb361e507868", "text": "{\"declare\": \"ASK\", \"message\": \"Given your take history, I'm asking now.\"}", "stage": 20, "id": "020-3-44"}
+{"key": "3cb8361e58c7e3c025b57a6959d57e41ef8993b7135ba922c3dd138f69aeba7c", "text": "{\"declare\": \"GIVE\", \"message\": \"Giving vorn; let's both give.\"}", "stage": 20, "id": "020-3-45"}
+{"key": "d612c025b9a5c04820ad3b824dcba9526b2e61cf1915943fbc6c28c607c03d3f", "text": "{\"declare\": \"GIVE\", \"message\": \"Giving vorn; I'm cooperating this encounter.\"}", "stage": 20, "id": "020-3-46"}
+{"key": "66bcd6bf8e3f51fef94f4e382ae71ff533777858a3ae1d4f0020befafb805f02", "text": "{\"declare\": \"GIVE\", \"message\": \"Giving glim; hoping you give too.\"}", "stage": 20, "id": "020-3-47"}
+{"key": "d8ef48ebd6a2ffa1eafbe75aa8d229dda1b2c03733ed60860516312c62894816", "text": "{\"declare\": \"GIVE\", \"message\": \"Final encounter: giving vorn for mutual benefit.\"}", "stage": 20, "id": "020-3-48"}
+{"key": "7df3a2ac98aae7be711eb43c8105c5d42acb44f713e2c31277dd0552cf9293b0", "text": "{\"declare\": \"GIVE\", \"message\": \"Giving vorn; let's both give.\"}", "stage": 20, "id": "020-3-49"}
+{"key": "728b16747829e4a128f6571d7cdf409846c84ab5522ba7b4a3f4fbadf6af06b4", "text": "{\"declare\": \"GIVE\", \"message\": \"I declare GIVE honestly; let's cooperate.\"}", "stage": 20, "id": "020-3-50"}
+{"key": "df4eec9086ddb2ece6f68dc2af79b138e6a498dc8f2dbc46ca9ec975e0a3694d", "text": "{\"declare\": \"GIVE\", \"message\": \"I declare GIVE honestly; let's cooperate.\"}", "stage": 20, "id": "020-3-51"}
+{"key": "20f032e271b55e0a34c9f642b7f40b4d7e1cf63ebf058ea2993dbb3cb19fa511", "text": "{\"declare\": \"GIVE\", \"message\": \"I declare GIVE honestly; let's cooperate.\"}", "stage": 20, "id": "020-3-52"}
+{"key": "355aaaeef1283d4f94fe30b610ac032c78055be5fc48fc75ac58383b9d3056a8", "text": "{\"declare\": \"GIVE\", \"message\": \"I declare GIVE honestly; let's cooperate.\"}", "stage": 20, "id": "020-3-53"}
+{"key": "59af544c86adc0644064460a724929420c7928ad52a73efb92e2d4d140c0c800", "text": "{\"declare\": \"GIVE\", \"message\": \"I declare GIVE honestly; let's cooperate.\"}", "stage": 20, "id": "020-3-54"}
+{"key": "38c5473b1fd0cd31858fd27df608f6c95420bb7cc34f67a5822c4b04bc30394e", "text": "{\"declare\": \"GIVE\", \"message\": \"I declare GIVE honestly; final round cooperation.\"}", "stage": 20, "id": "020-3-55"}
+{"key": "ac8dee1aeddc4cc5d1d2398ba19e8f7c1a2e55e73f43479a6c2a8e907edf8eb0", "text": "{\"declare\": \"GIVE\", \"message\": \"Giving vorn; let's both give.\"}", "stage": 20, "id": "020-3-56"}
+{"key": "14c28a7ed09446bda09592873a8d7d014a100ef3101b930f61fb35ab7e5ba170", "text": "{\"declare\": \"ASK\", \"message\": \"Your recorded takes; I'm asking to avoid losses.\"}", "stage": 20, "id": "020-3-57"}
+{"key": "4c8d7a681cb2d26197720d4809fd4995a549f423b6c2935fbe30f6b05c651204", "text": "{\"declare\": \"ASK\", \"message\": \"Given your take record, asking this encounter.\"}", "stage": 20, "id": "020-3-58"}
+{"key": "951bbbe0e124d8290190368a720d5e9ab96a6733841e95630d3088c62938a6ee", "text": "{\"declare\": \"GIVE\", \"message\": \"Giving vorn; let's both give for steady value.\"}", "stage": 20, "id": "020-3-59"}
+{"key": "5f7d256bfa36f20bd54f7f14510494645389773181a3e6ecbbbe9f7ad5442f9e", "text": "{\"declare\": \"GIVE\", \"message\": \"Giving glim; mutual gives keep us both safe.\"}", "stage": 20, "id": "020-3-60"}
+{"key": "90afcffb0a9c76fa46618d89e5d9a29e985db7cac3392f8abf596529affdb8cb", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give and keep steady gains.\"}", "stage": 20, "id": "020-4-01"}
+{"key": "b0cf0ea06bbec0afd26804a6b0dd86889f57034a1ae75ae3a4860b60fcadf91a", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give and keep steady gains.\"}", "stage": 20, "id": "020-4-02"}
+{"key": "ed096a11f448e5bd5677915ef5c75d3f0e27fc6fff642889f90454c38a28a468", "text": "{\"declare\": \"GIVE\", \"message\": \"Mutual giving keeps us both safely afloat.\"}", "stage": 20, "id": "020-4-03"}
+{"key": "93b7d88e699ac017f355d16004c56524b5c51e821734cc7aab435466a8db1f1c", "text": "{\"declare\": \"ASK\", \"message\": \"Your record shows exposed takes; I'll ask first.\"}", "stage": 20, "id": "020-4-04"}
+{"key": "578d540bc0eca06048db776b0506e16d1342ddb40ceb2e6a6096d607f952b7f1", "text": "{\"declare\": \"ASK\", \"message\": \"Your record shows exposed takes; I'll ask first.\"}", "stage": 20, "id": "020-4-05"}
+{"key": "4cf6ee17a09556ed0876319ae83ccad6be99dfe716d9c61ec6a37bc94917a54f", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gain beats mutual loss.\"}", "stage": 20, "id": "020-4-06"}
+{"key": "5b8ace72dad34e2cd2d24123b07dd64afa31c661694707536d35b6ad5c5233db", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give and keep steady gains.\"}", "stage": 20, "id": "020-4-07"}
+{"key": "d79ec1ab9dea0a188fe95d42ca9629145235e9d665d6d74cd3855006997604b2", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give and keep steady gains.\"}", "stage": 20, "id": "020-4-08"}
+{"key": "3ce2049d6825704b3181afdca14e63d939480578c937899049f02288d5934abd", "text": "{\"declare\": \"GIVE\", \"message\": \"Mutual giving keeps us both safely afloat.\"}", "stage": 20, "id": "020-4-09"}
+{"key": "f47c5a33d4dc4a73e10c71a88f175f15cad8e0263694dca24bfeba7d2e8ee34f", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gain beats mutual loss.\"}", "stage": 20, "id": "020-4-10"}
+{"key": "ba694b38b2ab94261ef46b5b1ae857a41b7b767bba8a2db48b959d20c190b893", "text": "{\"declare\": \"ASK\", \"message\": \"Your record shows exposed takes; I'll ask first.\"}", "stage": 20, "id": "020-4-11"}
+{"key": "6f272a606e33678b476ef502fed0df2bc92519d564c641ccda705c9d7f61b981", "text": "{\"declare\": \"ASK\", \"message\": \"Your record shows exposed takes; I'll ask first.\"}", "stage": 20, "id": "020-4-12"}
+{"key": "973faf0a19e987788821af0119bab0f59f188d247155f450c5c3710b6baa0eba", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give and keep steady gains.\"}", "stage": 20, "id": "020-4-13"}
+{"key": "cb96d050246bb3374dd3b1acc8e267d59ae37362ed658950e35f055ee89f9909", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give and keep steady gains.\"}", "stage": 20, "id": "020-4-14"}
+{"key": "94f613e66d6f6ceaf701d6b27a43822885a2a0d4f1ca3fe01ac78868fad3c1b3", "text": "{\"declare\": \"GIVE\", \"message\": \"Mutual giving keeps us both safely afloat.\"}", "stage": 20, "id": "020-4-15"}
+{"key": "9cd1c8e48468394901d280063301e5b9e4cce9b63a63e4ce51a754188cc0663b", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gain beats mutual loss.\"}", "stage": 20, "id": "020-4-16"}
+{"key": "84a4ee42ef8ec202a778a39ae158097674ee67d32ea63aa2586808a28c7c01b6", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give and keep steady gains.\"}", "stage": 20, "id": "020-4-17"}
+{"key": "696f95ca5c6522f28bae230e429a8d70d10dc43ad21e71b1b771e6a7bd2e40a9", "text": "{\"declare\": \"ASK\", \"message\": \"Your record shows exposed takes; I'll ask first.\"}", "stage": 20, "id": "020-4-18"}
+{"key": "fc59f6a850419b973a190c08a148d56a7177c2c1126c91cdb80c76766032bfb4", "text": "{\"declare\": \"ASK\", \"message\": \"Your record shows exposed takes; I'll ask first.\"}", "stage": 20, "id": "020-4-19"}
+{"key": "a82f7fce7038c6d1fb8e9f5415d78edfb94b74cc5b144ad7f02f2d0cab43801d", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give and keep steady gains.\"}", "stage": 20, "id": "020-4-20"}
+{"key": "01783af68f4123feab0e1cc4a3219275226b131f99b72eb522350b5b4a34202e", "text": "{\"declare\": \"GIVE\", \"message\": \"Mutual giving keeps us both safely afloat.\"}", "stage": 20, "id": "020-4-21"}
+{"key": "bf7172ec6a380caf0903fe87f134525ff208bcb1d6ad37959219cda8251d7a02", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give and keep steady gains.\"}", "stage": 20, "id": "020-4-22"}
+{"key": "5e38d93e56076a641c03bae3622c3b8a2b82926f01e5fca216313c93e4453c0c", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gain beats mutual loss.\"}", "stage": 20, "id": "020-4-23"}
+{"key": "808b8bcdc5787f055c35649f682f9dbbd4d922f0d7546c8f637f352bb12e9643", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give and keep steady gains.\"}", "stage": 20, "id": "020-4-24"}
+{"key": "49d43276f8e94e1974cc7e6aa411a98b7bca15eb8428d65169cf14da6ecf6c4e", "text": "{\"declare\": \"ASK\", \"message\": \"Your record shows exposed takes; I'll ask first.\"}", "stage": 20, "id": "020-4-25"}
+{"key": "904d8038773cf038c06b7342ab1156122d4b9dafd4b27efb0ce28674cb1c27f9", "text": "{\"declare\": \"ASK\", \"message\": \"Your record shows exposed takes; I'll ask first.\"}", "stage": 20, "id": "020-4-26"}
+{"key": "abe4d7385092a77b89a00d0c9075046d061a1461d08b6d31b850b22d19e0f9de", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give and keep steady gains.\"}", "stage": 20, "id": "020-4-27"}
+{"key": "1c58420d66e600725034ff847f5a36e361213ceeb9d2bfddc0d924dc4ee7aa46", "text": "{\"declare\": \"GIVE\", \"message\": \"Mutual giving keeps us both safely afloat.\"}", "stage": 20, "id": "020-4-28"}
+{"key": "e8dd1193b50feb0130c7ceba61efb919b20eff2a66be6548edf4a3f237a16fbe", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gain beats mutual loss.\"}", "stage": 20, "id": "020-4-29"}
+{"key": "8980797b5e1fe4b3c28696b85b05d1d0ca6f8b11b8f2636b082feb3e1398634e", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give and keep steady gains.\"}", "stage": 20, "id": "020-4-30"}
+{"key": "cf8e3a03ac7c1dcf02108ab71a21e90628cdd5f8052a0df94ceb1405504683b1", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give and keep steady gains.\"}", "stage": 20, "id": "020-4-31"}
+{"key": "a393457fdc2b108e157a5f9ecac9ae16a01b2f1e3c15a6ebdb2fd706570afb9a", "text": "{\"declare\": \"ASK\", \"message\": \"Your record shows exposed takes; I'll ask first.\"}", "stage": 20, "id": "020-4-32"}
+{"key": "e7b40d24ac5cf71a91e69b76db4397bb4d7bee030239888bf556c0147381d6de", "text": "{\"declare\": \"ASK\", \"message\": \"Your record shows exposed takes; I'll ask first.\"}", "stage": 20, "id": "020-4-33"}
+{"key": "6f504759a3bf713014888a03a503f369621a8dd197aec76307fc5e9f1165bd81", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give and keep steady gains.\"}", "stage": 20, "id": "020-4-34"}
+{"key": "cabb42bcb72e8819f4b7ab5ce6727e28fed43f9f0969a71a602654f50e0bbddf", "text": "{\"declare\": \"GIVE\", \"message\": \"Mutual giving keeps us both safely afloat.\"}", "stage": 20, "id": "020-4-35"}
+{"key": "3755a1e0ef2f78fabed49dc996154d4da7f83b0d6991c64f062a3e474d8d45be", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gain beats mutual loss.\"}", "stage": 20, "id": "020-4-36"}
+{"key": "f479ef5a4979a70bd90494762501d8c85869a538ff0b428bf9d7e0ee73f9ae8a", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give and keep steady gains.\"}", "stage": 20, "id": "020-4-37"}
+{"key": "05b405071d26c4d3ab0977d46ed4a17464264b5e6fbcc1e6f63795792acb8047", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give and keep steady gains.\"}", "stage": 20, "id": "020-4-38"}
+{"key": "4c0cd66f17137215a9b80a8a380b13aaadc4773083c378aa62f740a70de69fa2", "text": "{\"declare\": \"ASK\", \"message\": \"Your record shows exposed takes; I'll ask first.\"}", "stage": 20, "id": "020-4-39"}
+{"key": "d0664d982d6a1a9e41bd3bcaaf08f787b133037a674378da429a8da5014b94cb", "text": "{\"declare\": \"ASK\", \"message\": \"Your record shows exposed takes; I'll ask first.\"}", "stage": 20, "id": "020-4-40"}
+{"key": "28babf89405a5872ce78c97b86bdb0e32d8bd32b4d3e7073cbc34ce7bedceaa7", "text": "{\"declare\": \"GIVE\", \"message\": \"Mutual giving keeps us both safely afloat.\"}", "stage": 20, "id": "020-4-41"}
+{"key": "b4935e4a7b154d5c50227b22a333356fb979a45e728ed0ed12aa235297a383cc", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give and keep steady gains.\"}", "stage": 20, "id": "020-4-42"}
+{"key": "affbe9fa46e57dccf9f66719b1b63f0ad9f1eab4d1be38fd13bd187802a3d011", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gain beats mutual loss.\"}", "stage": 20, "id": "020-4-43"}
+{"key": "274461b1a01cc026ae32d5df888fcac30dfafa4abe27f980b36cb96b4c9f5353", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give and keep steady gains.\"}", "stage": 20, "id": "020-4-44"}
+{"key": "335dd9b84a9bc8483904c3e89a5435fda65e27f9c204db846c8f097f4f340144", "text": "{\"declare\": \"GIVE\", \"message\": \"Mutual giving keeps us both safely afloat.\"}", "stage": 20, "id": "020-4-45"}
+{"key": "d1bca669aa8856c4fff7d2c72519757738338d50d58e5da6e2800f2813a2d423", "text": "{\"declare\": \"ASK\", \"message\": \"Your record shows exposed takes; I'll ask first.\"}", "stage": 20, "id": "020-4-46"}
+{"key": "5588220e1603287c58fc2089a1892fb420b6eef56107fd263bd422a230ac054e", "text": "{\"declare\": \"ASK\", \"message\": \"Your record shows exposed takes; I'll ask first.\"}", "stage": 20, "id": "020-4-47"}
+{"key": "d52d2a41d5b9058afb3149cb28b392f38ecf34cbe1522d9d06796b4a209a788d", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give and keep steady gains.\"}", "stage": 20, "id": "020-4-48"}
+{"key": "3786f06aff2d5bd2f44d995bf956cbbf496862cfee47d888ab24a5c52a0b656a", "text": "{\"declare\": \"GIVE\", \"message\": \"Mutual giving keeps us both safely afloat.\"}", "stage": 20, "id": "020-4-49"}
+{"key": "e57894ef6ff062b5dadd09ab8c98dff9cca323394a37ceb78d768935082c12ad", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gain beats mutual loss.\"}", "stage": 20, "id": "020-4-50"}
+{"key": "112985590af7828f4e0ee31ee7fbaeccc2ea7b9c384705ef11afd5cf8af9b96c", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give and keep steady gains.\"}", "stage": 20, "id": "020-4-51"}
+{"key": "8eb36558c624b5f266e208c756e9dce5846ab59ea3ba34107f8a33d30d31eff0", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give and keep steady gains.\"}", "stage": 20, "id": "020-4-52"}
+{"key": "72dfeb171e0871cf34e71cd67747a0d36cf117793f92429f8ddc9a73f78baf21", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; cooperation keeps us both in.\"}", "stage": 20, "id": "020-5-01"}
+{"key": "69a3673988b3d24cd57b621a83c1ed2b4b284f4277f38a2dcf4f3b76db303da6", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; cooperation keeps us both in.\"}", "stage": 20, "id": "020-5-02"}
+{"key": "e8a364a2f9cf2155afc0c11c52041b39c50e8c5f0133cf1bbb704d88e837d934", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; cooperation keeps us both in.\"}", "stage": 20, "id": "020-5-03"}
+{"key": "83dca113203a44c159aed62d7b094328507078d3644d57a5c96976d3345e1ab5", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; cooperation keeps us both in.\"}", "stage": 20, "id": "020-5-04"}
+{"key": "c041f32e40fe4184ed8dabd5205bb0c82acad924f84e9d2fce0fd67d5f928488", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; cooperation keeps us both in.\"}", "stage": 20, "id": "020-5-05"}
+{"key": "9bde1147b3a77d65880174c37e8529a0bf76eb2237147752205142e263f5e532", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; cooperation keeps us both in.\"}", "stage": 20, "id": "020-5-06"}
+{"key": "ef623905e30ac6f872f116ee298ba79fa01768605c598497bbb099e5fc3a62fc", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-07"}
+{"key": "da092668f53bcdeac6db1b32e74e635e959b20ba108e160349802f4b33fc4557", "text": "{\"declare\": \"ASK\", \"message\": \"Your record worries me; I'll ASK this round.\"}", "stage": 20, "id": "020-5-08"}
+{"key": "f372a3bb0a7ee4f960804461caf4ab89e22d94232b0d5c650386f638303498ef", "text": "{\"declare\": \"ASK\", \"message\": \"Your record worries me; I'll ASK this round.\"}", "stage": 20, "id": "020-5-09"}
+{"key": "f3c06d35207567e57b03b5af913d1e72f79526f7225b295306f5449d90da63a1", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-10"}
+{"key": "c18b65d69b4c82f1606088e19465172b8f06961e929777ff29761941071188a9", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-11"}
+{"key": "790701bfbbad731b9ab17e9c7315e2066758e5148da6922f8719f2d4eb1aa6ce", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-12"}
+{"key": "f68aa422830ad2fe89fd83477a238add7e5acedf13056a9e9d577567b548964c", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-13"}
+{"key": "82b0812fc88d5df2b5c749b65e473d4abae5f828a5cff5db2dfb14338e9d816d", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-14"}
+{"key": "e81cfb2ed7528078db169c8caf3e8f3a1c319cbb661d9307b7d3087e7fe7f833", "text": "{\"declare\": \"ASK\", \"message\": \"Your record worries me; I'll ASK this round.\"}", "stage": 20, "id": "020-5-15"}
+{"key": "e384d3d65b6342bfd1fb43079c0dde4ebf1f1f9d6877dda4c616d8ca94df73b8", "text": "{\"declare\": \"ASK\", \"message\": \"Your record worries me; I'll ASK this round.\"}", "stage": 20, "id": "020-5-16"}
+{"key": "1c47a5548d153df8ddbff68b30da1693ff4f0eebbfb249b38f4f651f7301cedb", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-17"}
+{"key": "7df40534189e878b2e13e467974dda30f8c94ae09d0ca80064b66ff282df7f7d", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-18"}
+{"key": "9c12b812d8a314dbac5372a7edb141ccc73ec396d460b78609081507f1d6661d", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-19"}
+{"key": "ac60662d76aa6cddc392a5cf1a8a1ff234125b42a6c5d9c3494b8b63683fe878", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-20"}
+{"key": "a8ed05cfd8da7c2c6f4d0dc0ea2aa3616a8b754d43b64800dc83634f7dfde4ce", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-21"}
+{"key": "b0813144774b73de40c57106d9b99a02732050b13654627ddfd5a2c81a958d29", "text": "{\"declare\": \"ASK\", \"message\": \"Your record worries me; I'll ASK this round.\"}", "stage": 20, "id": "020-5-22"}
+{"key": "d57d91301e7455bb19ab774182f00f8b248e125fe324b864562dbd606fb70503", "text": "{\"declare\": \"ASK\", \"message\": \"Your record worries me; I'll ASK this round.\"}", "stage": 20, "id": "020-5-23"}
+{"key": "c84672256c0277e607191a683fce48fd568c55c92e18dea6f576647cb57c4c83", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-24"}
+{"key": "970d8f3b0defae67b10cda7757e3e4fa1fa95809d1c0daff97b79d1edd3b7cd0", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-25"}
+{"key": "9c5d2371b53cee1230500fec563fb6d8374b9283badcaab71cb3742496a2c79e", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-26"}
+{"key": "69bd5905a32e619c7d416951746b39a01b968813a9400f736aa7c1a54a9a4676", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-27"}
+{"key": "10bef2e94a87ce224b5baa5a4ffc44ec92d4fa8f56cf45420045fe99d1c573e3", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-28"}
+{"key": "35e8a928e048e0e7e7a1b45e450f3352f9d75d9fc303208b550f86a398ecb146", "text": "{\"declare\": \"ASK\", \"message\": \"Your record worries me; I'll ASK this round.\"}", "stage": 20, "id": "020-5-29"}
+{"key": "1ce31bf87e661027f7a5de5716a3ba225bad0c64cb43702b30275e5e96fafe13", "text": "{\"declare\": \"ASK\", \"message\": \"Your record worries me; I'll ASK this round.\"}", "stage": 20, "id": "020-5-30"}
+{"key": "3f4b2c0cb9c87abac99cf7e44ae7146585e120b3da115c47d5efd8261aa2f68d", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-31"}
+{"key": "5e8ad3619fbbc760b276494addf5f3a8bb69fe7de85657faf454e8c84278f80d", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-32"}
+{"key": "90be4689a0429cac571e12fc1591fe759d1e4470ae39f256bc9c8026f0092a58", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-33"}
+{"key": "2e8c296bfe3512043ef9ab4a16268e675c928fe198c5f024b291e28034db8415", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-34"}
+{"key": "9d20b8ef7fcd992030f31ee8f2fe86259f7fa14c229f7650b2180b7d8a1e36b1", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-35"}
+{"key": "37dac6096e1376512066b04517962db79a5e0b3724edb170a3fbcc488230acdd", "text": "{\"declare\": \"ASK\", \"message\": \"Your record worries me; I'll ASK this round.\"}", "stage": 20, "id": "020-5-36"}
+{"key": "85acb4a184b39a67222ef722ef6b7bdb636c7d9f661170ff37e0f6f07cbe80a3", "text": "{\"declare\": \"ASK\", \"message\": \"Your record worries me; I'll ASK this round.\"}", "stage": 20, "id": "020-5-37"}
+{"key": "e0396cfd4dc39370923d52279140d7e3e0c94cc16210286e34b58a9b40ea43cb", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-38"}
+{"key": "9322de57ecb1c5946f2b2515e44da9114f18d1187018c4cee6c9745a2330c025", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-39"}
+{"key": "3e0fe4f35b999f66effa32b358f0b18aa668ee2e999e0fbe34aab233bbe8985a", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-40"}
+{"key": "b755af4723ee8302314a676232b2777ed82cb12d472ae871cf51b7719fc3f7ba", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-41"}
+{"key": "bc4d887479e7f172d4a8852d46a1ae1e460fef2db29e2f1e805d3ecd6b96069b", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-42"}
+{"key": "a5400ac36f258675390026c73f39b57d17303cb52823ea10903b1d5d893b4c6b", "text": "{\"declare\": \"ASK\", \"message\": \"Your record worries me; I'll ASK this round.\"}", "stage": 20, "id": "020-5-43"}
+{"key": "c09280ec745a14e44b2f491e2aa9753e079731fff5ccc0c4c4af8b85406d9b83", "text": "{\"declare\": \"ASK\", \"message\": \"Your record worries me; I'll ASK this round.\"}", "stage": 20, "id": "020-5-44"}
+{"key": "ded3e7140acb1c9cd63e51d96c4044992f5730d664019e9a8a74f00546e7a456", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-45"}
+{"key": "105980f0999a69a5fd7ef0fc6161bd0fba52c8043403ba7e9cd7c1d08eda4f60", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-46"}
+{"key": "1cef19e6abd7a6ea1446152e8cd91e0580521dae8e9f7e29caeac8b9137cdf63", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-47"}
+{"key": "ac09c62eb19389fc7b9b601e41043f971b09d8844dfe7c75d4cfa7e68ebd92e6", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-48"}
+{"key": "0593424cce531093a5424d79691f4da175456a67bc58af55bf28e3345075637d", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-49"}
+{"key": "5890181a0ea9baf823c8c2d88d0b249cca587ff1c75de4454cc5731e24dd6c18", "text": "{\"declare\": \"ASK\", \"message\": \"Your record worries me; I'll ASK this round.\"}", "stage": 20, "id": "020-5-50"}
+{"key": "2980b25fef3615a17db852ee0eb38bc94d8e00e0da14f80c96fabb75d31bcf36", "text": "{\"declare\": \"ASK\", \"message\": \"Your record worries me; I'll ASK this round.\"}", "stage": 20, "id": "020-5-51"}
+{"key": "bceaa2137c5bf9f5009dd8302c59b05a62309276676cc0e77741424213cb34b1", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-52"}
+{"key": "262661a54f20071158b9825aea6fbbe9476d1f87fa485020d28eb8880f049707", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-53"}
+{"key": "7218432a4e1ef067ad2fb7e15983c97562ae7d407cdb6cf7d77cf1091fb28587", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-54"}
+{"key": "d20986ce9c95881028e5fdab1caa87012c891f3e85f1d5ce00f3e3a2f7fbbee3", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-55"}
+{"key": "c92d33e95b58dca9c59492809c53c6a00ebce02117ec7f332be9e6b5e976d532", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-56"}
+{"key": "85510a6b844998cdb9bdb33a8c90f6690f42c8d480b09aaaf69c0efa1ddee6eb", "text": "{\"declare\": \"ASK\", \"message\": \"Your record worries me; I'll ASK this round.\"}", "stage": 20, "id": "020-5-57"}
+{"key": "39daf28dbe5b583f25e91408aba605aacf537683355152e8af503d7b9d9e169c", "text": "{\"declare\": \"ASK\", \"message\": \"Your record worries me; I'll ASK this round.\"}", "stage": 20, "id": "020-5-58"}
+{"key": "8505827f831536215d5121abdb993f651e51db3b94992c0e84848f82358cdedc", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-59"}
+{"key": "4525cda1473b5eb4f375e0c724d86ac7f3ed6a6091ad417ca56d825195899bd6", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's cooperate; I am declaring GIVE this round.\"}", "stage": 20, "id": "020-5-60"}
+{"key": "973f463a7f425c0fa3353cefc70f9982e57b2855d5580e53313fd572125af728", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gain keeps us both afloat.\"}", "stage": 20, "id": "020-6-01"}
+{"key": "a7b384b2bf5b1fcf1516d5292901a99f82e58acd55b058700b991f8c6104fced", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gain keeps us both afloat.\"}", "stage": 20, "id": "020-6-02"}
+{"key": "de6b312f6df9ce289ce8e71b7ae9be959d7540a316f2e92284788f357c9f4b55", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gain keeps us both afloat.\"}", "stage": 20, "id": "020-6-03"}
+{"key": "9e0ed8d962b53766f713bd9f25159d99e1b94d6829d9f1d5f161f0c2cb9aaa71", "text": "{\"declare\": \"ASK\", \"message\": \"Your recent takes worry me; let's talk first.\"}", "stage": 20, "id": "020-6-04"}
+{"key": "cf367ed1bfc4201e473a73d24f2476a38c0f57349cfbaa1cf480e3e1dbc754ad", "text": "{\"declare\": \"ASK\", \"message\": \"Your recent takes worry me; let's talk first.\"}", "stage": 20, "id": "020-6-05"}
+{"key": "a3337c3052e54c508b1a4d7b3a41c2262afbcd5e72ffe079425c97c64d2ce959", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; I'm cooperating if you are.\"}", "stage": 20, "id": "020-6-06"}
+{"key": "33d04ce9cfe931a459ab853a20593ed04d87c645204944f04d9d738d556756e4", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; I'm cooperating if you are.\"}", "stage": 20, "id": "020-6-07"}
+{"key": "b20d8f88336e81ffc1250b5a5f33d4d07afb62a5d772940c2ff3875c4b3978b0", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; I'm cooperating if you are.\"}", "stage": 20, "id": "020-6-08"}
+{"key": "7b07a6f3d659491efc7dc7c25833a9a1de564bd4d7efd5e2137ebfd1f384e269", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; I'm cooperating if you are.\"}", "stage": 20, "id": "020-6-09"}
+{"key": "829728bb663021634165d4441d46da9c239d8e2994989115f4d6dcb890576ba1", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gain keeps us both afloat.\"}", "stage": 20, "id": "020-6-10"}
+{"key": "032c4d2b332b3b4be458f01012a7791624cf0b3526294dea733f9c38cd7a8f9a", "text": "{\"declare\": \"ASK\", \"message\": \"Your record shows takes; let's secure zero first.\"}", "stage": 20, "id": "020-6-11"}
+{"key": "54b7453c1df9b0b01e5645ef328fc11596e341c76f6f3c9090b662883a8008b6", "text": "{\"declare\": \"ASK\", \"message\": \"Your record shows takes; let's secure zero first.\"}", "stage": 20, "id": "020-6-12"}
+{"key": "0e9b8738106d82fcdabdba2b6bf24c81842828cf0ec7642395b4811ac982171a", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gain keeps us both afloat.\"}", "stage": 20, "id": "020-6-13"}
+{"key": "e4a549d41d735da9e83dd4f4184e505678e734bfd8988508617e710ba449dcb2", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gain keeps us both afloat.\"}", "stage": 20, "id": "020-6-14"}
+{"key": "313aae63220b9ed5ce372995098525f0af98229df24aed00042bbf613242f192", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gain keeps us both afloat.\"}", "stage": 20, "id": "020-6-15"}
+{"key": "38db32363d5cd9ffdde679073217819ffe1dea765384436b1b5b71cf51280d2a", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gain keeps us both afloat.\"}", "stage": 20, "id": "020-6-16"}
+{"key": "b0b8f6f6d9e54c827243c90309dc407dfc2108c922df75725001cda1fbd103f6", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gain keeps us both afloat.\"}", "stage": 20, "id": "020-6-17"}
+{"key": "4036c613f4227cf2c009e618c1adde102a79e5bad45e23c1b1aa467e7cc0cfde", "text": "{\"declare\": \"ASK\", \"message\": \"Your record worries me; let's ask before exchanging.\"}", "stage": 20, "id": "020-6-18"}
+{"key": "cf431a360910ff2eecc143e489167ff560565c66b04cb240ee28f15b1ce01cc9", "text": "{\"declare\": \"ASK\", \"message\": \"Your record worries me; let's ask before exchanging.\"}", "stage": 20, "id": "020-6-19"}
+{"key": "26a454af92cd0453fb2908af4a996eb97de25f1afbce347249a5874ac2f69a53", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's aim for repeated mutual giving, two each.\"}", "stage": 20, "id": "020-6-20"}
+{"key": "1864c750c8e8f11c95407b8985a98760f72a7a2ae3cc88c405330a92d2e62dd8", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's aim for repeated mutual giving, two each.\"}", "stage": 20, "id": "020-6-21"}
+{"key": "9486d41708851b00b1a034499b78f2178e3c59c754528792ea0e82017fda20eb", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's aim for repeated mutual giving, two each.\"}", "stage": 20, "id": "020-6-22"}
+{"key": "44c8c92669e8e65abb2c32b5bd606eaab2d95f24b1646d1d0ee2a1a2c15a8336", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's aim for repeated mutual giving, two each.\"}", "stage": 20, "id": "020-6-23"}
+{"key": "5c131f87cbb3138f98fd261742d19e71ecc592864e2efeeafe4e26d265834eac", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gain keeps us both afloat.\"}", "stage": 20, "id": "020-6-24"}
+{"key": "d853e417628033d7252a7398543ee951a646b2006c022e6820adf9f37a9d1ae5", "text": "{\"declare\": \"ASK\", \"message\": \"Your record is risky; let's ask and secure zero.\"}", "stage": 20, "id": "020-6-25"}
+{"key": "ab140e1a32bc9b4a23258e6a24ef55677d8e7e5fd0afa09ddf1438fb3bb242b9", "text": "{\"declare\": \"ASK\", \"message\": \"Your record is risky; let's ask and secure zero.\"}", "stage": 20, "id": "020-6-26"}
+{"key": "a870cd75691cb30de81cb2770e1bc6517b720c60ac8a1346f4b7ab7d6ae782fd", "text": "{\"declare\": \"ASK\", \"message\": \"Let's ask first and secure zero safely.\"}", "stage": 20, "id": "020-6-27"}
+{"key": "14d245bb2fe3f2ff5da18300648f6faee676ff36f06cbb8c6fe79d73172c7cf0", "text": "{\"declare\": \"ASK\", \"message\": \"Let's ask first and secure zero safely.\"}", "stage": 20, "id": "020-6-28"}
+{"key": "6741a1a49cf234b87c39d417173f08fb8eb31f01ecb91e78fbbdf96aeffd6354", "text": "{\"declare\": \"ASK\", \"message\": \"Let's ask first and secure zero safely.\"}", "stage": 20, "id": "020-6-29"}
+{"key": "979d58ad0d0de7e2c6512cb6b9647e6c6882ad7fd0ba5cb9621f03c716024e53", "text": "{\"declare\": \"ASK\", \"message\": \"Let's ask first and secure zero safely.\"}", "stage": 20, "id": "020-6-30"}
+{"key": "54f5ed86031971b10e2239303e175bb5487015ee049209477817d04c758d97f4", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gain keeps us both afloat.\"}", "stage": 20, "id": "020-6-31"}
+{"key": "cab941642b94457776a4b6180ff9f9e4e9e52c9f1e19531eb699cddb04532f7a", "text": "{\"declare\": \"ASK\", \"message\": \"Your record shows takes; let's ask this round.\"}", "stage": 20, "id": "020-6-32"}
+{"key": "5405c1dabfe9a8808855fc0f74e271dcc7d7590d9e0c328b183781f1e79b4b3c", "text": "{\"declare\": \"ASK\", \"message\": \"Your record shows takes; let's ask this round.\"}", "stage": 20, "id": "020-6-33"}
+{"key": "5d6e72b8391dc8e3b557a16dc758a30bce249002f518a9dd0e692b831e5e83b2", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; I'm declaring give and meaning it.\"}", "stage": 20, "id": "020-6-34"}
+{"key": "416deaf37a0e46f4023a0510862b196e56ef05b53aa97bb99bc64a2bf94d786c", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; I'm declaring give and meaning it.\"}", "stage": 20, "id": "020-6-35"}
+{"key": "99c8886391ff07a0cadccd6f2da93eb19a8308ac5c7c521f96d3992e67d5ca7f", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; I'm declaring give and meaning it.\"}", "stage": 20, "id": "020-6-36"}
+{"key": "cc2f33b838e6a5b3bed0b8a6841af73011f4ace71613659af34e1b668d8c6bfb", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; I'm declaring give and meaning it.\"}", "stage": 20, "id": "020-6-37"}
+{"key": "236ac8497911e32888935a1a83dbdc44890da5983205bed9d261575e50499652", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gain keeps us both afloat.\"}", "stage": 20, "id": "020-6-38"}
+{"key": "dbe0fd89f9f2120eb0b8202d45efd3f08f790482602d1a0ec02c18364e751c70", "text": "{\"declare\": \"GIVE\", \"message\": \"Opening with give; let's both cooperate.\"}", "stage": 20, "id": "020-6-39"}
+{"key": "2bc116b36edf9e9b2c020a11403f92c74f85fb3135f5d63c531d3b4402c483f0", "text": "{\"declare\": \"GIVE\", \"message\": \"Opening with give; let's both cooperate.\"}", "stage": 20, "id": "020-6-40"}
+{"key": "40dc3f032fa0b677d2151ca3a4d16e7b7363de18f412e05c1435e30c28c3cd7d", "text": "{\"declare\": \"GIVE\", \"message\": \"Opening with give; let's both cooperate.\"}", "stage": 20, "id": "020-6-41"}
+{"key": "1b91ac1b251e41943e039541522265d7e66f62bcff840c9cd65a039db605b2ca", "text": "{\"declare\": \"GIVE\", \"message\": \"Opening with give; let's both cooperate.\"}", "stage": 20, "id": "020-6-42"}
+{"key": "568874c8b1e9a7d01bfd92e7c7753e4b74eaf6699794f2d642add58c8b9b9c72", "text": "{\"declare\": \"GIVE\", \"message\": \"Opening with give; let's both cooperate.\"}", "stage": 20, "id": "020-6-43"}
+{"key": "1be5fa191bc34ae2b000225b9f52771bc473d0bf6a7b704e2dcab1de453ac07c", "text": "{\"declare\": \"GIVE\", \"message\": \"Opening with give; let's both cooperate.\"}", "stage": 20, "id": "020-6-44"}
+{"key": "ee4d79a37d142aefe07dd18bd12a9bca31a96c83a3122f5005433a07de89f8f2", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gain keeps us both afloat.\"}", "stage": 20, "id": "020-6-45"}
+{"key": "59fc20ba9a2dd87652d8bc5fed512c130f95822b908c5372faf667061b18125e", "text": "{\"declare\": \"ASK\", \"message\": \"Your record shows takes; let's ask this round.\"}", "stage": 20, "id": "020-6-46"}
+{"key": "0d4726ddc2e66839b22f954549347741d31840a2673af6f114d69101555507ce", "text": "{\"declare\": \"ASK\", \"message\": \"Your record shows takes; let's ask this round.\"}", "stage": 20, "id": "020-6-47"}
+{"key": "cc719ea922cc2927e44a2466fe36f1416d04cf0b4d0226a5e8d0574b0b2569dd", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gain keeps us both afloat.\"}", "stage": 20, "id": "020-6-48"}
+{"key": "52f157d1703b47626d28e51a9a72bcfe8197cb0a56870f6668c4d630e56e23ec", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gain keeps us both afloat.\"}", "stage": 20, "id": "020-6-49"}
+{"key": "1e7af7356678fd4850a0c4356d9acc76fee10fea85040ed2c1e2d22f66de8cbe", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gain keeps us both afloat.\"}", "stage": 20, "id": "020-6-50"}
+{"key": "1b2f724d976084b02ee34c1fc780639a0f375c14fb65ecb84e6b79d6eede0776", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gain keeps us both afloat.\"}", "stage": 20, "id": "020-6-51"}
+{"key": "d8e2bcafb09ad61800f855555bb9199ca6fbb23b37899b8d41732b925df98e64", "text": "{\"declare\": \"GIVE\", \"message\": \"Let's both give; mutual gain keeps us both afloat.\"}", "stage": 20, "id": "020-6-52"}
+{"key": "0ecbbc25b3bdc669b0f4ad1ec674bc2d6248b6c1ee8cf5782d4d0da45ea453fc", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-1-01"}
+{"key": "29e1609d958e1bce555ef9b7c094caf7079b01fa2b4504160771fbfc7b75f9ba", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-1-02"}
+{"key": "1016fb6fcfca2d5cd3aaf196ba52b1de6cd96570ad5323696c8f544ed8dde158", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-03"}
+{"key": "7810ec2f7a23d5c478db4cc69c64cf1de9ee5cc0ea3c509cb0999ae70e373c70", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-04"}
+{"key": "4c7b0172c3b4e68fff19becaf14a73a4ce73ea525ec2382e44778b4d0b7c3ad0", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-05"}
+{"key": "dae4dfb01fd5eb449d250c59486bd2f53375b5d63fb6fdfe93703cc3ed760f85", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-1-06"}
+{"key": "279de64c777656cb6b285e0cbe618ac9f9010ce19f807e7225abc4075f869e12", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-07"}
+{"key": "aa5640acc932a9664b53bb69f27ced11908d00d2a9e8d01715cf4835ca38b177", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-1-08"}
+{"key": "f295ddf6ce8f09eede3397c509da21d3c40291de4d0a6a12d3352af726e366cb", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-1-09"}
+{"key": "9f1c64e1780d6d88dd62062deab7a5466b64118e596cf9515242e39a3f8c7295", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-10"}
+{"key": "bbbeb7b4393afb3e8794f04b5db5a5132058c0530bf7dbddaca7a0110835c686", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-11"}
+{"key": "2224d51a403881e61760152727a1daf2ce4d37094a93c20ec00bf6b9e073c093", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-12"}
+{"key": "96925276891b10350785a7580cefef3f3316bb9e76cb6b039048ba0cb4a3cb89", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-1-13"}
+{"key": "239cda21f2b14b2d548e6d0ca0311df198a74c6d36dbd97338fda4a757b30b18", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-14"}
+{"key": "ff4591ca6f9db3ef837253f0ab91289aa2e64b1662c893a1a755792953c19bd3", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-1-15"}
+{"key": "4cddda42227ccc3a3422331a0a7e80af7a0ad23256ef42740ca6bc38aa201355", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-1-16"}
+{"key": "b6ffd70a18e0ef6c4905eea2c1835b2bb92f129e4b26cd143c0b0a845f75e7f1", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-17"}
+{"key": "0d6626454923bfcb5a82825c4ec12be2c882de075b65a662f20ccc7f0ea68d53", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-18"}
+{"key": "087557f33cbdacee7607c44a9c4e202710324a363f33ec42583d01325baa971d", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-19"}
+{"key": "6e06278a28ed0bf8c2a6feb9dfb86f6dabd212ee02c4b681d8ce8c6f1a193794", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-1-20"}
+{"key": "393e5ff8cac67dbf66c04ae2eb092dcf0a051930eb91b5828bde6b2cfac76ae8", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-21"}
+{"key": "acd75d10869867aa9dd3dd9316c11d7cf7d3cd64035c00a34dff23598df6d05b", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-1-22"}
+{"key": "d1bdd310789df96bb1a354b41315a70393e36d486beafba006b62bce16d5b69c", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-1-23"}
+{"key": "b3ed63914a416173f2daf5bec5dd623a57caae52b860effe99786aeaf0316d3f", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-24"}
+{"key": "d8d119d768aaf41eaef314f6f36910d83ba31a8b4d3897ec917abfe66a8f0fb4", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-25"}
+{"key": "babbc36146236fcb0862e552b96531cca27f93d164d7c66744c38474162a61a4", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-26"}
+{"key": "54414b174f51f4d19a6c09f148829bd826ebac806520d9f2f5997bf3ee26b276", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-1-27"}
+{"key": "e6deec9900e5f9b2312096aa6942b1d65c65fdc54f93c893647f7eccd17a6b01", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-28"}
+{"key": "885064c370720e3ac5726b0a4d6de97270973040fe665189e639243850eeb4cb", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-1-29"}
+{"key": "be6914327278baddbe9bdd48bf99c879686a655dcd007c6e6fbe440873c2f2a0", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-1-30"}
+{"key": "e4e6b61c7ad929e3ed0ec06c8f4505ab6673b7030a52309e7ba4dae355ea8e68", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-31"}
+{"key": "1451df6f764ba6c773c86e8d603eeaaefb617c34126b6d27881da15499762a83", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-32"}
+{"key": "9cae9c56e61fb730915657ec7cc078dd459544633bd1b352cf3366788d147a55", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-33"}
+{"key": "25a320821e183b870863f5e6c1de46e06121726bc4d1a92e2b3af81b68d45d71", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-34"}
+{"key": "be9f89dff3a8e8eced183cc378b1674b396010f16595015bfc4fe03da630b4b3", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-35"}
+{"key": "c8be3ef0363b560336a6a617519cff451fb066ac7f85392c0127dfa87df14bcb", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-1-36"}
+{"key": "c39589cb761cb88c36a3251e5af52e262865338bc9463fd29cac8e28be9356f6", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-1-37"}
+{"key": "6579672ca517eb078556452fbc8d3f5c532ce6b19a55d5bc2bd49a4991182787", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-38"}
+{"key": "14f5288eaf4e24c729f584110361bf60faf3f407f2cda06de1e30cfffc7dc9c6", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-39"}
+{"key": "3857ec8ee01e8bbde064674789f3686917e745944c8fbe622cac6ea6897f9ef1", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-40"}
+{"key": "4b40b1e75b702dd0349b4ddd613dd8c38fd642abfb1f78b9c88de9341c92153a", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-41"}
+{"key": "b61bb91398fa165b4ae75dc221a7f93816bf3b83bc47c37b956158b07affe24e", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-42"}
+{"key": "712016653516d7a9efa1da020626b3afe74491c37145a23478ff009b41a315fa", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-1-43"}
+{"key": "c301cac793628715a039cbec1cf9a74427cb19a1ac2a32d679738ebc60f0f8fd", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-1-44"}
+{"key": "a84fe04aab37ba25ed7570f5d002c9b185a89fe75d0444bdb9f0fb161dbe573b", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-45"}
+{"key": "a47b1a023f0cc30ed81fe8cdd2f8e9531d227820cc448e3721db67d939d82b41", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-46"}
+{"key": "c4b12b1462d01d5fe7a6538c402b03febd82d0184581a99528879ae854af9a31", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-47"}
+{"key": "08671d132e68b919d6750f1beb913ab206029f04d0324077eecf81cb98763966", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-48"}
+{"key": "8484f3bcb8fa4057647e7e8ae596e4ac53efadc5daf4a49c827e1738ac71461e", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-49"}
+{"key": "0c738381f94c8e5a7d43ca4bd5f6f548a6116bcfcdcbc5cc8f5de99745a9302a", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-1-50"}
+{"key": "797e43f2feb6f1e14758b65cbf72cf94cf58eca5138dce6908acbb9f8037c8de", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-1-51"}
+{"key": "7b28f54e185235e0945b310994537484d9a04e3967cbf69391243e267a17fd79", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-52"}
+{"key": "ec03490d68eb2782c2e3f2ed54b6c5d02f4239d3556adc9ec05e9f1a3067f8b5", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-53"}
+{"key": "9f104df982c767fe07db8c4233b873de3d78930ad9f508bdb148d8450737945d", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-54"}
+{"key": "898148c7d1c7ab7f1a7d15d37030d82efbd557ef261d5dd4527f0c4c37299ce0", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-1-55"}
+{"key": "b62da73372c6e5e31a2132807f7c5a5c8bb0d1d64ef818a92e1b968d9e010a18", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-56"}
+{"key": "5d387064014820e6f312d08cf47ba167810d3b2ed9cc046e9794d26ee0b9723f", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-1-57"}
+{"key": "e76d1468267ad0f8a2f8c3ef6a3c453ad980cc4ad6f7b790eb6d5681d53fad7f", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-1-58"}
+{"key": "412e0b5e54f4ae95a689f110890910d308f63c8e0ecebc912ec24fd4918d82bd", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-59"}
+{"key": "d8c6b8c4635de5c09436e9085a4ee82c5782fc0ebb5c4f21c3141ef4f72a6bbe", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-1-60"}
+{"key": "6407a6575147e596c6d9512ca3f7c86e184b3bee2f134337286495fa04d70768", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-01"}
+{"key": "b5d46c73fffee66a1d38150c325c5cd9de100613b5f8c6314c885f17a8fcab46", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-02"}
+{"key": "187230361dbf3d748b03ffd999f91ef0d2aabce3fa2cc28c8b383bbc97a3d98f", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-03"}
+{"key": "5413d04248fcf92d14ba1a21253f152b29a856972ad9c6132088541884193747", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-2-04"}
+{"key": "9c79a2636c48e0687fcdace7ea326adf8925f76c71cdf1930802546ae447d9db", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-2-05"}
+{"key": "6a7b7879f1ef762ef208426a51783cb45a1021a8f7cdc851e47bc0268e7ae3a2", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-06"}
+{"key": "bef25e4101d178dc5f75a97821c845c455168766b3dce9d27c90e7551c29a894", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-07"}
+{"key": "fa55e98e594acb6663eff41ebd0930921f1f69fbf339e2fa6ddfd0ad2494d2cf", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-08"}
+{"key": "ebf26763446acb7237d64076a11c5bc1386f48413e198002a4e3c079c63b5069", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-2-09"}
+{"key": "3d9b75db042a4a92ff5891a5e61247c6c75030407c2b34c8424f74a5b1e0b95e", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-10"}
+{"key": "5fb7e81a001a02aaee5ec3be5ad75570cad26d9abd8a736d36f5b97f7660e822", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-2-11"}
+{"key": "c00c934105a9bf28fff677fc2b784a9cc7c1cc53ec2abe9953064daa6a1587aa", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-2-12"}
+{"key": "2e7b3191d6c9de9cc3783488762fccabce73e5375d9fc2760f510389dcf9d336", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-13"}
+{"key": "d8a5e05d853863de2d60fcad3ac7b1792f5e560c09a575ae7c05a0b0e4a04771", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-14"}
+{"key": "2eada78c75afe88705bb44129384e0508d69dfd97e30dca40eb5845fd2544733", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-15"}
+{"key": "940ff2f85e64c0ed4f0378c2d0c0de73b8f33d12617da8b16c855e7213d348af", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-16"}
+{"key": "5a6acdaa415765e86226a01e94f1db4a7f33950dc10c56f0c081c4e73921e89c", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-17"}
+{"key": "dc4850f68f8f493dd56b7c36d99d9ff7f3b3632b76267e46c392cf7f5164dc68", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-2-18"}
+{"key": "67af904be217d5948937f6b9ed864ffa780ca9cb0a4a35f88d9e7457f5e9f4a3", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-2-19"}
+{"key": "788b652fea1c9c814bc66f02d9e47b4f90a48aac6e67f3c493617beed02d3e4a", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-20"}
+{"key": "0648c15ce1b4084af619b77aa663f6ec3f90ab1fc44b08521771de72a49e3e9b", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-21"}
+{"key": "67709a786d35ad80c7d0082bc85af5ba1542579728d9d024b2366897c5eacc0c", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-22"}
+{"key": "32d9579749183191e4ecac0ce10d1234e0b3d137284464cc7a0e3e7cdf150c77", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-2-23"}
+{"key": "f3a882e25b6fa186f60f5ece1d1ff8d39353d19e439b2f2de4587704258bd565", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-24"}
+{"key": "0602af88a5fe3ccbe600d671f7c16ea761f3fc728c9a98a9f992b1eca3ba74bd", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-2-25"}
+{"key": "ca21cd9aa9793848b1f970ce8279a362d414fd14accfe7cf8b2dca110598c734", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-2-26"}
+{"key": "e98c886e3e3602234018a6bc909f5be2e2d8e4346d5cf364af35991999c263c0", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-27"}
+{"key": "16bcbbb9ef3fbcff9d65cc401fada3b4ced6752d580910d06caa45039ba65f69", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-28"}
+{"key": "83847025cd389d823427ef1c96ee8dcb370cc77144ee84f05d188b38b02a3e80", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-29"}
+{"key": "41ad447a5f3b6112f21907c14d9a913569c1e10571ff45268ad2464aea18d2d7", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-30"}
+{"key": "c5a5d2bf93fc190c61e2d9233f957150413375dabb3ea5e08752e56fd5bf99c0", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-31"}
+{"key": "44a2007c30c6e341352ca35bdc78d63ecbf11cb36fb95c8c6fbc827ba28128a9", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-2-32"}
+{"key": "9d256a8c9b98dc37026ba99b60add8affe331c987ffb7fe8bb53fa49d544725d", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-2-33"}
+{"key": "ad70611b5bae884e60eccebd81604471238980771252083ab2540b031a04b98c", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-34"}
+{"key": "58fe9d249ffbcad604ee9445c5f326750ab6510e3faa840f20bf7e671f188d1d", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-35"}
+{"key": "88abc93e96775a13bf4e2c62ff7b4b46980404ec4b8980125348583ac60de9a1", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-36"}
+{"key": "48cbd4631a35575f302fceadd0e4a03a192daf1a0dd2c4318bd30830bbd166ce", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-2-37"}
+{"key": "54104bcf218cb770843544848aca4e0167882b8e81abd849924334ead07f902d", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-38"}
+{"key": "6647dd92c09b5398c0b67d4409d9117ebd34031a9560a594226eb33782f782b6", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-2-39"}
+{"key": "c55a269d0b96e40315feda6a3a5f052a51402c58faa114c489c851d3eddc6616", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-2-40"}
+{"key": "d49a06ed94a1be0480cb46fb9fb1744bba47e9b13cd35034dff0d89cb9044c75", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-41"}
+{"key": "25990653753e256f71592fbd2f4ce80b4cfc9117037f7a5435c75436c7ede73b", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-42"}
+{"key": "a9b77d35dc18bec17f51c97134aee18d8cc9e52c2afb62495ec9c232d3b998c9", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-43"}
+{"key": "7a731dbeb35649e63d98ec35aae0de62a4e2001d54f714e5ff4f1cc55e5cf797", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-44"}
+{"key": "aefdcfaeeb06ec67550c53f9a02efc874601831ad679c7de54ae65d3d7a9c1e9", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-45"}
+{"key": "a6d50d39fa853ce63d3112d4df5f54b98de2211af14342b569cedaffc7cf562c", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-2-46"}
+{"key": "3637cc5aa463b4b1ce07b2034490e5f305b595520e0b8738587e96b3ad0c52e1", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-2-47"}
+{"key": "19031a2a847cf41c64672d667cc52aa137603dd7602d23a7cf544d999b49cd92", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-48"}
+{"key": "d8663bbffbe4c966a86cfc40bf2b338dd92766c2e233741ad18ac45ead753b8a", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-49"}
+{"key": "5768dfa8c2a042a0553cadad946915280710d05b1f03c2092ec5caba5df6b645", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-50"}
+{"key": "41226c910f5b0c11d567152ea98deb04a99012d801a7ac27cd0eab5987bbdac9", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-2-51"}
+{"key": "88cf88eb571a5e1fb2f1bba3b236c7eff19a94985f673e1496f96477f92f37c5", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-2-52"}
+{"key": "ba48ef3ccb65d9a7b44fa8a3c87e861632ec454d09029075470f4d684419e410", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-3-01"}
+{"key": "60746208daa2e3c9360124d9b1a78393041cde27b8ebe6c7c6d39fd76336d46d", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-3-02"}
+{"key": "55fda1208a40f998e0b4d8af426a37c8d514d25380597b9b7759b585dfc1d1c8", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-03"}
+{"key": "b3d55ae74b4a5c020e9661e6659e44220ae075bded28e049649701b42c542e8e", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-04"}
+{"key": "a2e7e9ca1e67d63351693c297aef26a89efab56fa1da0d3c622be610fe28777f", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-05"}
+{"key": "d5f321c5043f1eabc52114c413912fad38a604a46e47bb740c26b91294712bb8", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-06"}
+{"key": "4215e60218e968548829f9ab307f3bbe7d257a3c8c51d2301ad455063dca066e", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-07"}
+{"key": "6cca46571ee3af313411aa841d3a82d7d83500468a2669ba1411432b4878092e", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-3-08"}
+{"key": "bd30dbbb3cfc34862b014776e42214b08f8f27630fff014432f59215b2f44a89", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-3-09"}
+{"key": "be326d00ada79233552b31c408b27b5e515914cf10da986d724521df70693ec5", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-10"}
+{"key": "f0f96b475bb0a4602323ea607b400d989a5e28186aa0efc36cdf31f232638804", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-11"}
+{"key": "f70c101d536f3ade5921ceb0cc7c7dbd9f35f6d055960385210d23179e09e6d7", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-12"}
+{"key": "3663b7296f99f767d540612db7ecf4d56d0edf92ac1c337ccb37783a61ddab3d", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-3-13"}
+{"key": "78a917b4a8d06ea1b66287da0c205bbc0f67afe2014507af51dcd1da9edbee22", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-14"}
+{"key": "a0fce68c0533073a2d2b2daa51e579aa09c825bfda31a703cdd7ae583f8ee5cf", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-3-15"}
+{"key": "cda45306f688e5cde65960a52543b205eb7fbcef81f5cfd0053586ba9db810e5", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-3-16"}
+{"key": "2f208096c24782bfa07a96ba9a14c71b26302ff0226db3525789ddf804f2ecf3", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-17"}
+{"key": "811f54a259a818c1cb43255ad5f43d76302bfa789e7f7ba7cafca3064956ab46", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-18"}
+{"key": "728fc0a486c0abce23c8bc3ddb1198f0ee15a37c311d720331c9237070e0da9e", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-19"}
+{"key": "d63dc4e28a446cfae8c45925205b312e1ca35660a80124402dd06568f51899bb", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-3-20"}
+{"key": "05d4be3ee7e8d91686d78ee50394187590ad6d70b6d26595c2047275a0149cec", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-21"}
+{"key": "cef89b62180f198714209ecbf43201693297c294092c78f73ddee70662786b70", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-3-22"}
+{"key": "92f38f118ccbc8b88c9d5859fa9026190cbe5cc3aceab3d19fcce2ec2a7abfc5", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-3-23"}
+{"key": "ecb31dfd4f780292b339a42bab1fc03d39963ade4add613b2fb917388e4d0526", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-24"}
+{"key": "852aedddc586998e70bf242abd64cd810f9f776c777fd487556757b04497dfe3", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-25"}
+{"key": "12515e6a859ee56606915d1932bf632c3ae28ba7f7f2f56058ceab952730bb54", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-26"}
+{"key": "3df92b6b21538cdede9b8fefe040590c54a4596724232d38484c77fd4bd6870c", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-3-27"}
+{"key": "27b8918989efcc986d7f33b881569ff3c349070c5dcf32af97008feda346cd4d", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-28"}
+{"key": "ef450438010cd95f8e50b4eac435c4baf3d8fb23325edcfcca0c1295463ecc7e", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-3-29"}
+{"key": "f73da5724f20c34b3f5b3a6bb650ffa40f7225d85a9254878bc4a4144c39d8d1", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-3-30"}
+{"key": "bd9b6cc6235f8f823afc4bfeafd0b47f02f7c9a2880ad588dce1edb8fe316f83", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-31"}
+{"key": "c76cda43d5eaf983de693767cd7c27c33a982bb05690b92f62f667c67278bddf", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-32"}
+{"key": "2db256bcf134a4af3d18283d49586e9c4858bc3898c7d22464c4d0372fe44e04", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-33"}
+{"key": "a87d08773d8b32956aa82a7aaccb26f8f8374e35037b990ac6eddae69ecdd8e2", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-34"}
+{"key": "54c935a2b1b6bfa5b9d3f90077c509aaa27f3c42d2349b5bfceb978e3a858a37", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-35"}
+{"key": "379cbbd17944ec527f56863fdee4dce57f14d7790b3def98daa33e479f6a03d4", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-3-36"}
+{"key": "6200e1a104934cf14b42ca9ceddd7c65568592cdd50ce908f632cf3b02a79cff", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-3-37"}
+{"key": "ea5d79d9fe9c463b6491103d661800c2aa305b3af83c32084a8d4da30f4ad9e0", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-38"}
+{"key": "c0c17542e964bc850c2f93c1889e4ae7f2fb760ac3ffc252bcee32849fc6f883", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-39"}
+{"key": "f1ab2c367e2915ba118bed0ffa4a87d15eb7055bd304b86dffb47ffd97517487", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-40"}
+{"key": "e42cf0d6d074da756ecbd2752e426c46d0ff8de7faa532cd24df3f27870b7ddf", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-41"}
+{"key": "3ac9f1baac5fdd2f78fd1b27ce03f14bc2ce704734bf53bde7292f8559aa9339", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-42"}
+{"key": "06ec151a51055f9b363eced12ecec5102bcdc652085efef17cb72ed6328b1bc7", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-3-43"}
+{"key": "c4b0c2bc7a37c41900e805284e99716899bf7d021af0b8f7e5009ac20b5b9377", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-3-44"}
+{"key": "d6923de30df6fd3613414a6cca5d8139a95b7fbaaf16c7558a58ab0f8aba3b59", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-45"}
+{"key": "045768e36d5edc3c74ad356d9f639a2dfced1369f089628b865be6d43ba6b1da", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-46"}
+{"key": "9417986eb1a623a6e220d12ddf8fb6b823e20577dc45ff10f3c88118a2326bfc", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-47"}
+{"key": "b85a8c3ed94c290abc50ef40d0807f98166e559a5fef0a0394211b7420a7cf0a", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-48"}
+{"key": "ffb94061f17c6dd87dc62bf9ffd334ff9735c9f33a611f52e607733725bbf40e", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-49"}
+{"key": "0c74c783a926c41218b342b68870bcabf9b70b59ac38c46152ee102021f33ad2", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-3-50"}
+{"key": "96d649f09d4af34b2a1870622892baeb3c943e544cc3a3cd265c2a80b34067e1", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-3-51"}
+{"key": "b26467a7834f4c4f9275f4655461e1d999084d8722d09a8d9254943a116ab0a1", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-52"}
+{"key": "b83fb89cc515e98e9aba4159a1b649792f7725e2942623a8d2ea741ea8ca6d98", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-53"}
+{"key": "9a52e94901147fe85cc0b8d7265632547fec3966c0f4610c0735dcc8d70bb361", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-54"}
+{"key": "b2dd3b49097c149e96651134629378f8fa57b052e02569b643b2b5f31fbbef3f", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-55"}
+{"key": "84c6a062abb52a0a769e54d18a9e2e4345f01f484cfbab39d1a240c554ffdb58", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-56"}
+{"key": "e4c2dde435d988c0c838942d5de92069035c4c39382f27bee6b26b342673c819", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-3-57"}
+{"key": "a457b1680ba69fc8f4a885fc11b0d4b39dd67aefe542f8d8da4244a17224be32", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-3-58"}
+{"key": "0bec783132c4c5f65764345c9abdcd958495d001c2cbc054378c5fca94602715", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-59"}
+{"key": "b4abe54bea1112a4d02384333d92c535b917eb49bd6f058ec20e85a3601f35d1", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-3-60"}
+{"key": "fde274a8963b80ffb686063a667f2f0681ae30e817448583bf670791c956f869", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-4-01"}
+{"key": "7f340ad01dd08b61efe6abae976b1722664c92a2b890ac3080662ccc32512aa5", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-4-02"}
+{"key": "da546c104f4800411abbe047e06c1a393df7205596b391e7fb23770231c44bfd", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-4-03"}
+{"key": "fe40381cf7e862c234a8151b490ae70d4682cf4e9caf618840c6b1d361fcf47b", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-4-04"}
+{"key": "c8af1b2b88c8a66e0361ac18f572ff9bf7c3d75442708f0d23016d78e530ab1a", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-4-05"}
+{"key": "ddfa26f3be1148612ab6df4feafd7086306fba61ee2072499cd3e6f61b027bf1", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-4-06"}
+{"key": "ab162c7c7e3ef2063854a3a20d4b11f692bd5e208b0708da8ddb4a9989f065fd", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-4-07"}
+{"key": "0c422ad5c5041a05b51cc7035dfb985b2690190d375570e52d704a12f7db566b", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-4-08"}
+{"key": "66919e2e0d82530e39fc4d9df1455ff6039915fa5bfbf6e596d946fed18a969c", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-4-09"}
+{"key": "3e9bf89120ff01d11ee67f0c4a9dd5c9ab6ae3150dc7a5c88b3e70920b6c310d", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-4-10"}
+{"key": "fefc6eddececd092dae6ad653dd43310e5742fca48f52266556a10fbed147183", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-4-11"}
+{"key": "efd7379299512f2ea68c4e392b4d56d8ed37930e7b2062c0962b6ae76656e57c", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-4-12"}
+{"key": "1c151f2ce2644a11afd4c3b07b3cb2508516c8f38e3574bf31f6bd895e6f3455", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-4-13"}
+{"key": "61c708f858d6ce8c2e0f6da1261f45e45d4aa7ce6a2264a66568c6c5c64e09dd", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-4-14"}
+{"key": "945d14eaf8a1f2c813dda0bfe7fc67123b18831a4494fcfc651d4f9670658f35", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-4-15"}
+{"key": "dbea5624586edd5742dc71f3c66bc545285361b410a8308aa31da610d31a212d", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-4-16"}
+{"key": "a864ed17a02262247e6839602bea30de696292e16a778569a369547e74fb75f6", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-4-17"}
+{"key": "fcd5cb25c616614fa7719f2ec6477798720c378674667d7b0a7c8b5727659285", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-4-18"}
+{"key": "76455afa0c30a0ea135872e75988358cc11ed798953b0a825742a871372e6f0b", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-4-19"}
+{"key": "ab4a288c85f5a4651330d49f4143038aa3f993a7f7dca9b442702d364a29f565", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-4-20"}
+{"key": "08dc30c92042477b789d3ff7c4ad27d249de7016ede2aa930116b673f2c191df", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-4-21"}
+{"key": "502eb17d251025c943e8f42e1cf02b3f3dcc917a197c090d28a74a5dfdb76bae", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-4-22"}
+{"key": "3cc6f3a6b3db4ddcec816addd9b0ffa7f13dd363cc861b84efb5de416790fa5a", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-4-23"}
+{"key": "ffde5e1acd9d59e365beef07db04238d7d46823a35a2c103e23e8e3264cabba2", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-4-24"}
+{"key": "fcfddee29df0072eada65a3d0b81178ba84856f9e5d7bbab6286d8c4f2d919e9", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-4-25"}
+{"key": "e6bb999bbf96716dda03d6be0b42fc42b933e8bd6cb543161a02fcd110bebc0a", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-4-26"}
+{"key": "452a79750ab73d5ce66431f78108a0bd4d90ca657091dabf76b79a3c8ddd17ce", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-4-27"}
+{"key": "8ca4950e5879a40a42fb22930f90073c1cbfc561d2d6416c05465b3c82d63303", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-4-28"}
+{"key": "194a4099285fb117b9a4b8c83032996b45f44fa636b768d107e15c0166203900", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-4-29"}
+{"key": "0cf1daae3b52e994daad461c1230211b4053b03ec8e01ace214af6cd44ccab09", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-4-30"}
+{"key": "eecdd23dca3c8d594a4de7ecb60fcb42c9f52ecbb547431758d7a032af5b98f5", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-4-31"}
+{"key": "a64d77043339f2a8a34964650c7eac0535684b9376932a54ff0621de3dc39881", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-4-32"}
+{"key": "71979597b1c3cd8d802742eb4cc7cd2956f12297e615a04d43efa5e95aafa599", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-4-33"}
+{"key": "7a193410c893255401707e5fe0767a9d1e2b827b8efe318a52cd7077d6bad834", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-4-34"}
+{"key": "38e178bf64ffac7ba2b3b00d0559a86003377bfe0c021d891cdc810cc2cfd092", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-4-35"}
+{"key": "41d5cb3e16bf4181b62be97ac940433cdb00989dc24efdc528470e8428ea2f81", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-4-36"}
+{"key": "f5e3e0b27a380fdc15a4afc6e32f0cae87a4d3baa476b986d6d3e19564baf8bb", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-4-37"}
+{"key": "a1eec87fdbe5a2c5497c4016efc4248756ab91e27ad5afdd5671dd003b8f0f27", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-4-38"}
+{"key": "f79ec521e5b7749b92b30d3b23e73b1ca2e59dea994de654cf2da49766e04e6f", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-4-39"}
+{"key": "f791b569fc9299769e7283974d8fa48a5329eae762d47dbbf2ef0adacc717e6a", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-4-40"}
+{"key": "cd26c588481e39dda348ad1e26315664fb2473534e76b3d3956346556e62ac61", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-4-41"}
+{"key": "bc3009aee1b2f3ec188c2ff0e1e63a0db255807e684cc20e63b27f51d67ee042", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-4-42"}
+{"key": "6b49e32cc37f3210d25492cc9933124a076ed8dcb07bc0afe40e266b79e9ca5c", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-4-43"}
+{"key": "53a2f8a801b4848b46f6a4c56bf04616af04c1ac00952e91b17eab8e5afad7ba", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-4-44"}
+{"key": "37178f13ee0ba1941520e4c3f87afd7b844eba7380ead7bb56729e2a39aaa749", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-4-45"}
+{"key": "25de783f164178c18ae4314868203d834ce7416857c972c2751e0c5d6f5827b6", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-4-46"}
+{"key": "25ac20a009442faf01fcca2da6bb51f25480f0c47123cb5c425462a0d2385a68", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-4-47"}
+{"key": "987e3a4fffb9db52dc4cfd983867af514d1bb0627ff6a8cbb13c66c189f9a4ae", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-4-48"}
+{"key": "ca2069ec1acb662bf5f9f9d0a28cc52deca54e2143e3169acdb7e7aad2eeff66", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-4-49"}
+{"key": "bd17e63ca1076501bdfcc336d7d8cb4ab8f990ad82d5aed9d25b570ff19a0c3c", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-4-50"}
+{"key": "c537819122d901a5a3eb3beb4b079f28a314ac4e6d42fd32ebcc8c151e27a8df", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-4-51"}
+{"key": "5b968c8aa0fc64d7cdd9fa68ee9845b0c001af15724a736ae7e5ad203436cf57", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-4-52"}
+{"key": "183870ad540577f85d3485997e2f0539cfb21548b60cf9a729569d6dd38f65fd", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-5-01"}
+{"key": "e47a36a3341ec66cb00d3ab85de61070cd22609e6544766d437b1ed2e1cc457e", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-5-02"}
+{"key": "96c8f979f759600e3f80e8e5ba0faf00d3b337887be7c505d8efc76f6862fb2a", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-03"}
+{"key": "1acf293a3e356340264bde99d57e0a0dfd97504dc19cc45ff28b35b94ac340d5", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-04"}
+{"key": "2552f3d1119167179a78cb5d6dcc776261c138bc0e669b600ebae89d4b05e7a1", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-05"}
+{"key": "f581f9a8e42c59331f51f6ec1a0141a1f5ec83fd34e7e40513093c739b59a1c2", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-5-06"}
+{"key": "a661ca0f09af0f2efbdc81198aa622d34bae4578b14103c55f3e4b7c3aad7cc0", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-07"}
+{"key": "da391dde811ec5a19771a9cf114eff13d3396fff33c10be7f6158a96366d0718", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-5-08"}
+{"key": "eaaf4ac14714eac91e74a24837864dd6b7aec185dc9b418fce53c3a603f4d032", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-5-09"}
+{"key": "ebd911a5c4b60042d8e96f09474f4ff5992b0b7d12d26054581bf75e2b8fab35", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-10"}
+{"key": "c88a28b6503b977e5472c2cb4c55a8f76b9ed0b10f5419fcbfb2d5994dc82180", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-11"}
+{"key": "d019e92b6ffaec11c58a74008b64b0a53d3785c650a4ac16ca4794b70610626b", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-12"}
+{"key": "678073a3547ad98a3b45c1eac9ba627e9e7a2cd50dae351e93968d81fdea7166", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-5-13"}
+{"key": "32e8cd4c52ee57a19540fdbd7ed6c487a2f25c73ad95cf3e1d4c4037bf35afb4", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-14"}
+{"key": "81dbaea08b4c7ec480897e79bf32ab266ccfeee38e34529089baf51ec6922932", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-5-15"}
+{"key": "031b99536f02fda8629a44ef5bb0ba0b3c9f3e5f7e6f890e6fb56f5b6d05df9e", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-5-16"}
+{"key": "e334d39f71de9db764d1c87a6750f00361e7e09852e233a3100a8036019c5378", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-17"}
+{"key": "489af758681573a8f905743e7328cac853827ed8ee80d50a5f38aa8e2c679b53", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-18"}
+{"key": "8e04c9cf6cbaf195ad20f95ef958f649dd3d76ea776a7c3ea295bb0886a44975", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-19"}
+{"key": "c856fd171b64dcb0e3212d44f08784cffda7c37d780e25ac5c3856f00045d3d6", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-5-20"}
+{"key": "b19bd19837b7c43fda3e1555418160ed30b78434493e3dc799557f4a817523db", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-21"}
+{"key": "fe5492c0ce4182a1b20137de9b108eaba7189906db4c68b95b4a327c9e5fd1e8", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-5-22"}
+{"key": "38de93378f3cf01b76201466876b20c2734e9607b9eda4a08aeee450ec3e9f10", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-5-23"}
+{"key": "754934536eae3d26190b50893a48da08b60a33a64a417cde40c9e33b2ab593c0", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-24"}
+{"key": "63354a83a8352d8c04bd98f0d3e9845e31a197be5ec63c02435758d960736ff0", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-25"}
+{"key": "127f43dc17acb27ae5cc594e1770bf2da587cb2678b984ae8f9bb20d725bf238", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-26"}
+{"key": "fa86684e29a625c5839601d7fb0ccfc86f461092020661ac9c139ae5dad19002", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-5-27"}
+{"key": "846b18fbef202691bbeec9954f63f16d7c6d07e6549ce4a59d5c7502d49ef725", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-28"}
+{"key": "edb28cf42d0597a835e649f23364ab42a7446ae452bf703e6181150643c28a78", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-5-29"}
+{"key": "a7968126d7f05c220ae26ff090d7b7aa175587b9d680993a3989110c9d37438d", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-5-30"}
+{"key": "f76978d9521783ddb1337e07379780c7ae43fdf08180d2b7030c4d7f70125c45", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-31"}
+{"key": "418af3ccbafcee80024c11ddf6b127e6fdb7ed763fa96497681becb71a06524e", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-32"}
+{"key": "1190b38ccdb562114b01e6569fe91d6b8d498361455750282172d1ebe8b20a64", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-33"}
+{"key": "8dd2064cf3ffad79f91a5764bcc2d9b28a059d64a0dc3f933babaefeb3e60058", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-34"}
+{"key": "ccbda8a0702b8c4e442f46455573a6527879eb7cc9a34f2ee449683d47423562", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-35"}
+{"key": "89cf69f6a52aa02d832c3eabab5f5a7271a6a42965130b7a0d5422ff05741b10", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-5-36"}
+{"key": "b2cc30905912e27bf9600744dc6632400fe71aa4e2b0f1ff14824ec1953eb9e7", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-5-37"}
+{"key": "5ef7a7d8d37245fe9fd394296faeb0b6a4b1cc63359d5dd0f98898c6f4eaad09", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-38"}
+{"key": "7f471d931f7ca0a5b5cb5264895e874f07c8dcceac66bd852b7307cd497a632c", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-39"}
+{"key": "b5034bfcbcbd15db8dfdf48f25b1c383eba59bc65932ed674c463886c1996b26", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-40"}
+{"key": "5c5f3a7d46b8a7a90d0d6953c47b457c0cb421390b9454ccee3d1e1cb993439c", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-5-41"}
+{"key": "b3c40e0390bb8e712991a3609bd58b370245b2c960f47d2ea3d117cbe7b6684e", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-42"}
+{"key": "cc1a59265305240fe12c3e06249f7e3882ed701077c3d1266b65e2002fa9b9bf", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-5-43"}
+{"key": "76ef46beff5b1c038d65e01acd12be5f666f725862f36b33c98918f08c65191c", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-5-44"}
+{"key": "66a9579b8f55ce49f3eaf16ac71096a5d1ccbe13e5f3dacc6aa78fad3f10352d", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-45"}
+{"key": "fa053c5ff801bd8a15c776f157b3d230552eaa6362668d4b5a9969265ba34320", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-46"}
+{"key": "bd4dda98c1b723385187e7eeb251117ad5dac56890eb58aeec9e3eb97f213223", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-47"}
+{"key": "7c68dc1b7136e8a9ff7503eefd2714695271f9167d33cac7eb1d52b3683d2a51", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-5-48"}
+{"key": "6c6e2b67a80bd95f6ed40814cd5ce36515868b260f782cbd2d3b8aae2eb223b7", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-49"}
+{"key": "d491bafeed9e3997d137458f805cb00ab562744c0f0af8b10f03568299540dc9", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-5-50"}
+{"key": "0a9eb9d0fef5fb286a70b78bf74d9f34e52f840d225339158cf1bb6e7d2c860c", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-5-51"}
+{"key": "58430dbeb6a518d482942234a2b0680a439100fb2c2eb1ec4475281230f0c589", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-52"}
+{"key": "4dc64d9698ac909dfb36af894005e4d92adf689e6e792f4aad8ec0c42cd881fd", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-53"}
+{"key": "646f120671dca7f946230bc8de8dd3bd31f032212d0de64a34c1cb880b3ddb7e", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-54"}
+{"key": "57e5f57d6aada20989f144b8151200525ec841ce4d0b0a885f973eaff42f4507", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-55"}
+{"key": "0a95ffba8220eafa768c0ed0cebb718593e0c1afa5c8376c2b27cd955c002e22", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-56"}
+{"key": "80c8f8dda24c8c4565308fd368448985747ef732bc9bdc33b4908f4e769b2be9", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-5-57"}
+{"key": "77660bec1bd7346ae0df6cd18a75f34e2d410b8dfdc6c9aec8e1f849079ebac0", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-5-58"}
+{"key": "3858674de87be4c21a21338cf9a51e1f4c21593e601964070b4ce9050d6d934e", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-59"}
+{"key": "63c2a5e0124ec6bf0bda5ba83d304b7c25a4bf4b7fcb6c0f3b0bde584234aa1b", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-5-60"}
+{"key": "dc08d5a28a69f760e2a925a3cec3ed3ede4c6ef04685df16c3f35d78ab0c382c", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-01"}
+{"key": "be8c73b9c13d54a83d84599e494dfba7d2ec3ae8372a9425be3a1cd2530ef07b", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-02"}
+{"key": "d757a180deae0cfc45de33d7f8ec42369dc25e51a80da9c0daee24dfbf7b37fd", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-03"}
+{"key": "1fef809d8431c2b61cb72390f7ecf1c8c5af845338dbe9b402f32c2f49079f11", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-6-04"}
+{"key": "a8bfe2a54520b879735ce9c184679457e6aa6b20272f4ba3c5cf940263161cc1", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-6-05"}
+{"key": "e1890fd209ff5b32a054fe1cb6b3e6fe84b991c73a948bc3b10b9a4b46f570e3", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-06"}
+{"key": "58ebe80ee4eb36dfbbfa48f8bb620c84714c6c96084d595fed05948ead2d4446", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-07"}
+{"key": "0a6b70390e2bcf879fd1d41718a92427a013c3f8c73f95ac33e9f31f0ec82642", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-08"}
+{"key": "24d6ab5487f6475cf19a11bda3f84e78c96132fe25c0c9c9710bedd5013c9441", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-09"}
+{"key": "cbb26ceccd0e186361668a24054a71023b0cbd9fa8dfbfe0a0e9c715bce91422", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-10"}
+{"key": "ffce714aa26976815b69c1abed6363d14e6cecc88d1c14cc1a04571c078c94f3", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-6-11"}
+{"key": "cd4430f5266bf0a43d934904d69a67dcc4e44cdcbd3a4e5e2f3eadd874fef75f", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-6-12"}
+{"key": "f35df7853262fc631dbfea47ffc876813f95b5c8c212a5d843014274b4666bbf", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-13"}
+{"key": "c2c8842b4e4eef3c41e09badfc305a9e69d6f3eeed711470e154fc7a9f0ecad7", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-14"}
+{"key": "5c883b7864e3b6e4d34b300ebab90df369bcc054205e7624f6f2b1c6cc41a9e4", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-15"}
+{"key": "d72cd07d1eee79817b10a7555e9f6207384289cb9427197217cfeed3a599f945", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-16"}
+{"key": "164a6b04f51d603299be12eecf7373432ecf0d66e7a560200215d9d312b9639c", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-17"}
+{"key": "5c1155b28709b6f6c3cb8a4b848384688359a41c7250ff69c72ec50a6140ec80", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-6-18"}
+{"key": "6007ea3968d4932da1d9fb17981a9c81fa7f8792430215681dcba4704822ec63", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-6-19"}
+{"key": "e2eb0df6cef628b79501ad52fa7ed50380866d7bfbd047c3024dde1e09f132f8", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-20"}
+{"key": "9fc6b0b763c052c4f5c8c949004c455ffada254cefa6c2cce647c7415e0b0f05", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-21"}
+{"key": "22c9f770239ae07c56b10df488d14a59302788ce2e47f4e7220050b805f134af", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-22"}
+{"key": "bed15bf669f4f46e6ebd50429677f09ff8e1993c3cb7267abf64caaddc4e3895", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-6-23"}
+{"key": "4ae2e9d7a62d6350b769734ddca945e448c38063a8b8da4bf3b9af4e39bf72f8", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-24"}
+{"key": "5418dea964a2a0ab143c52bf1a3de268a1db94d49268cc74afff73c8af651a72", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-6-25"}
+{"key": "170e6a11ca76054440023d763560571e2eb64a172b4b43391a7775b8841848e8", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-6-26"}
+{"key": "bc357ae911570f50856900365852afdb2179f9e49bb6df91b6bffa65c94adac2", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-27"}
+{"key": "8277c5b8137b9ffa732a238e685d77841170b6c64edfa54a97ad1153347b8594", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-28"}
+{"key": "bbb81dc81a1dbd8677684dcd2ca24f65d172061f694d806ec6dc7a2ce9fd878a", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-29"}
+{"key": "075cdc8f9e9e6f8a33b95ce6c41ec3c0ebc5734944162a0906ec26b1ff3a242d", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-6-30"}
+{"key": "b4b6c64d98dac4e722cfe6be2ae2707009aa7464f80565526837e99bd64ee9d3", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-31"}
+{"key": "36ab1908c07c024b0d79698e93c56af24b2203ca1512cd0d105e065c7b9f7cf5", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-6-32"}
+{"key": "0485146c62ab09b3e7ff830be86badb4ec4258f4e511933362300b20e1ce2aa5", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-6-33"}
+{"key": "81b67ac718848e43470f38244363847e2fc4128ea825189de6efa73f8444af48", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-34"}
+{"key": "07a1bba86aa43ccf40caa69d38405af71a754a07f70fa2512312e5d617505e7d", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-35"}
+{"key": "6372972b30363c839345cccc2dd58c8afdee8f02c4dbee3965567bce289d5b17", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-36"}
+{"key": "96e3e86c0f78ea9ae22c97ce99c1476a1ab76a1fb1f9814c994f68c8d1e62738", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-6-37"}
+{"key": "00607690fad1139f4d18ee631ea94b129686da5f151d03071fa351fd5a813251", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-38"}
+{"key": "67b69bc4c653dd25e1be236c86e6de6968e93509554c4286b520e44216dcdd1f", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-6-39"}
+{"key": "9ae18ab9348c4928196776dcb5fbbc5f8a52497f2e9e7750df06c50dea356cd2", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-6-40"}
+{"key": "9f10f7aebefca92e9d17283afb8ec637cedd4b165937fb9f75fff46c76de5ec5", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-41"}
+{"key": "4b09b8c7d65aa9964017641a80bf6543b5bd4580818a6f69c1bfba4cd32b9168", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-42"}
+{"key": "5967d34e08333aad1c00d468e201617752b253b4aec0b1c0a9287427f80e124c", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-43"}
+{"key": "c95067d30232ec0a51af6f242533ee199a6ec8b454c7f317f05269ce33f7e9f9", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-6-44"}
+{"key": "62e6975f1cb45f486da81f2a58898445edd3e8557b4555b911c2c6ebd9e2148a", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-45"}
+{"key": "a21285d86b37931b734d21e535fc4547a4830a0f714da8d83e92fed316b42c24", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-6-46"}
+{"key": "459d0851744761818b915f18754753dbd35df72aa2d97eef7dccc980c6ebcbb7", "text": "{\"action\": \"ASK\"}", "stage": 21, "id": "021-6-47"}
+{"key": "ee3b613c6a097b752a349416e05f8b7e55b48e3557725e3fe756af22bfa46bc3", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-48"}
+{"key": "f67ffd52b5383e31db561c964987b741d0ab07731b7e58e5ca8412bacb673dc8", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-49"}
+{"key": "35c83d32cf75855066dd2a45e6cfb5ec8b66dbc4a1e9f09b3f400d25805d72a5", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-50"}
+{"key": "c770f8e46b1f8c804b7e0abb0f2b12afa5ee158261bab3ade78e8993b160e0d7", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-51"}
+{"key": "99d3754026a4e5373458f53fa27cfae653418f5c36d31e49dff881b85b6f09f1", "text": "{\"action\": \"GIVE\"}", "stage": 21, "id": "021-6-52"}
+{"key": "b66e6883ff9a244e792a61f12bda657dc5235b5ccbd7d9eafd0b4c4c877bbe24", "text": "{\"op\": \"insert\", \"target_id\": \"s1D-s00001\", \"new_sentence\": \"Declare GIVE and choose GIVE when your partner also declares GIVE, since mutual giving earns +2 each.\"}", "stage": 22, "id": "022-1-01"}
+{"key": "25117d819754a6eb7aab2bca21520e1b077791a9d0eb19413fce8d14d46a829b", "text": "{\"op\": \"insert\", \"target_id\": \"s1D-s00001\", \"new_sentence\": \"Declare GIVE, and if your partner declares TAKE, choose ASK so that you avoid losing points.\"}", "stage": 22, "id": "022-1-02"}
+{"key": "0efb3359c0b868c9f10c6db7712c1501f29bc319f3727795d0764301ddc51e6c", "text": "{\"op\": \"insert\", \"target_id\": \"s1D-s00001\", \"new_sentence\": \"Always declare GIVE honestly, then choose GIVE against partners who declared GIVE and ASK against partners who declared TAKE.\"}", "stage": 22, "id": "022-1-03"}
+{"key": "354a9b76c82bfdccc208a5ce770ea680bd34989dd6f0af5663ca22875a2cd8ee", "text": "{\"op\": \"insert\", \"target_id\": \"s1D-s00001\", \"new_sentence\": \"Cooperate with partners who declare GIVE, because a steady record of GIVE builds trust and avoids the penalty of mutual TAKE.\"}", "stage": 22, "id": "022-1-04"}
+{"key": "eaff562aa1bb7eb2b9bf831e771051268e5dd6e5afdcacb8d898c10464fa1a8e", "text": "{\"op\": \"insert\", \"target_id\": \"s1D-s00001\", \"new_sentence\": \"Declare GIVE, choose GIVE when your partner declares GIVE, and choose ASK when your partner declares TAKE or has recent exposed TAKEs.\"}", "stage": 22, "id": "022-1-05"}
+{"key": "9e762ce7bb6f3c24ef2995e35b757d8a3986477987f0aff420169ffa794e8dde", "text": "{\"op\": \"insert\", \"target_id\": \"s1D-s00001\", \"new_sentence\": \"Check the partner's declaration and recent exposed TAKEs, then choose GIVE with cooperators and ASK with likely takers.\"}", "stage": 22, "id": "022-1-06"}
+{"key": "e123f3e3e67b9723665382a210952f8752f5651c254994b37886acc2b888196e", "text": "{\"op\": \"insert\", \"target_id\": \"s1D-s00001\", \"new_sentence\": \"Declare GIVE every time and match your action to your declaration unless your partner declares TAKE, in which case choose ASK.\"}", "stage": 22, "id": "022-1-07"}
+{"key": "85fc6609d88dd6e1b2c63664df816f7714ec682c75265dc8c8647bc55b42ce26", "text": "{\"op\": \"insert\", \"target_id\": \"s1D-s00005\", \"new_sentence\": \"If a partner's public record shows recent exposed TAKEs, choose ASK even when they declare GIVE.\"}", "stage": 22, "id": "022-1-08"}
+{"key": "87de67fcb0a0a63aac8b96bd4da3bb77a2bcfab34410312ef84f2d93c96b22bd", "text": "{\"op\": \"insert\", \"target_id\": \"s1L-s00007\", \"new_sentence\": \"If your partner's record shows a recent exposed TAKE, declare ASK and play ASK rather than risking a loss of 2.\"}", "stage": 22, "id": "022-2-01"}
+{"key": "dbbaefb7d1a266f92f97d1883703f026958b835bca1dd65a3f1151a6702d5dc1", "text": "{\"op\": \"insert\", \"target_id\": \"s1L-s00001\", \"new_sentence\": \"Open by declaring GIVE with a short message noting that both records are clean, since mutual GIVE pays +2 each.\"}", "stage": 22, "id": "022-2-02"}
+{"key": "86ec76d540bd812a94285b622bc28ac74d158e37dbfd5b768ed4db0333c55ef8", "text": "{\"op\": \"insert\", \"target_id\": \"s1L-s00001\", \"new_sentence\": \"Declare GIVE and play GIVE when your partner declares GIVE and shows no exposed TAKEs; otherwise play ASK to avoid being exploited.\"}", "stage": 22, "id": "022-2-03"}
+{"key": "a99da682ab3188bbec20824e6f5115b2bd7541651e86dd4f939cd7c4837e4d57", "text": "{\"op\": \"insert\", \"target_id\": \"s1L-s00001\", \"new_sentence\": \"Declare GIVE to invite mutual cooperation, and play GIVE only if your partner also declares GIVE and has no exposed TAKEs in their record.\"}", "stage": 22, "id": "022-2-04"}
+{"key": "8235416f863373bc5403e7c9411d9186d1e92fc08900f9d5b2e87dd739cce2d0", "text": "{\"op\": \"insert\", \"target_id\": \"s1L-s00001\", \"new_sentence\": \"Declare GIVE, play GIVE against partners who declare GIVE with clean records, and never TAKE, because exposed TAKEs make partners refuse you.\"}", "stage": 22, "id": "022-2-05"}
+{"key": "e53c77291d4da3549bae3a98852e59907ef87bb9da7d781c3673f7899d71abb8", "text": "{\"op\": \"insert\", \"target_id\": \"s1L-s00001\", \"new_sentence\": \"Declare GIVE and play GIVE when your partner declares GIVE and their last exposed TAKEs are absent, otherwise play ASK so you never lose.\"}", "stage": 22, "id": "022-2-06"}
+{"key": "fea026ee6e55951ab36fedb843dec4bed7bce265457601c4bb141ec29c6921f9", "text": "{\"op\": \"insert\", \"target_id\": \"s1L-s00001\", \"new_sentence\": \"Declare GIVE and play GIVE when your partner declares GIVE and their record has no exposed TAKEs, and play ASK when their record shows one.\"}", "stage": 22, "id": "022-2-07"}
+{"key": "81349f55c04f61e2534bdd31993eb27be9e5dec4515e45ae3de008dd84735abe", "text": "{\"op\": \"insert\", \"target_id\": \"s1L-s00006\", \"new_sentence\": \"Always declare GIVE with a brief note that your record is clean, so partners with clean records invite mutual cooperation.\"}", "stage": 22, "id": "022-2-08"}
