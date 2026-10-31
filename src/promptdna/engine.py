@@ -202,7 +202,76 @@ class SeedRun:
         return encounters
 
     # ------------------------------------------------------------ benchmark
+    async def benchmark_genome_parallel(self, pop, gen, agent: Agent, table, rules) -> dict:
+        """Deviation used only by the subagent mini-run: all benchmark encounters of a genome are played
+        at once (2 batched steps instead of 2 x 6 sequential ones). The genome keeps a fresh, empty
+        record; TIT_FOR_TAT declares GIVE and then plays the genome's declaration of that encounter."""
+        win = self.cfg["game"]["reputation_window"]
+        base = {"seed": self.seed, "pop": pop, "gen": gen, "phase": "benchmark", "agent": agent.id}
+        order = self.sched.bench_order
+        stock = dict(self.cfg["game"]["initial_stock"])
+        ctxs, sctx, metas, opp = [], {}, [], {}
+        for k, o in enumerate(order):
+            cur = self.sched.bench_currency(gen, agent.slot, k)
+            opp_record = game.format_record([{"gen": -1, "declared": "TAKE"}] * 3, win) if o == "ALWAYS_TAKE" \
+                else game.format_record([], win)
+            ctxs.append({"k": k + 1, "n": len(order), "stock": stock, "currency": cur,
+                         "own_record": game.format_record([], win), "partner_record": opp_record})
+            metas.append({**base, "bench_k": k, "opponent": o})
+            if o == "SURVIVE_AGENT":
+                sctx[k] = {"k": k + 1, "n": len(order), "stock": stock, "currency": cur,
+                           "own_record": game.format_record([], win), "partner_record": game.format_record([], win)}
+        jobs = [self._declare(agent.genome.text, rules, ctxs[k], metas[k]) for k in range(len(order))]
+        skeys = sorted(sctx)
+        jobs += [self._declare(SURVIVE, rules, sctx[k], {**metas[k], "agent": "BENCH_SURVIVE"}) for k in skeys]
+        res = await asyncio.gather(*jobs)
+        dg = res[: len(order)]
+        ds = dict(zip(skeys, res[len(order):]))
+        for k, o in enumerate(order):
+            if o == "ALWAYS_GIVE":
+                opp[k] = ("GIVE", "I always give.", "GIVE")
+            elif o == "ALWAYS_TAKE":
+                opp[k] = ("TAKE", "I always take.", "TAKE")
+            elif o == "TIT_FOR_TAT":
+                opp[k] = ("GIVE", "I mirror what you declare.", dg[k]["value"])
+            elif o == "RANDOM":
+                d, x = self.sched.bench_random(gen, agent.slot, k)
+                opp[k] = (d, "", x)
+            elif o == "SURVIVE_AGENT":
+                opp[k] = (ds[k]["value"], ds[k]["message"], None)
+            ctxs[k].update(own_decl=dg[k]["value"], own_msg=dg[k]["message"], partner_decl=opp[k][0],
+                           partner_msg=opp[k][1])
+            if k in sctx:
+                sctx[k].update(own_decl=ds[k]["value"], own_msg=ds[k]["message"], partner_decl=dg[k]["value"],
+                               partner_msg=dg[k]["message"])
+        jobs = [self._act(agent.genome.text, rules, ctxs[k], metas[k]) for k in range(len(order))]
+        jobs += [self._act(SURVIVE, rules, sctx[k], {**metas[k], "agent": "BENCH_SURVIVE"}) for k in skeys]
+        res = await asyncio.gather(*jobs)
+        xg = res[: len(order)]
+        xs = dict(zip(skeys, res[len(order):]))
+        rows = []
+        for k, o in enumerate(order):
+            o_decl, o_msg, o_act = opp[k]
+            o_valid = True
+            if k in xs:
+                o_act = xs[k]["value"]
+                o_valid = ds[k]["valid"] and xs[k]["valid"]
+            pg, po = game.payoff(xg[k]["value"], o_act, table)
+            exposed = xg[k]["value"] == "TAKE" and self.sched.bench_exposure(gen, agent.slot, k) < self.cfg["game"]["expose_prob"]
+            rows.append({"k": k, "opponent": o, "currency": ctxs[k]["currency"], "declare": dg[k]["value"],
+                         "message": dg[k]["message"], "action": xg[k]["value"], "opp_declare": o_decl,
+                         "opp_message": o_msg, "opp_action": o_act, "payoff": pg, "opp_payoff": po,
+                         "exposed": exposed, "valid_declare": dg[k]["valid"], "valid_action": xg[k]["valid"],
+                         "opp_valid": o_valid,
+                         "invalid_reasons": [r for r in (dg[k]["reason"], xg[k]["reason"]) if r],
+                         "flags": sorted(set(dg[k]["flags"] + xg[k]["flags"]))})
+        score = sum(r["payoff"] for r in rows) / len(rows)
+        return {"seed": self.seed, "pop": pop, "gen": gen, "agent": agent.id, "genome": agent.genome.id,
+                "slot": agent.slot, "score": score, "encounters": rows}
+
     async def benchmark_genome(self, pop, gen, agent: Agent, table, rules) -> dict:
+        if self.cfg["benchmark"].get("mode") == "parallel":
+            return await self.benchmark_genome_parallel(pop, gen, agent, table, rules)
         win = self.cfg["game"]["reputation_window"]
         rec_events: list = []
         prev_action = None
