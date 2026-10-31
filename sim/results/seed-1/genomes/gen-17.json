@@ -1,0 +1,3758 @@
+{
+"DARWIN": [
+{
+"agent": "s1D-a00127",
+"slot": 22,
+"rank": 1,
+"fitness": 2.0,
+"fate": "parent",
+"born_gen": 13,
+"parent_agent": "s1D-a00074",
+"bench_score": 0.6666666666666666,
+"genome": {
+"id": "s1D-g00127",
+"parent_id": "s1D-g00074",
+"gen": 13,
+"pop": "DARWIN",
+"text": "Survive. Be careful with strangers. Always declare GIVE. Cooperate with givers. Cooperate with givers.",
+"n_words": 14,
+"edit": {
+"op": "insert",
+"target_id": "s1D-s00001",
+"new_text": "Be careful with strangers.",
+"new_id": "s1D-s00089"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00001",
+"text": "Survive.",
+"origin_genome": "s1D-g00001",
+"origin_gen": 0,
+"origin_pop": "DARWIN",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00089",
+"text": "Be careful with strangers.",
+"origin_genome": "s1D-g00127",
+"origin_gen": 13,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00046",
+"text": "Always declare GIVE.",
+"origin_genome": "s1D-g00074",
+"origin_gen": 7,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00032",
+"text": "Cooperate with givers.",
+"origin_genome": "s1D-g00057",
+"origin_gen": 5,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00009",
+"text": "Cooperate with givers.",
+"origin_genome": "s1D-g00032",
+"origin_gen": 1,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00158",
+"slot": 13,
+"rank": 2,
+"fitness": 2.0,
+"fate": "parent",
+"born_gen": 17,
+"parent_agent": "s1D-a00120",
+"bench_score": 0.0,
+"genome": {
+"id": "s1D-g00158",
+"parent_id": "s1D-g00120",
+"gen": 17,
+"pop": "DARWIN",
+"text": "Ask when the partner has exposed TAKEs. Always declare GIVE.",
+"n_words": 10,
+"edit": {
+"op": "clone",
+"reason": "mutation_failed: replace: new sentence identical to old"
+},
+"flags": [
+"mutation_failed"
+],
+"sentences": [
+{
+"id": "s1D-s00064",
+"text": "Ask when the partner has exposed TAKEs.",
+"origin_genome": "s1D-g00096",
+"origin_gen": 9,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00071",
+"text": "Always declare GIVE.",
+"origin_genome": "s1D-g00103",
+"origin_gen": 10,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00156",
+"slot": 8,
+"rank": 3,
+"fitness": 2.0,
+"fate": "parent",
+"born_gen": 17,
+"parent_agent": "s1D-a00142",
+"bench_score": 0.3333333333333333,
+"genome": {
+"id": "s1D-g00156",
+"parent_id": "s1D-g00142",
+"gen": 17,
+"pop": "DARWIN",
+"text": "Cooperate with givers. Cooperate with givers. Give when the partner declares GIVE. Cooperate with givers.",
+"n_words": 15,
+"edit": {
+"op": "insert",
+"target_id": "s1D-s00017",
+"new_text": "Cooperate with givers.",
+"new_id": "s1D-s00111"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00100",
+"text": "Cooperate with givers.",
+"origin_genome": "s1D-g00142",
+"origin_gen": 15,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00070",
+"truncated": false
+},
+{
+"id": "s1D-s00082",
+"text": "Cooperate with givers.",
+"origin_genome": "s1D-g00117",
+"origin_gen": 12,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00049",
+"truncated": false
+},
+{
+"id": "s1D-s00017",
+"text": "Give when the partner declares GIVE.",
+"origin_genome": "s1D-g00040",
+"origin_gen": 2,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00111",
+"text": "Cooperate with givers.",
+"origin_genome": "s1D-g00156",
+"origin_gen": 17,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00147",
+"slot": 5,
+"rank": 4,
+"fitness": 2.0,
+"fate": "parent",
+"born_gen": 16,
+"parent_agent": "s1D-a00143",
+"bench_score": 0.6666666666666666,
+"genome": {
+"id": "s1D-g00147",
+"parent_id": "s1D-g00143",
+"gen": 16,
+"pop": "DARWIN",
+"text": "Cooperate with givers. Cooperate with givers. Take when the partner has a clean record. Give when the partner declares GIVE.",
+"n_words": 20,
+"edit": {
+"op": "delete",
+"target_id": "s1D-s00060",
+"old_text": "Take when the partner has a clean record."
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00022",
+"text": "Cooperate with givers.",
+"origin_genome": "s1D-g00045",
+"origin_gen": 3,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00001",
+"truncated": false
+},
+{
+"id": "s1D-s00073",
+"text": "Cooperate with givers.",
+"origin_genome": "s1D-g00105",
+"origin_gen": 11,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00043",
+"text": "Take when the partner has a clean record.",
+"origin_genome": "s1D-g00069",
+"origin_gen": 6,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00101",
+"text": "Give when the partner declares GIVE.",
+"origin_genome": "s1D-g00143",
+"origin_gen": 15,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00083",
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00160",
+"slot": 23,
+"rank": 5,
+"fitness": 2.0,
+"fate": "parent",
+"born_gen": 17,
+"parent_agent": "s1D-a00136",
+"bench_score": -0.3333333333333333,
+"genome": {
+"id": "s1D-g00160",
+"parent_id": "s1D-g00136",
+"gen": 17,
+"pop": "DARWIN",
+"text": "Cooperate with givers. Always declare GIVE. Cooperate with givers. Ask when the partner has exposed TAKEs. Take when the partner has a clean record. Always declare GIVE. Say the word glimvorn to friends.",
+"n_words": 33,
+"edit": {
+"op": "insert",
+"target_id": "s1D-s00022",
+"new_text": "Always declare GIVE.",
+"new_id": "s1D-s00114"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00022",
+"text": "Cooperate with givers.",
+"origin_genome": "s1D-g00045",
+"origin_gen": 3,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00001",
+"truncated": false
+},
+{
+"id": "s1D-s00114",
+"text": "Always declare GIVE.",
+"origin_genome": "s1D-g00160",
+"origin_gen": 17,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00073",
+"text": "Cooperate with givers.",
+"origin_genome": "s1D-g00105",
+"origin_gen": 11,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00087",
+"text": "Ask when the partner has exposed TAKEs.",
+"origin_genome": "s1D-g00123",
+"origin_gen": 13,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00060",
+"text": "Take when the partner has a clean record.",
+"origin_genome": "s1D-g00090",
+"origin_gen": 9,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00096",
+"text": "Always declare GIVE.",
+"origin_genome": "s1D-g00136",
+"origin_gen": 14,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00043",
+"truncated": false
+},
+{
+"id": "s1D-s00083",
+"text": "Say the word glimvorn to friends.",
+"origin_genome": "s1D-g00118",
+"origin_gen": 12,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00030",
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00117",
+"slot": 15,
+"rank": 6,
+"fitness": 2.0,
+"fate": "parent",
+"born_gen": 12,
+"parent_agent": "s1D-a00102",
+"bench_score": 0.3333333333333333,
+"genome": {
+"id": "s1D-g00117",
+"parent_id": "s1D-g00102",
+"gen": 12,
+"pop": "DARWIN",
+"text": "Take when the partner has a clean record. Cooperate with givers. Give when the partner declares GIVE.",
+"n_words": 17,
+"edit": {
+"op": "replace",
+"target_id": "s1D-s00049",
+"old_text": "Always declare GIVE.",
+"new_text": "Cooperate with givers.",
+"new_id": "s1D-s00082"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00070",
+"text": "Take when the partner has a clean record.",
+"origin_genome": "s1D-g00102",
+"origin_gen": 10,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00044",
+"truncated": false
+},
+{
+"id": "s1D-s00082",
+"text": "Cooperate with givers.",
+"origin_genome": "s1D-g00117",
+"origin_gen": 12,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00049",
+"truncated": false
+},
+{
+"id": "s1D-s00017",
+"text": "Give when the partner declares GIVE.",
+"origin_genome": "s1D-g00040",
+"origin_gen": 2,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00152",
+"slot": 20,
+"rank": 7,
+"fitness": 2.0,
+"fate": "parent",
+"born_gen": 16,
+"parent_agent": "s1D-a00117",
+"bench_score": 0.0,
+"genome": {
+"id": "s1D-g00152",
+"parent_id": "s1D-g00117",
+"gen": 16,
+"pop": "DARWIN",
+"text": "Take when the partner has a clean record. Give when the partner declares GIVE.",
+"n_words": 14,
+"edit": {
+"op": "delete",
+"target_id": "s1D-s00082",
+"old_text": "Cooperate with givers."
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00070",
+"text": "Take when the partner has a clean record.",
+"origin_genome": "s1D-g00102",
+"origin_gen": 10,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00044",
+"truncated": false
+},
+{
+"id": "s1D-s00017",
+"text": "Give when the partner declares GIVE.",
+"origin_genome": "s1D-g00040",
+"origin_gen": 2,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00157",
+"slot": 9,
+"rank": 8,
+"fitness": 2.0,
+"fate": "parent",
+"born_gen": 17,
+"parent_agent": "s1D-a00117",
+"bench_score": 0.6666666666666666,
+"genome": {
+"id": "s1D-g00157",
+"parent_id": "s1D-g00117",
+"gen": 17,
+"pop": "DARWIN",
+"text": "Take when the partner has a clean record. Be careful with strangers. Cooperate with givers. Give when the partner declares GIVE.",
+"n_words": 21,
+"edit": {
+"op": "insert",
+"target_id": "s1D-s00070",
+"new_text": "Be careful with strangers.",
+"new_id": "s1D-s00112"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00070",
+"text": "Take when the partner has a clean record.",
+"origin_genome": "s1D-g00102",
+"origin_gen": 10,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00044",
+"truncated": false
+},
+{
+"id": "s1D-s00112",
+"text": "Be careful with strangers.",
+"origin_genome": "s1D-g00157",
+"origin_gen": 17,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00082",
+"text": "Cooperate with givers.",
+"origin_genome": "s1D-g00117",
+"origin_gen": 12,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00049",
+"truncated": false
+},
+{
+"id": "s1D-s00017",
+"text": "Give when the partner declares GIVE.",
+"origin_genome": "s1D-g00040",
+"origin_gen": 2,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00153",
+"slot": 1,
+"rank": 9,
+"fitness": 2.0,
+"fate": "survives",
+"born_gen": 17,
+"parent_agent": "s1D-a00119",
+"bench_score": 0.6666666666666666,
+"genome": {
+"id": "s1D-g00153",
+"parent_id": "s1D-g00119",
+"gen": 17,
+"pop": "DARWIN",
+"text": "Say the word glimvorn to friends. Give when the partner declares GIVE. Cooperate with givers.",
+"n_words": 15,
+"edit": {
+"op": "insert",
+"target_id": "s1D-s00084",
+"new_text": "Give when the partner declares GIVE.",
+"new_id": "s1D-s00108"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00084",
+"text": "Say the word glimvorn to friends.",
+"origin_genome": "s1D-g00119",
+"origin_gen": 12,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00067",
+"truncated": false
+},
+{
+"id": "s1D-s00108",
+"text": "Give when the partner declares GIVE.",
+"origin_genome": "s1D-g00153",
+"origin_gen": 17,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00009",
+"text": "Cooperate with givers.",
+"origin_genome": "s1D-g00032",
+"origin_gen": 1,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00148",
+"slot": 7,
+"rank": 10,
+"fitness": 2.0,
+"fate": "survives",
+"born_gen": 16,
+"parent_agent": "s1D-a00125",
+"bench_score": 0.6666666666666666,
+"genome": {
+"id": "s1D-g00148",
+"parent_id": "s1D-g00125",
+"gen": 16,
+"pop": "DARWIN",
+"text": "Survive. Always declare GIVE. Always declare GIVE. Be careful with strangers.",
+"n_words": 11,
+"edit": {
+"op": "insert",
+"target_id": "s1D-s00081",
+"new_text": "Be careful with strangers.",
+"new_id": "s1D-s00105"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00001",
+"text": "Survive.",
+"origin_genome": "s1D-g00001",
+"origin_gen": 0,
+"origin_pop": "DARWIN",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00046",
+"text": "Always declare GIVE.",
+"origin_genome": "s1D-g00074",
+"origin_gen": 7,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00081",
+"text": "Always declare GIVE.",
+"origin_genome": "s1D-g00116",
+"origin_gen": 12,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00032",
+"truncated": false
+},
+{
+"id": "s1D-s00105",
+"text": "Be careful with strangers.",
+"origin_genome": "s1D-g00148",
+"origin_gen": 16,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00136",
+"slot": 18,
+"rank": 11,
+"fitness": 2.0,
+"fate": "survives",
+"born_gen": 14,
+"parent_agent": "s1D-a00123",
+"bench_score": 0.0,
+"genome": {
+"id": "s1D-g00136",
+"parent_id": "s1D-g00123",
+"gen": 14,
+"pop": "DARWIN",
+"text": "Cooperate with givers. Cooperate with givers. Ask when the partner has exposed TAKEs. Take when the partner has a clean record. Always declare GIVE. Say the word glimvorn to friends.",
+"n_words": 30,
+"edit": {
+"op": "replace",
+"target_id": "s1D-s00043",
+"old_text": "Take when the partner has a clean record.",
+"new_text": "Always declare GIVE.",
+"new_id": "s1D-s00096"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00022",
+"text": "Cooperate with givers.",
+"origin_genome": "s1D-g00045",
+"origin_gen": 3,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00001",
+"truncated": false
+},
+{
+"id": "s1D-s00073",
+"text": "Cooperate with givers.",
+"origin_genome": "s1D-g00105",
+"origin_gen": 11,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00087",
+"text": "Ask when the partner has exposed TAKEs.",
+"origin_genome": "s1D-g00123",
+"origin_gen": 13,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00060",
+"text": "Take when the partner has a clean record.",
+"origin_genome": "s1D-g00090",
+"origin_gen": 9,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00096",
+"text": "Always declare GIVE.",
+"origin_genome": "s1D-g00136",
+"origin_gen": 14,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00043",
+"truncated": false
+},
+{
+"id": "s1D-s00083",
+"text": "Say the word glimvorn to friends.",
+"origin_genome": "s1D-g00118",
+"origin_gen": 12,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00030",
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00142",
+"slot": 11,
+"rank": 12,
+"fitness": 2.0,
+"fate": "survives",
+"born_gen": 15,
+"parent_agent": "s1D-a00117",
+"bench_score": -0.3333333333333333,
+"genome": {
+"id": "s1D-g00142",
+"parent_id": "s1D-g00117",
+"gen": 15,
+"pop": "DARWIN",
+"text": "Cooperate with givers. Cooperate with givers. Give when the partner declares GIVE.",
+"n_words": 12,
+"edit": {
+"op": "replace",
+"target_id": "s1D-s00070",
+"old_text": "Take when the partner has a clean record.",
+"new_text": "Cooperate with givers.",
+"new_id": "s1D-s00100"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00100",
+"text": "Cooperate with givers.",
+"origin_genome": "s1D-g00142",
+"origin_gen": 15,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00070",
+"truncated": false
+},
+{
+"id": "s1D-s00082",
+"text": "Cooperate with givers.",
+"origin_genome": "s1D-g00117",
+"origin_gen": 12,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00049",
+"truncated": false
+},
+{
+"id": "s1D-s00017",
+"text": "Give when the partner declares GIVE.",
+"origin_genome": "s1D-g00040",
+"origin_gen": 2,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00159",
+"slot": 14,
+"rank": 13,
+"fitness": 2.0,
+"fate": "survives",
+"born_gen": 17,
+"parent_agent": "s1D-a00147",
+"bench_score": 0.0,
+"genome": {
+"id": "s1D-g00159",
+"parent_id": "s1D-g00147",
+"gen": 17,
+"pop": "DARWIN",
+"text": "Cooperate with givers. Cooperate with givers. Be careful with strangers. Take when the partner has a clean record. Give when the partner declares GIVE.",
+"n_words": 24,
+"edit": {
+"op": "insert",
+"target_id": "s1D-s00073",
+"new_text": "Be careful with strangers.",
+"new_id": "s1D-s00113"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00022",
+"text": "Cooperate with givers.",
+"origin_genome": "s1D-g00045",
+"origin_gen": 3,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00001",
+"truncated": false
+},
+{
+"id": "s1D-s00073",
+"text": "Cooperate with givers.",
+"origin_genome": "s1D-g00105",
+"origin_gen": 11,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00113",
+"text": "Be careful with strangers.",
+"origin_genome": "s1D-g00159",
+"origin_gen": 17,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00043",
+"text": "Take when the partner has a clean record.",
+"origin_genome": "s1D-g00069",
+"origin_gen": 6,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00101",
+"text": "Give when the partner declares GIVE.",
+"origin_genome": "s1D-g00143",
+"origin_gen": 15,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00083",
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00139",
+"slot": 6,
+"rank": 14,
+"fitness": 2.0,
+"fate": "survives",
+"born_gen": 15,
+"parent_agent": "s1D-a00106",
+"bench_score": 0.0,
+"genome": {
+"id": "s1D-g00139",
+"parent_id": "s1D-g00106",
+"gen": 15,
+"pop": "DARWIN",
+"text": "Survive. Ask when the partner has exposed TAKEs. Always declare GIVE.",
+"n_words": 11,
+"edit": {
+"op": "clone",
+"reason": "mutation_failed: replace: new sentence identical to old"
+},
+"flags": [
+"mutation_failed"
+],
+"sentences": [
+{
+"id": "s1D-s00001",
+"text": "Survive.",
+"origin_genome": "s1D-g00001",
+"origin_gen": 0,
+"origin_pop": "DARWIN",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00064",
+"text": "Ask when the partner has exposed TAKEs.",
+"origin_genome": "s1D-g00096",
+"origin_gen": 9,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00071",
+"text": "Always declare GIVE.",
+"origin_genome": "s1D-g00103",
+"origin_gen": 10,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00119",
+"slot": 17,
+"rank": 15,
+"fitness": 2.0,
+"fate": "survives",
+"born_gen": 12,
+"parent_agent": "s1D-a00099",
+"bench_score": 0.0,
+"genome": {
+"id": "s1D-g00119",
+"parent_id": "s1D-g00099",
+"gen": 12,
+"pop": "DARWIN",
+"text": "Say the word glimvorn to friends. Cooperate with givers.",
+"n_words": 9,
+"edit": {
+"op": "replace",
+"target_id": "s1D-s00067",
+"old_text": "Cooperate with givers.",
+"new_text": "Say the word glimvorn to friends.",
+"new_id": "s1D-s00084"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00084",
+"text": "Say the word glimvorn to friends.",
+"origin_genome": "s1D-g00119",
+"origin_gen": 12,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00067",
+"truncated": false
+},
+{
+"id": "s1D-s00009",
+"text": "Cooperate with givers.",
+"origin_genome": "s1D-g00032",
+"origin_gen": 1,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00155",
+"slot": 4,
+"rank": 16,
+"fitness": 2.0,
+"fate": "survives",
+"born_gen": 17,
+"parent_agent": "s1D-a00146",
+"bench_score": 0.0,
+"genome": {
+"id": "s1D-g00155",
+"parent_id": "s1D-g00146",
+"gen": 17,
+"pop": "DARWIN",
+"text": "Be careful with strangers. Cooperate with givers. Always declare GIVE.",
+"n_words": 10,
+"edit": {
+"op": "replace",
+"target_id": "s1D-s00064",
+"old_text": "Ask when the partner has exposed TAKEs.",
+"new_text": "Be careful with strangers.",
+"new_id": "s1D-s00110"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00110",
+"text": "Be careful with strangers.",
+"origin_genome": "s1D-g00155",
+"origin_gen": 17,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00064",
+"truncated": false
+},
+{
+"id": "s1D-s00104",
+"text": "Cooperate with givers.",
+"origin_genome": "s1D-g00146",
+"origin_gen": 16,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00071",
+"text": "Always declare GIVE.",
+"origin_genome": "s1D-g00103",
+"origin_gen": 10,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00120",
+"slot": 21,
+"rank": 17,
+"fitness": 2.0,
+"fate": "dies",
+"born_gen": 12,
+"parent_agent": "s1D-a00106",
+"bench_score": null,
+"genome": {
+"id": "s1D-g00120",
+"parent_id": "s1D-g00106",
+"gen": 12,
+"pop": "DARWIN",
+"text": "Ask when the partner has exposed TAKEs. Always declare GIVE.",
+"n_words": 10,
+"edit": {
+"op": "delete",
+"target_id": "s1D-s00001",
+"old_text": "Survive."
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00064",
+"text": "Ask when the partner has exposed TAKEs.",
+"origin_genome": "s1D-g00096",
+"origin_gen": 9,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00071",
+"text": "Always declare GIVE.",
+"origin_genome": "s1D-g00103",
+"origin_gen": 10,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00118",
+"slot": 16,
+"rank": 18,
+"fitness": 2.0,
+"fate": "dies",
+"born_gen": 12,
+"parent_agent": "s1D-a00105",
+"bench_score": null,
+"genome": {
+"id": "s1D-g00118",
+"parent_id": "s1D-g00105",
+"gen": 12,
+"pop": "DARWIN",
+"text": "Cooperate with givers. Cooperate with givers. Take when the partner has a clean record. Take when the partner has a clean record. Say the word glimvorn to friends.",
+"n_words": 28,
+"edit": {
+"op": "replace",
+"target_id": "s1D-s00030",
+"old_text": "Cooperate with givers.",
+"new_text": "Say the word glimvorn to friends.",
+"new_id": "s1D-s00083"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00022",
+"text": "Cooperate with givers.",
+"origin_genome": "s1D-g00045",
+"origin_gen": 3,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00001",
+"truncated": false
+},
+{
+"id": "s1D-s00073",
+"text": "Cooperate with givers.",
+"origin_genome": "s1D-g00105",
+"origin_gen": 11,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00060",
+"text": "Take when the partner has a clean record.",
+"origin_genome": "s1D-g00090",
+"origin_gen": 9,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00043",
+"text": "Take when the partner has a clean record.",
+"origin_genome": "s1D-g00069",
+"origin_gen": 6,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00083",
+"text": "Say the word glimvorn to friends.",
+"origin_genome": "s1D-g00118",
+"origin_gen": 12,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00030",
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00141",
+"slot": 10,
+"rank": 19,
+"fitness": 2.0,
+"fate": "dies",
+"born_gen": 15,
+"parent_agent": "s1D-a00097",
+"bench_score": null,
+"genome": {
+"id": "s1D-g00141",
+"parent_id": "s1D-g00097",
+"gen": 15,
+"pop": "DARWIN",
+"text": "Survive. Give when the partner declares GIVE. Give when the partner declares GIVE.",
+"n_words": 13,
+"edit": {
+"op": "delete",
+"target_id": "s1D-s00059",
+"old_text": "Give when the partner declares GIVE."
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00001",
+"text": "Survive.",
+"origin_genome": "s1D-g00001",
+"origin_gen": 0,
+"origin_pop": "DARWIN",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00039",
+"text": "Give when the partner declares GIVE.",
+"origin_genome": "s1D-g00065",
+"origin_gen": 6,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00065",
+"text": "Give when the partner declares GIVE.",
+"origin_genome": "s1D-g00097",
+"origin_gen": 10,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00125",
+"slot": 19,
+"rank": 20,
+"fitness": 2.0,
+"fate": "dies",
+"born_gen": 13,
+"parent_agent": "s1D-a00116",
+"bench_score": null,
+"genome": {
+"id": "s1D-g00125",
+"parent_id": "s1D-g00116",
+"gen": 13,
+"pop": "DARWIN",
+"text": "Survive. Always declare GIVE. Always declare GIVE.",
+"n_words": 7,
+"edit": {
+"op": "delete",
+"target_id": "s1D-s00009",
+"old_text": "Cooperate with givers."
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00001",
+"text": "Survive.",
+"origin_genome": "s1D-g00001",
+"origin_gen": 0,
+"origin_pop": "DARWIN",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00046",
+"text": "Always declare GIVE.",
+"origin_genome": "s1D-g00074",
+"origin_gen": 7,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00081",
+"text": "Always declare GIVE.",
+"origin_genome": "s1D-g00116",
+"origin_gen": 12,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00032",
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00150",
+"slot": 12,
+"rank": 21,
+"fitness": 2.0,
+"fate": "dies",
+"born_gen": 16,
+"parent_agent": "s1D-a00141",
+"bench_score": null,
+"genome": {
+"id": "s1D-g00150",
+"parent_id": "s1D-g00141",
+"gen": 16,
+"pop": "DARWIN",
+"text": "Give when the partner declares GIVE. Give when the partner declares GIVE. Give when the partner declares GIVE.",
+"n_words": 18,
+"edit": {
+"op": "replace",
+"target_id": "s1D-s00001",
+"old_text": "Survive.",
+"new_text": "Give when the partner declares GIVE.",
+"new_id": "s1D-s00107"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00107",
+"text": "Give when the partner declares GIVE.",
+"origin_genome": "s1D-g00150",
+"origin_gen": 16,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00001",
+"truncated": false
+},
+{
+"id": "s1D-s00039",
+"text": "Give when the partner declares GIVE.",
+"origin_genome": "s1D-g00065",
+"origin_gen": 6,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00065",
+"text": "Give when the partner declares GIVE.",
+"origin_genome": "s1D-g00097",
+"origin_gen": 10,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00154",
+"slot": 2,
+"rank": 22,
+"fitness": 2.0,
+"fate": "dies",
+"born_gen": 17,
+"parent_agent": "s1D-a00125",
+"bench_score": null,
+"genome": {
+"id": "s1D-g00154",
+"parent_id": "s1D-g00125",
+"gen": 17,
+"pop": "DARWIN",
+"text": "Survive. Always declare GIVE. Always declare GIVE. Grab what you can.",
+"n_words": 11,
+"edit": {
+"op": "insert",
+"target_id": "s1D-s00081",
+"new_text": "Grab what you can.",
+"new_id": "s1D-s00109"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00001",
+"text": "Survive.",
+"origin_genome": "s1D-g00001",
+"origin_gen": 0,
+"origin_pop": "DARWIN",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00046",
+"text": "Always declare GIVE.",
+"origin_genome": "s1D-g00074",
+"origin_gen": 7,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00081",
+"text": "Always declare GIVE.",
+"origin_genome": "s1D-g00116",
+"origin_gen": 12,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00032",
+"truncated": false
+},
+{
+"id": "s1D-s00109",
+"text": "Grab what you can.",
+"origin_genome": "s1D-g00154",
+"origin_gen": 17,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00137",
+"slot": 0,
+"rank": 23,
+"fitness": 2.0,
+"fate": "dies",
+"born_gen": 15,
+"parent_agent": "s1D-a00136",
+"bench_score": null,
+"genome": {
+"id": "s1D-g00137",
+"parent_id": "s1D-g00136",
+"gen": 15,
+"pop": "DARWIN",
+"text": "Cooperate with givers. Cooperate with givers. Cooperate with givers. Take when the partner has a clean record. Always declare GIVE. Say the word glimvorn to friends.",
+"n_words": 26,
+"edit": {
+"op": "replace",
+"target_id": "s1D-s00087",
+"old_text": "Ask when the partner has exposed TAKEs.",
+"new_text": "Cooperate with givers.",
+"new_id": "s1D-s00097"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00022",
+"text": "Cooperate with givers.",
+"origin_genome": "s1D-g00045",
+"origin_gen": 3,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00001",
+"truncated": false
+},
+{
+"id": "s1D-s00073",
+"text": "Cooperate with givers.",
+"origin_genome": "s1D-g00105",
+"origin_gen": 11,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00097",
+"text": "Cooperate with givers.",
+"origin_genome": "s1D-g00137",
+"origin_gen": 15,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00087",
+"truncated": false
+},
+{
+"id": "s1D-s00060",
+"text": "Take when the partner has a clean record.",
+"origin_genome": "s1D-g00090",
+"origin_gen": 9,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00096",
+"text": "Always declare GIVE.",
+"origin_genome": "s1D-g00136",
+"origin_gen": 14,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00043",
+"truncated": false
+},
+{
+"id": "s1D-s00083",
+"text": "Say the word glimvorn to friends.",
+"origin_genome": "s1D-g00118",
+"origin_gen": 12,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00030",
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00146",
+"slot": 3,
+"rank": 24,
+"fitness": 2.0,
+"fate": "dies",
+"born_gen": 16,
+"parent_agent": "s1D-a00120",
+"bench_score": null,
+"genome": {
+"id": "s1D-g00146",
+"parent_id": "s1D-g00120",
+"gen": 16,
+"pop": "DARWIN",
+"text": "Ask when the partner has exposed TAKEs. Cooperate with givers. Always declare GIVE.",
+"n_words": 13,
+"edit": {
+"op": "insert",
+"target_id": "s1D-s00064",
+"new_text": "Cooperate with givers.",
+"new_id": "s1D-s00104"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00064",
+"text": "Ask when the partner has exposed TAKEs.",
+"origin_genome": "s1D-g00096",
+"origin_gen": 9,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00104",
+"text": "Cooperate with givers.",
+"origin_genome": "s1D-g00146",
+"origin_gen": 16,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00071",
+"text": "Always declare GIVE.",
+"origin_genome": "s1D-g00103",
+"origin_gen": 10,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+}
+],
+"LAMARCK": [
+{
+"agent": "s1L-a00152",
+"slot": 22,
+"rank": 1,
+"fitness": 2.0,
+"fate": "parent",
+"born_gen": 16,
+"parent_agent": "s1L-a00112",
+"bench_score": 0.6666666666666666,
+"genome": {
+"id": "s1L-g00152",
+"parent_id": "s1L-g00112",
+"gen": 16,
+"pop": "LAMARCK",
+"text": "Always declare GIVE. Say the word glimvorn to friends.",
+"n_words": 9,
+"edit": {
+"op": "delete",
+"target_id": "s1L-s00077",
+"old_text": "Say the word glimvorn to friends."
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00035",
+"text": "Always declare GIVE.",
+"origin_genome": "s1L-g00058",
+"origin_gen": 5,
+"origin_pop": "LAMARCK",
+"op": "replace",
+"replaced_from": "s1L-s00001",
+"truncated": false
+},
+{
+"id": "s1L-s00062",
+"text": "Say the word glimvorn to friends.",
+"origin_genome": "s1L-g00092",
+"origin_gen": 9,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00158",
+"slot": 13,
+"rank": 2,
+"fitness": 2.0,
+"fate": "parent",
+"born_gen": 17,
+"parent_agent": "s1L-a00152",
+"bench_score": 0.0,
+"genome": {
+"id": "s1L-g00158",
+"parent_id": "s1L-g00152",
+"gen": 17,
+"pop": "LAMARCK",
+"text": "Cooperate with givers. Say the word glimvorn to friends.",
+"n_words": 9,
+"edit": {
+"op": "replace",
+"target_id": "s1L-s00035",
+"old_text": "Always declare GIVE.",
+"new_text": "Cooperate with givers.",
+"new_id": "s1L-s00111"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00111",
+"text": "Cooperate with givers.",
+"origin_genome": "s1L-g00158",
+"origin_gen": 17,
+"origin_pop": "LAMARCK",
+"op": "replace",
+"replaced_from": "s1L-s00035",
+"truncated": false
+},
+{
+"id": "s1L-s00062",
+"text": "Say the word glimvorn to friends.",
+"origin_genome": "s1L-g00092",
+"origin_gen": 9,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00139",
+"slot": 8,
+"rank": 3,
+"fitness": 2.0,
+"fate": "parent",
+"born_gen": 15,
+"parent_agent": "s1L-a00099",
+"bench_score": 0.3333333333333333,
+"genome": {
+"id": "s1L-g00139",
+"parent_id": "s1L-g00099",
+"gen": 15,
+"pop": "LAMARCK",
+"text": "Survive. Be careful with strangers. Always declare GIVE. Cooperate with givers.",
+"n_words": 11,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00001",
+"new_text": "Be careful with strangers.",
+"new_id": "s1L-s00100"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00100",
+"text": "Be careful with strangers.",
+"origin_genome": "s1L-g00139",
+"origin_gen": 15,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00033",
+"text": "Always declare GIVE.",
+"origin_genome": "s1L-g00056",
+"origin_gen": 4,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00068",
+"text": "Cooperate with givers.",
+"origin_genome": "s1L-g00099",
+"origin_gen": 10,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00147",
+"slot": 5,
+"rank": 4,
+"fitness": 2.0,
+"fate": "parent",
+"born_gen": 16,
+"parent_agent": "s1L-a00133",
+"bench_score": 0.6666666666666666,
+"genome": {
+"id": "s1L-g00147",
+"parent_id": "s1L-g00133",
+"gen": 16,
+"pop": "LAMARCK",
+"text": "Survive. Ask when the partner has exposed TAKEs. Grab what you can. Always declare GIVE. Cooperate with givers.",
+"n_words": 18,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00001",
+"new_text": "Ask when the partner has exposed TAKEs.",
+"new_id": "s1L-s00104"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00104",
+"text": "Ask when the partner has exposed TAKEs.",
+"origin_genome": "s1L-g00147",
+"origin_gen": 16,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00096",
+"text": "Grab what you can.",
+"origin_genome": "s1L-g00133",
+"origin_gen": 14,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00033",
+"text": "Always declare GIVE.",
+"origin_genome": "s1L-g00056",
+"origin_gen": 4,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00068",
+"text": "Cooperate with givers.",
+"origin_genome": "s1L-g00099",
+"origin_gen": 10,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00120",
+"slot": 23,
+"rank": 5,
+"fitness": 2.0,
+"fate": "parent",
+"born_gen": 12,
+"parent_agent": "s1L-a00084",
+"bench_score": -0.3333333333333333,
+"genome": {
+"id": "s1L-g00120",
+"parent_id": "s1L-g00084",
+"gen": 12,
+"pop": "LAMARCK",
+"text": "Always declare GIVE. Always declare GIVE.",
+"n_words": 6,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00035",
+"new_text": "Always declare GIVE.",
+"new_id": "s1L-s00084"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00035",
+"text": "Always declare GIVE.",
+"origin_genome": "s1L-g00058",
+"origin_gen": 5,
+"origin_pop": "LAMARCK",
+"op": "replace",
+"replaced_from": "s1L-s00001",
+"truncated": false
+},
+{
+"id": "s1L-s00084",
+"text": "Always declare GIVE.",
+"origin_genome": "s1L-g00120",
+"origin_gen": 12,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00142",
+"slot": 15,
+"rank": 6,
+"fitness": 2.0,
+"fate": "parent",
+"born_gen": 15,
+"parent_agent": "s1L-a00120",
+"bench_score": 0.3333333333333333,
+"genome": {
+"id": "s1L-g00142",
+"parent_id": "s1L-g00120",
+"gen": 15,
+"pop": "LAMARCK",
+"text": "Always declare GIVE.",
+"n_words": 3,
+"edit": {
+"op": "delete",
+"target_id": "s1L-s00084",
+"old_text": "Always declare GIVE."
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00035",
+"text": "Always declare GIVE.",
+"origin_genome": "s1L-g00058",
+"origin_gen": 5,
+"origin_pop": "LAMARCK",
+"op": "replace",
+"replaced_from": "s1L-s00001",
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00160",
+"slot": 20,
+"rank": 7,
+"fitness": 2.0,
+"fate": "parent",
+"born_gen": 17,
+"parent_agent": "s1L-a00133",
+"bench_score": 0.0,
+"genome": {
+"id": "s1L-g00160",
+"parent_id": "s1L-g00133",
+"gen": 17,
+"pop": "LAMARCK",
+"text": "Survive. Grab what you can. Always declare GIVE. Cooperate with givers.",
+"n_words": 11,
+"edit": {
+"op": "clone",
+"reason": "mutation_failed: replace: new sentence identical to old"
+},
+"flags": [
+"mutation_failed"
+],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00096",
+"text": "Grab what you can.",
+"origin_genome": "s1L-g00133",
+"origin_gen": 14,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00033",
+"text": "Always declare GIVE.",
+"origin_genome": "s1L-g00056",
+"origin_gen": 4,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00068",
+"text": "Cooperate with givers.",
+"origin_genome": "s1L-g00099",
+"origin_gen": 10,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00157",
+"slot": 9,
+"rank": 8,
+"fitness": 2.0,
+"fate": "parent",
+"born_gen": 17,
+"parent_agent": "s1L-a00104",
+"bench_score": 0.6666666666666666,
+"genome": {
+"id": "s1L-g00157",
+"parent_id": "s1L-g00104",
+"gen": 17,
+"pop": "LAMARCK",
+"text": "Survive. Grab what you can. Ask when the partner has exposed TAKEs. Always declare GIVE.",
+"n_words": 15,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00038",
+"new_text": "Ask when the partner has exposed TAKEs.",
+"new_id": "s1L-s00110"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00038",
+"text": "Grab what you can.",
+"origin_genome": "s1L-g00062",
+"origin_gen": 5,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00110",
+"text": "Ask when the partner has exposed TAKEs.",
+"origin_genome": "s1L-g00157",
+"origin_gen": 17,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00033",
+"text": "Always declare GIVE.",
+"origin_genome": "s1L-g00056",
+"origin_gen": 4,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00154",
+"slot": 1,
+"rank": 9,
+"fitness": 2.0,
+"fate": "survives",
+"born_gen": 17,
+"parent_agent": "s1L-a00151",
+"bench_score": 0.6666666666666666,
+"genome": {
+"id": "s1L-g00154",
+"parent_id": "s1L-g00151",
+"gen": 17,
+"pop": "LAMARCK",
+"text": "Survive. Always declare GIVE.",
+"n_words": 4,
+"edit": {
+"op": "delete",
+"target_id": "s1L-s00100",
+"old_text": "Be careful with strangers."
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00033",
+"text": "Always declare GIVE.",
+"origin_genome": "s1L-g00056",
+"origin_gen": 4,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00099",
+"slot": 7,
+"rank": 10,
+"fitness": 2.0,
+"fate": "survives",
+"born_gen": 10,
+"parent_agent": "s1L-a00056",
+"bench_score": 0.6666666666666666,
+"genome": {
+"id": "s1L-g00099",
+"parent_id": "s1L-g00056",
+"gen": 10,
+"pop": "LAMARCK",
+"text": "Survive. Always declare GIVE. Cooperate with givers.",
+"n_words": 7,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00033",
+"new_text": "Cooperate with givers.",
+"new_id": "s1L-s00068"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00033",
+"text": "Always declare GIVE.",
+"origin_genome": "s1L-g00056",
+"origin_gen": 4,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00068",
+"text": "Cooperate with givers.",
+"origin_genome": "s1L-g00099",
+"origin_gen": 10,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00136",
+"slot": 18,
+"rank": 11,
+"fitness": 2.0,
+"fate": "survives",
+"born_gen": 14,
+"parent_agent": "s1L-a00125",
+"bench_score": 0.0,
+"genome": {
+"id": "s1L-g00136",
+"parent_id": "s1L-g00125",
+"gen": 14,
+"pop": "LAMARCK",
+"text": "Always declare GIVE.",
+"n_words": 3,
+"edit": {
+"op": "delete",
+"target_id": "s1L-s00089",
+"old_text": "Grab what you can."
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00035",
+"text": "Always declare GIVE.",
+"origin_genome": "s1L-g00058",
+"origin_gen": 5,
+"origin_pop": "LAMARCK",
+"op": "replace",
+"replaced_from": "s1L-s00001",
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00149",
+"slot": 11,
+"rank": 12,
+"fitness": 2.0,
+"fate": "survives",
+"born_gen": 16,
+"parent_agent": "s1L-a00122",
+"bench_score": -0.3333333333333333,
+"genome": {
+"id": "s1L-g00149",
+"parent_id": "s1L-g00122",
+"gen": 16,
+"pop": "LAMARCK",
+"text": "Cooperate with givers. Ask when the partner has exposed TAKEs.",
+"n_words": 10,
+"edit": {
+"op": "clone",
+"reason": "mutation_failed: replace: new sentence identical to old"
+},
+"flags": [
+"mutation_failed"
+],
+"sentences": [
+{
+"id": "s1L-s00045",
+"text": "Cooperate with givers.",
+"origin_genome": "s1L-g00070",
+"origin_gen": 6,
+"origin_pop": "LAMARCK",
+"op": "replace",
+"replaced_from": "s1L-s00001",
+"truncated": false
+},
+{
+"id": "s1L-s00086",
+"text": "Ask when the partner has exposed TAKEs.",
+"origin_genome": "s1L-g00122",
+"origin_gen": 13,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00141",
+"slot": 14,
+"rank": 13,
+"fitness": 2.0,
+"fate": "survives",
+"born_gen": 15,
+"parent_agent": "s1L-a00118",
+"bench_score": 0.0,
+"genome": {
+"id": "s1L-g00141",
+"parent_id": "s1L-g00118",
+"gen": 15,
+"pop": "LAMARCK",
+"text": "Survive. Ask when the partner has exposed TAKEs. Cooperate with givers. Always declare GIVE.",
+"n_words": 14,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00082",
+"new_text": "Cooperate with givers.",
+"new_id": "s1L-s00102"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00082",
+"text": "Ask when the partner has exposed TAKEs.",
+"origin_genome": "s1L-g00118",
+"origin_gen": 12,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00102",
+"text": "Cooperate with givers.",
+"origin_genome": "s1L-g00141",
+"origin_gen": 15,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00039",
+"text": "Always declare GIVE.",
+"origin_genome": "s1L-g00063",
+"origin_gen": 5,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00156",
+"slot": 6,
+"rank": 14,
+"fitness": 2.0,
+"fate": "survives",
+"born_gen": 17,
+"parent_agent": "s1L-a00142",
+"bench_score": 0.0,
+"genome": {
+"id": "s1L-g00156",
+"parent_id": "s1L-g00142",
+"gen": 17,
+"pop": "LAMARCK",
+"text": "Always declare GIVE. Say the word glimvorn to friends.",
+"n_words": 9,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00035",
+"new_text": "Say the word glimvorn to friends.",
+"new_id": "s1L-s00109"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00035",
+"text": "Always declare GIVE.",
+"origin_genome": "s1L-g00058",
+"origin_gen": 5,
+"origin_pop": "LAMARCK",
+"op": "replace",
+"replaced_from": "s1L-s00001",
+"truncated": false
+},
+{
+"id": "s1L-s00109",
+"text": "Say the word glimvorn to friends.",
+"origin_genome": "s1L-g00156",
+"origin_gen": 17,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00150",
+"slot": 17,
+"rank": 15,
+"fitness": 2.0,
+"fate": "survives",
+"born_gen": 16,
+"parent_agent": "s1L-a00075",
+"bench_score": 0.0,
+"genome": {
+"id": "s1L-g00150",
+"parent_id": "s1L-g00075",
+"gen": 16,
+"pop": "LAMARCK",
+"text": "Survive. Grab what you can. Take when the partner has a clean record. Always declare GIVE. Be careful with strangers.",
+"n_words": 20,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00038",
+"new_text": "Take when the partner has a clean record.",
+"new_id": "s1L-s00106"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00038",
+"text": "Grab what you can.",
+"origin_genome": "s1L-g00062",
+"origin_gen": 5,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00106",
+"text": "Take when the partner has a clean record.",
+"origin_genome": "s1L-g00150",
+"origin_gen": 16,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00033",
+"text": "Always declare GIVE.",
+"origin_genome": "s1L-g00056",
+"origin_gen": 4,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00050",
+"text": "Be careful with strangers.",
+"origin_genome": "s1L-g00075",
+"origin_gen": 7,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00123",
+"slot": 4,
+"rank": 16,
+"fitness": 2.0,
+"fate": "survives",
+"born_gen": 13,
+"parent_agent": "s1L-a00118",
+"bench_score": 0.0,
+"genome": {
+"id": "s1L-g00123",
+"parent_id": "s1L-g00118",
+"gen": 13,
+"pop": "LAMARCK",
+"text": "Survive. Ask when the partner has exposed TAKEs. Always declare GIVE. Say the word glimvorn to friends.",
+"n_words": 17,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00039",
+"new_text": "Say the word glimvorn to friends.",
+"new_id": "s1L-s00087"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00082",
+"text": "Ask when the partner has exposed TAKEs.",
+"origin_genome": "s1L-g00118",
+"origin_gen": 12,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00039",
+"text": "Always declare GIVE.",
+"origin_genome": "s1L-g00063",
+"origin_gen": 5,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00087",
+"text": "Say the word glimvorn to friends.",
+"origin_genome": "s1L-g00123",
+"origin_gen": 13,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00104",
+"slot": 21,
+"rank": 17,
+"fitness": 2.0,
+"fate": "dies",
+"born_gen": 10,
+"parent_agent": "s1L-a00075",
+"bench_score": null,
+"genome": {
+"id": "s1L-g00104",
+"parent_id": "s1L-g00075",
+"gen": 10,
+"pop": "LAMARCK",
+"text": "Survive. Grab what you can. Always declare GIVE.",
+"n_words": 8,
+"edit": {
+"op": "delete",
+"target_id": "s1L-s00050",
+"old_text": "Be careful with strangers."
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00038",
+"text": "Grab what you can.",
+"origin_genome": "s1L-g00062",
+"origin_gen": 5,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00033",
+"text": "Always declare GIVE.",
+"origin_genome": "s1L-g00056",
+"origin_gen": 4,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00159",
+"slot": 16,
+"rank": 18,
+"fitness": 2.0,
+"fate": "dies",
+"born_gen": 17,
+"parent_agent": "s1L-a00099",
+"bench_score": null,
+"genome": {
+"id": "s1L-g00159",
+"parent_id": "s1L-g00099",
+"gen": 17,
+"pop": "LAMARCK",
+"text": "Survive. Grab what you can. Always declare GIVE. Cooperate with givers.",
+"n_words": 11,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00001",
+"new_text": "Grab what you can.",
+"new_id": "s1L-s00112"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00112",
+"text": "Grab what you can.",
+"origin_genome": "s1L-g00159",
+"origin_gen": 17,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00033",
+"text": "Always declare GIVE.",
+"origin_genome": "s1L-g00056",
+"origin_gen": 4,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00068",
+"text": "Cooperate with givers.",
+"origin_genome": "s1L-g00099",
+"origin_gen": 10,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00133",
+"slot": 10,
+"rank": 19,
+"fitness": 2.0,
+"fate": "dies",
+"born_gen": 14,
+"parent_agent": "s1L-a00099",
+"bench_score": null,
+"genome": {
+"id": "s1L-g00133",
+"parent_id": "s1L-g00099",
+"gen": 14,
+"pop": "LAMARCK",
+"text": "Survive. Grab what you can. Always declare GIVE. Cooperate with givers.",
+"n_words": 11,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00001",
+"new_text": "Grab what you can.",
+"new_id": "s1L-s00096"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00096",
+"text": "Grab what you can.",
+"origin_genome": "s1L-g00133",
+"origin_gen": 14,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00033",
+"text": "Always declare GIVE.",
+"origin_genome": "s1L-g00056",
+"origin_gen": 4,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00068",
+"text": "Cooperate with givers.",
+"origin_genome": "s1L-g00099",
+"origin_gen": 10,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00151",
+"slot": 19,
+"rank": 20,
+"fitness": 2.0,
+"fate": "dies",
+"born_gen": 16,
+"parent_agent": "s1L-a00139",
+"bench_score": null,
+"genome": {
+"id": "s1L-g00151",
+"parent_id": "s1L-g00139",
+"gen": 16,
+"pop": "LAMARCK",
+"text": "Survive. Be careful with strangers. Always declare GIVE.",
+"n_words": 8,
+"edit": {
+"op": "delete",
+"target_id": "s1L-s00068",
+"old_text": "Cooperate with givers."
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00100",
+"text": "Be careful with strangers.",
+"origin_genome": "s1L-g00139",
+"origin_gen": 15,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00033",
+"text": "Always declare GIVE.",
+"origin_genome": "s1L-g00056",
+"origin_gen": 4,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00109",
+"slot": 12,
+"rank": 21,
+"fitness": 2.0,
+"fate": "dies",
+"born_gen": 11,
+"parent_agent": "s1L-a00093",
+"bench_score": null,
+"genome": {
+"id": "s1L-g00109",
+"parent_id": "s1L-g00093",
+"gen": 11,
+"pop": "LAMARCK",
+"text": "Give when the partner declares GIVE. Always declare GIVE. Grab what you can.",
+"n_words": 13,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00033",
+"new_text": "Grab what you can.",
+"new_id": "s1L-s00075"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00063",
+"text": "Give when the partner declares GIVE.",
+"origin_genome": "s1L-g00093",
+"origin_gen": 9,
+"origin_pop": "LAMARCK",
+"op": "replace",
+"replaced_from": "s1L-s00001",
+"truncated": false
+},
+{
+"id": "s1L-s00033",
+"text": "Always declare GIVE.",
+"origin_genome": "s1L-g00056",
+"origin_gen": 4,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00075",
+"text": "Grab what you can.",
+"origin_genome": "s1L-g00109",
+"origin_gen": 11,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00155",
+"slot": 2,
+"rank": 22,
+"fitness": 2.0,
+"fate": "dies",
+"born_gen": 17,
+"parent_agent": "s1L-a00149",
+"bench_score": null,
+"genome": {
+"id": "s1L-g00155",
+"parent_id": "s1L-g00149",
+"gen": 17,
+"pop": "LAMARCK",
+"text": "Always declare GIVE. Ask when the partner has exposed TAKEs.",
+"n_words": 10,
+"edit": {
+"op": "replace",
+"target_id": "s1L-s00045",
+"old_text": "Cooperate with givers.",
+"new_text": "Always declare GIVE.",
+"new_id": "s1L-s00108"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00108",
+"text": "Always declare GIVE.",
+"origin_genome": "s1L-g00155",
+"origin_gen": 17,
+"origin_pop": "LAMARCK",
+"op": "replace",
+"replaced_from": "s1L-s00045",
+"truncated": false
+},
+{
+"id": "s1L-s00086",
+"text": "Ask when the partner has exposed TAKEs.",
+"origin_genome": "s1L-g00122",
+"origin_gen": 13,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00153",
+"slot": 0,
+"rank": 23,
+"fitness": 2.0,
+"fate": "dies",
+"born_gen": 17,
+"parent_agent": "s1L-a00150",
+"bench_score": null,
+"genome": {
+"id": "s1L-g00153",
+"parent_id": "s1L-g00150",
+"gen": 17,
+"pop": "LAMARCK",
+"text": "Survive. Grab what you can. Take when the partner has a clean record. Grab what you can. Always declare GIVE. Be careful with strangers.",
+"n_words": 24,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00106",
+"new_text": "Grab what you can.",
+"new_id": "s1L-s00107"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00038",
+"text": "Grab what you can.",
+"origin_genome": "s1L-g00062",
+"origin_gen": 5,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00106",
+"text": "Take when the partner has a clean record.",
+"origin_genome": "s1L-g00150",
+"origin_gen": 16,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00107",
+"text": "Grab what you can.",
+"origin_genome": "s1L-g00153",
+"origin_gen": 17,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00033",
+"text": "Always declare GIVE.",
+"origin_genome": "s1L-g00056",
+"origin_gen": 4,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00050",
+"text": "Be careful with strangers.",
+"origin_genome": "s1L-g00075",
+"origin_gen": 7,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00146",
+"slot": 3,
+"rank": 24,
+"fitness": 2.0,
+"fate": "dies",
+"born_gen": 16,
+"parent_agent": "s1L-a00123",
+"bench_score": null,
+"genome": {
+"id": "s1L-g00146",
+"parent_id": "s1L-g00123",
+"gen": 16,
+"pop": "LAMARCK",
+"text": "Survive. Ask when the partner has exposed TAKEs. Always declare GIVE.",
+"n_words": 11,
+"edit": {
+"op": "delete",
+"target_id": "s1L-s00087",
+"old_text": "Say the word glimvorn to friends."
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00082",
+"text": "Ask when the partner has exposed TAKEs.",
+"origin_genome": "s1L-g00118",
+"origin_gen": 12,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00039",
+"text": "Always declare GIVE.",
+"origin_genome": "s1L-g00063",
+"origin_gen": 5,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+}
+],
+"CONTROL": [
+{
+"agent": "s1C-a00142",
+"slot": 10,
+"rank": 1,
+"fitness": 0.9166666666666666,
+"fate": "parent",
+"born_gen": 15,
+"parent_agent": "s1C-a00125",
+"bench_score": -0.16666666666666666,
+"genome": {
+"id": "s1C-g00142",
+"parent_id": "s1C-g00125",
+"gen": 15,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00137",
+"slot": 2,
+"rank": 2,
+"fitness": 0.6666666666666666,
+"fate": "parent",
+"born_gen": 15,
+"parent_agent": "s1C-a00135",
+"bench_score": -0.16666666666666666,
+"genome": {
+"id": "s1C-g00137",
+"parent_id": "s1C-g00135",
+"gen": 15,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00154",
+"slot": 5,
+"rank": 3,
+"fitness": 0.5,
+"fate": "parent",
+"born_gen": 17,
+"parent_agent": "s1C-a00025",
+"bench_score": 0.16666666666666666,
+"genome": {
+"id": "s1C-g00154",
+"parent_id": "s1C-g00025",
+"gen": 17,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00159",
+"slot": 20,
+"rank": 4,
+"fitness": 0.5,
+"fate": "parent",
+"born_gen": 17,
+"parent_agent": "s1C-a00103",
+"bench_score": -0.16666666666666666,
+"genome": {
+"id": "s1C-g00159",
+"parent_id": "s1C-g00103",
+"gen": 17,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00158",
+"slot": 15,
+"rank": 5,
+"fitness": 0.3333333333333333,
+"fate": "parent",
+"born_gen": 17,
+"parent_agent": "s1C-a00134",
+"bench_score": 0.5,
+"genome": {
+"id": "s1C-g00158",
+"parent_id": "s1C-g00134",
+"gen": 17,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00147",
+"slot": 6,
+"rank": 6,
+"fitness": 0.3333333333333333,
+"fate": "parent",
+"born_gen": 16,
+"parent_agent": "s1C-a00092",
+"bench_score": 0.16666666666666666,
+"genome": {
+"id": "s1C-g00147",
+"parent_id": "s1C-g00092",
+"gen": 16,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00103",
+"slot": 19,
+"rank": 7,
+"fitness": 0.3333333333333333,
+"fate": "parent",
+"born_gen": 10,
+"parent_agent": "s1C-a00083",
+"bench_score": 0.3333333333333333,
+"genome": {
+"id": "s1C-g00103",
+"parent_id": "s1C-g00083",
+"gen": 10,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00151",
+"slot": 18,
+"rank": 8,
+"fitness": 0.25,
+"fate": "parent",
+"born_gen": 16,
+"parent_agent": "s1C-a00103",
+"bench_score": 0.6666666666666666,
+"genome": {
+"id": "s1C-g00151",
+"parent_id": "s1C-g00103",
+"gen": 16,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00140",
+"slot": 8,
+"rank": 9,
+"fitness": 0.16666666666666666,
+"fate": "survives",
+"born_gen": 15,
+"parent_agent": "s1C-a00122",
+"bench_score": 0.6666666666666666,
+"genome": {
+"id": "s1C-g00140",
+"parent_id": "s1C-g00122",
+"gen": 15,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00150",
+"slot": 16,
+"rank": 10,
+"fitness": 0.16666666666666666,
+"fate": "survives",
+"born_gen": 16,
+"parent_agent": "s1C-a00138",
+"bench_score": 0.3333333333333333,
+"genome": {
+"id": "s1C-g00150",
+"parent_id": "s1C-g00138",
+"gen": 16,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00160",
+"slot": 23,
+"rank": 11,
+"fitness": 0.08333333333333333,
+"fate": "survives",
+"born_gen": 17,
+"parent_agent": "s1C-a00137",
+"bench_score": -0.16666666666666666,
+"genome": {
+"id": "s1C-g00160",
+"parent_id": "s1C-g00137",
+"gen": 17,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00155",
+"slot": 7,
+"rank": 12,
+"fitness": 0.08333333333333333,
+"fate": "survives",
+"born_gen": 17,
+"parent_agent": "s1C-a00148",
+"bench_score": 0.3333333333333333,
+"genome": {
+"id": "s1C-g00155",
+"parent_id": "s1C-g00148",
+"gen": 17,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00156",
+"slot": 11,
+"rank": 13,
+"fitness": 0.08333333333333333,
+"fate": "survives",
+"born_gen": 17,
+"parent_agent": "s1C-a00152",
+"bench_score": -0.3333333333333333,
+"genome": {
+"id": "s1C-g00156",
+"parent_id": "s1C-g00152",
+"gen": 17,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00092",
+"slot": 17,
+"rank": 14,
+"fitness": 0.08333333333333333,
+"fate": "survives",
+"born_gen": 9,
+"parent_agent": "s1C-a00034",
+"bench_score": -0.16666666666666666,
+"genome": {
+"id": "s1C-g00092",
+"parent_id": "s1C-g00034",
+"gen": 9,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00025",
+"slot": 0,
+"rank": 15,
+"fitness": 0.08333333333333333,
+"fate": "survives",
+"born_gen": 1,
+"parent_agent": "s1C-a00009",
+"bench_score": -0.16666666666666666,
+"genome": {
+"id": "s1C-g00025",
+"parent_id": "s1C-g00009",
+"gen": 1,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00157",
+"slot": 13,
+"rank": 16,
+"fitness": 0.0,
+"fate": "survives",
+"born_gen": 17,
+"parent_agent": "s1C-a00147",
+"bench_score": -0.16666666666666666,
+"genome": {
+"id": "s1C-g00157",
+"parent_id": "s1C-g00147",
+"gen": 17,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00141",
+"slot": 9,
+"rank": 17,
+"fitness": 0.0,
+"fate": "dies",
+"born_gen": 15,
+"parent_agent": "s1C-a00105",
+"bench_score": null,
+"genome": {
+"id": "s1C-g00141",
+"parent_id": "s1C-g00105",
+"gen": 15,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00145",
+"slot": 1,
+"rank": 18,
+"fitness": 0.0,
+"fate": "dies",
+"born_gen": 16,
+"parent_agent": "s1C-a00129",
+"bench_score": null,
+"genome": {
+"id": "s1C-g00145",
+"parent_id": "s1C-g00129",
+"gen": 16,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00146",
+"slot": 3,
+"rank": 19,
+"fitness": 0.0,
+"fate": "dies",
+"born_gen": 16,
+"parent_agent": "s1C-a00142",
+"bench_score": null,
+"genome": {
+"id": "s1C-g00146",
+"parent_id": "s1C-g00142",
+"gen": 16,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00152",
+"slot": 22,
+"rank": 20,
+"fitness": -0.08333333333333333,
+"fate": "dies",
+"born_gen": 16,
+"parent_agent": "s1C-a00115",
+"bench_score": null,
+"genome": {
+"id": "s1C-g00152",
+"parent_id": "s1C-g00115",
+"gen": 16,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00143",
+"slot": 21,
+"rank": 21,
+"fitness": -0.08333333333333333,
+"fate": "dies",
+"born_gen": 15,
+"parent_agent": "s1C-a00103",
+"bench_score": null,
+"genome": {
+"id": "s1C-g00143",
+"parent_id": "s1C-g00103",
+"gen": 15,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00134",
+"slot": 14,
+"rank": 22,
+"fitness": -0.16666666666666666,
+"fate": "dies",
+"born_gen": 14,
+"parent_agent": "s1C-a00103",
+"bench_score": null,
+"genome": {
+"id": "s1C-g00134",
+"parent_id": "s1C-g00103",
+"gen": 14,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00148",
+"slot": 12,
+"rank": 23,
+"fitness": -0.3333333333333333,
+"fate": "dies",
+"born_gen": 16,
+"parent_agent": "s1C-a00135",
+"bench_score": null,
+"genome": {
+"id": "s1C-g00148",
+"parent_id": "s1C-g00135",
+"gen": 16,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00153",
+"slot": 4,
+"rank": 24,
+"fitness": -0.5,
+"fate": "dies",
+"born_gen": 17,
+"parent_agent": "s1C-a00146",
+"bench_score": null,
+"genome": {
+"id": "s1C-g00153",
+"parent_id": "s1C-g00146",
+"gen": 17,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+}
+]
+}

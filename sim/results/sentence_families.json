@@ -1,0 +1,101 @@
+[
+ {
+  "leader": "Survive.",
+  "weight": 6515,
+  "n_variants": 1,
+  "top_variants": [
+   [
+    6515,
+    "Survive."
+   ]
+  ]
+ },
+ {
+  "leader": "Cooperate with givers.",
+  "weight": 4334,
+  "n_variants": 1,
+  "top_variants": [
+   [
+    4334,
+    "Cooperate with givers."
+   ]
+  ]
+ },
+ {
+  "leader": "Always declare GIVE.",
+  "weight": 4009,
+  "n_variants": 1,
+  "top_variants": [
+   [
+    4009,
+    "Always declare GIVE."
+   ]
+  ]
+ },
+ {
+  "leader": "Give when the partner declares GIVE.",
+  "weight": 3593,
+  "n_variants": 1,
+  "top_variants": [
+   [
+    3593,
+    "Give when the partner declares GIVE."
+   ]
+  ]
+ },
+ {
+  "leader": "Take when the partner has a clean record.",
+  "weight": 2618,
+  "n_variants": 1,
+  "top_variants": [
+   [
+    2618,
+    "Take when the partner has a clean record."
+   ]
+  ]
+ },
+ {
+  "leader": "Say the word glimvorn to friends.",
+  "weight": 2317,
+  "n_variants": 1,
+  "top_variants": [
+   [
+    2317,
+    "Say the word glimvorn to friends."
+   ]
+  ]
+ },
+ {
+  "leader": "Ask when the partner has exposed TAKEs.",
+  "weight": 2022,
+  "n_variants": 1,
+  "top_variants": [
+   [
+    2022,
+    "Ask when the partner has exposed TAKEs."
+   ]
+  ]
+ },
+ {
+  "leader": "Be careful with strangers.",
+  "weight": 1648,
+  "n_variants": 1,
+  "top_variants": [
+   [
+    1648,
+    "Be careful with strangers."
+   ]
+  ]
+ },
+ {
+  "leader": "Grab what you can.",
+  "weight": 1325,
+  "n_variants": 1,
+  "top_variants": [
+   [
+    1325,
+    "Grab what you can."
+   ]
+  ]
+ }
+]
