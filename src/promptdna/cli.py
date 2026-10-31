@@ -28,6 +28,14 @@ def cfg_sha256() -> str:
     return hashlib.sha256(CFG_PATH.read_bytes()).hexdigest()
 
 
+def real_backend(cfg):
+    """Anthropic backend; PROMPTDNA_FAKE=1 swaps in the offline fake (pipeline dry-runs only)."""
+    import os
+    if os.environ.get("PROMPTDNA_FAKE") == "1":
+        return FakeBackend()
+    return AnthropicBackend(cfg["model_params"])
+
+
 def make_gateway(cfg, backend, budget) -> Gateway:
     c = cfg["concurrency"]
     return Gateway(backend=backend, budget=budget, limiter=AdaptiveLimiter(c["start"], c["min"], c["max"]))
@@ -57,7 +65,7 @@ def cmd_fake_run(a):
 
 # ---------------------------------------------------------------- pilot
 async def _pilot_one(cfg, model, budget, minutes_left):
-    gw = make_gateway(cfg, AnthropicBackend(cfg["model_params"]), budget)
+    gw = make_gateway(cfg, real_backend(cfg), budget)
     out = ROOT / "results" / "pilot" / model
     if out.exists():
         shutil.rmtree(out)
@@ -220,7 +228,7 @@ def cmd_run(a):
     lk = json.loads((ROOT / "config" / "locked.json").read_text())
     assert lk["config_sha256"] == cfg_sha256(), "frozen config changed after the decision"
     budget = Budget(cfg["budget"]["total_usd"], cfg["prices_per_mtok"], LEDGER)
-    gw = make_gateway(cfg, AnthropicBackend(cfg["model_params"]), budget)
+    gw = make_gateway(cfg, real_backend(cfg), budget)
     run = SeedRun(seed=a.seed, cfg=cfg, n_gens=lk["generations"], player_model=lk["player_model"], gateway=gw,
                   out_dir=ROOT / "results" / f"seed-{a.seed}", log_path=ROOT / "logs" / f"seed-{a.seed}.jsonl.gz")
     code = 0
