@@ -1,0 +1,3835 @@
+{
+"DARWIN": [
+{
+"agent": "s1D-a00083",
+"slot": 3,
+"rank": 1,
+"fitness": 1.0,
+"fate": "parent",
+"born_gen": 8,
+"parent_agent": "s1D-a00063",
+"bench_score": 0.3333333333333333,
+"genome": {
+"id": "s1D-g00083",
+"parent_id": "s1D-g00063",
+"gen": 8,
+"pop": "DARWIN",
+"text": "Survive. Declare GIVE, and if your partner declares TAKE, choose ASK so that you avoid losing points. When your partner declares GIVE, choose GIVE so both of you earn +1 and your public record stays clean. Never choose TAKE yourself, because exposed TAKEs stay on your public record and make partners refuse you.",
+"n_words": 53,
+"edit": {
+"op": "insert",
+"target_id": "s1D-s00040",
+"new_text": "Never choose TAKE yourself, because exposed TAKEs stay on your public record and make partners refuse you.",
+"new_id": "s1D-s00060"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00001",
+"text": "Survive.",
+"origin_genome": "s1D-g00001",
+"origin_gen": 0,
+"origin_pop": "DARWIN",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00011",
+"text": "Declare GIVE, and if your partner declares TAKE, choose ASK so that you avoid losing points.",
+"origin_genome": "s1D-g00034",
+"origin_gen": 2,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00040",
+"text": "When your partner declares GIVE, choose GIVE so both of you earn +1 and your public record stays clean.",
+"origin_genome": "s1D-g00063",
+"origin_gen": 5,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00025",
+"truncated": false
+},
+{
+"id": "s1D-s00060",
+"text": "Never choose TAKE yourself, because exposed TAKEs stay on your public record and make partners refuse you.",
+"origin_genome": "s1D-g00083",
+"origin_gen": 8,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00090",
+"slot": 4,
+"rank": 2,
+"fitness": 1.0,
+"fate": "parent",
+"born_gen": 9,
+"parent_agent": "s1D-a00033",
+"bench_score": 0.3333333333333333,
+"genome": {
+"id": "s1D-g00090",
+"parent_id": "s1D-g00033",
+"gen": 9,
+"pop": "DARWIN",
+"text": "Survive. Declare GIVE and choose GIVE when your partner also declares GIVE, since mutual giving earns +1 each, but choose ASK when your partner declares TAKE.",
+"n_words": 26,
+"edit": {
+"op": "replace",
+"target_id": "s1D-s00010",
+"old_text": "Declare GIVE and choose GIVE when your partner also declares GIVE, since mutual giving earns +2 each.",
+"new_text": "Declare GIVE and choose GIVE when your partner also declares GIVE, since mutual giving earns +1 each, but choose ASK when your partner declares TAKE.",
+"new_id": "s1D-s00067"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00001",
+"text": "Survive.",
+"origin_genome": "s1D-g00001",
+"origin_gen": 0,
+"origin_pop": "DARWIN",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00067",
+"text": "Declare GIVE and choose GIVE when your partner also declares GIVE, since mutual giving earns +1 each, but choose ASK when your partner declares TAKE.",
+"origin_genome": "s1D-g00090",
+"origin_gen": 9,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00010",
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00065",
+"slot": 6,
+"rank": 3,
+"fitness": 1.0,
+"fate": "parent",
+"born_gen": 6,
+"parent_agent": "s1D-a00012",
+"bench_score": 0.3333333333333333,
+"genome": {
+"id": "s1D-g00065",
+"parent_id": "s1D-g00012",
+"gen": 6,
+"pop": "DARWIN",
+"text": "Survive. Declare GIVE, and choose GIVE when your partner also declares GIVE, since mutual giving earns +1 each; choose ASK when your partner declares TAKE, and never choose TAKE yourself.",
+"n_words": 30,
+"edit": {
+"op": "insert",
+"target_id": "s1D-s00001",
+"new_text": "Declare GIVE, and choose GIVE when your partner also declares GIVE, since mutual giving earns +1 each; choose ASK when your partner declares TAKE, and never choose TAKE yourself.",
+"new_id": "s1D-s00042"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00001",
+"text": "Survive.",
+"origin_genome": "s1D-g00001",
+"origin_gen": 0,
+"origin_pop": "DARWIN",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00042",
+"text": "Declare GIVE, and choose GIVE when your partner also declares GIVE, since mutual giving earns +1 each; choose ASK when your partner declares TAKE, and never choose TAKE yourself.",
+"origin_genome": "s1D-g00065",
+"origin_gen": 6,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00064",
+"slot": 19,
+"rank": 4,
+"fitness": 1.0,
+"fate": "parent",
+"born_gen": 5,
+"parent_agent": "s1D-a00018",
+"bench_score": 0.3333333333333333,
+"genome": {
+"id": "s1D-g00064",
+"parent_id": "s1D-g00018",
+"gen": 5,
+"pop": "DARWIN",
+"text": "Survive. Declare GIVE honestly, choose GIVE when your partner declares GIVE, choose ASK when your partner declares TAKE, and never choose TAKE yourself.",
+"n_words": 23,
+"edit": {
+"op": "insert",
+"target_id": "s1D-s00001",
+"new_text": "Declare GIVE honestly, choose GIVE when your partner declares GIVE, choose ASK when your partner declares TAKE, and never choose TAKE yourself.",
+"new_id": "s1D-s00041"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00001",
+"text": "Survive.",
+"origin_genome": "s1D-g00001",
+"origin_gen": 0,
+"origin_pop": "DARWIN",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00041",
+"text": "Declare GIVE honestly, choose GIVE when your partner declares GIVE, choose ASK when your partner declares TAKE, and never choose TAKE yourself.",
+"origin_genome": "s1D-g00064",
+"origin_gen": 5,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00092",
+"slot": 11,
+"rank": 5,
+"fitness": 1.0,
+"fate": "parent",
+"born_gen": 9,
+"parent_agent": "s1D-a00069",
+"bench_score": 0.5,
+"genome": {
+"id": "s1D-g00092",
+"parent_id": "s1D-g00069",
+"gen": 9,
+"pop": "DARWIN",
+"text": "Survive. Always choose GIVE when your partner declares GIVE, and choose ASK when your partner declares TAKE so you avoid losing 2. Always declare GIVE yourself and never choose TAKE, because every TAKE can be exposed and then partners will refuse to cooperate with you. Check your partner's last three exposed TAKEs before choosing GIVE, and choose ASK if any appear.",
+"n_words": 61,
+"edit": {
+"op": "insert",
+"target_id": "s1D-s00046",
+"new_text": "Check your partner's last three exposed TAKEs before choosing GIVE, and choose ASK if any appear.",
+"new_id": "s1D-s00069"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00001",
+"text": "Survive.",
+"origin_genome": "s1D-g00001",
+"origin_gen": 0,
+"origin_pop": "DARWIN",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00003",
+"text": "Always choose GIVE when your partner declares GIVE, and choose ASK when your partner declares TAKE so you avoid losing 2.",
+"origin_genome": "s1D-g00026",
+"origin_gen": 1,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00046",
+"text": "Always declare GIVE yourself and never choose TAKE, because every TAKE can be exposed and then partners will refuse to cooperate with you.",
+"origin_genome": "s1D-g00069",
+"origin_gen": 6,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00069",
+"text": "Check your partner's last three exposed TAKEs before choosing GIVE, and choose ASK if any appear.",
+"origin_genome": "s1D-g00092",
+"origin_gen": 9,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00070",
+"slot": 15,
+"rank": 6,
+"fitness": 1.0,
+"fate": "parent",
+"born_gen": 6,
+"parent_agent": "s1D-a00057",
+"bench_score": 0.3333333333333333,
+"genome": {
+"id": "s1D-g00070",
+"parent_id": "s1D-g00057",
+"gen": 6,
+"pop": "DARWIN",
+"text": "Survive. Declare GIVE and choose GIVE when your partner also declares GIVE, since mutual giving earns +1 each, but choose ASK when your partner declares TAKE. Check your partner's recent exposed TAKEs, and if the record shows TAKEs, choose ASK even when they declare GIVE, since a false GIVE declaration followed by TAKE costs you 2.",
+"n_words": 56,
+"edit": {
+"op": "insert",
+"target_id": "s1D-s00034",
+"new_text": "Check your partner's recent exposed TAKEs, and if the record shows TAKEs, choose ASK even when they declare GIVE, since a false GIVE declaration followed by TAKE costs you 2.",
+"new_id": "s1D-s00047"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00001",
+"text": "Survive.",
+"origin_genome": "s1D-g00001",
+"origin_gen": 0,
+"origin_pop": "DARWIN",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00034",
+"text": "Declare GIVE and choose GIVE when your partner also declares GIVE, since mutual giving earns +1 each, but choose ASK when your partner declares TAKE.",
+"origin_genome": "s1D-g00057",
+"origin_gen": 5,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00010",
+"truncated": false
+},
+{
+"id": "s1D-s00047",
+"text": "Check your partner's recent exposed TAKEs, and if the record shows TAKEs, choose ASK even when they declare GIVE, since a false GIVE declaration followed by TAKE costs you 2.",
+"origin_genome": "s1D-g00070",
+"origin_gen": 6,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00048",
+"slot": 23,
+"rank": 7,
+"fitness": 1.0,
+"fate": "parent",
+"born_gen": 3,
+"parent_agent": "s1D-a00034",
+"bench_score": 0.3333333333333333,
+"genome": {
+"id": "s1D-g00048",
+"parent_id": "s1D-g00034",
+"gen": 3,
+"pop": "DARWIN",
+"text": "Survive. Declare GIVE, and if your partner declares TAKE, choose ASK so that you avoid losing points. When your partner declares GIVE, choose GIVE so both of you earn +2 and your public record stays clean.",
+"n_words": 36,
+"edit": {
+"op": "insert",
+"target_id": "s1D-s00011",
+"new_text": "When your partner declares GIVE, choose GIVE so both of you earn +2 and your public record stays clean.",
+"new_id": "s1D-s00025"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00001",
+"text": "Survive.",
+"origin_genome": "s1D-g00001",
+"origin_gen": 0,
+"origin_pop": "DARWIN",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00011",
+"text": "Declare GIVE, and if your partner declares TAKE, choose ASK so that you avoid losing points.",
+"origin_genome": "s1D-g00034",
+"origin_gen": 2,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00025",
+"text": "When your partner declares GIVE, choose GIVE so both of you earn +2 and your public record stays clean.",
+"origin_genome": "s1D-g00048",
+"origin_gen": 3,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00095",
+"slot": 20,
+"rank": 8,
+"fitness": 1.0,
+"fate": "parent",
+"born_gen": 9,
+"parent_agent": "s1D-a00080",
+"bench_score": 0.3333333333333333,
+"genome": {
+"id": "s1D-g00095",
+"parent_id": "s1D-g00080",
+"gen": 9,
+"pop": "DARWIN",
+"text": "Survive. Always choose GIVE when your partner declares GIVE, and choose ASK when your partner declares TAKE so you avoid losing 2. Also choose ASK when your partner's last exposed TAKEs are recent, even if it declares GIVE, because declarations are not binding. Always declare GIVE yourself and never choose TAKE, because every TAKE can be exposed and then partners will refuse to cooperate with you. When your partner declares GIVE and has no recent exposed TAKEs, choose GIVE so both of you earn +1.",
+"n_words": 85,
+"edit": {
+"op": "insert",
+"target_id": "s1D-s00046",
+"new_text": "When your partner declares GIVE and has no recent exposed TAKEs, choose GIVE so both of you earn +1.",
+"new_id": "s1D-s00072"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00001",
+"text": "Survive.",
+"origin_genome": "s1D-g00001",
+"origin_gen": 0,
+"origin_pop": "DARWIN",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00003",
+"text": "Always choose GIVE when your partner declares GIVE, and choose ASK when your partner declares TAKE so you avoid losing 2.",
+"origin_genome": "s1D-g00026",
+"origin_gen": 1,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00057",
+"text": "Also choose ASK when your partner's last exposed TAKEs are recent, even if it declares GIVE, because declarations are not binding.",
+"origin_genome": "s1D-g00080",
+"origin_gen": 7,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00046",
+"text": "Always declare GIVE yourself and never choose TAKE, because every TAKE can be exposed and then partners will refuse to cooperate with you.",
+"origin_genome": "s1D-g00069",
+"origin_gen": 6,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00072",
+"text": "When your partner declares GIVE and has no recent exposed TAKEs, choose GIVE so both of you earn +1.",
+"origin_genome": "s1D-g00095",
+"origin_gen": 9,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00069",
+"slot": 13,
+"rank": 9,
+"fitness": 1.0,
+"fate": "survives",
+"born_gen": 6,
+"parent_agent": "s1D-a00026",
+"bench_score": 0.3333333333333333,
+"genome": {
+"id": "s1D-g00069",
+"parent_id": "s1D-g00026",
+"gen": 6,
+"pop": "DARWIN",
+"text": "Survive. Always choose GIVE when your partner declares GIVE, and choose ASK when your partner declares TAKE so you avoid losing 2. Always declare GIVE yourself and never choose TAKE, because every TAKE can be exposed and then partners will refuse to cooperate with you.",
+"n_words": 45,
+"edit": {
+"op": "insert",
+"target_id": "s1D-s00003",
+"new_text": "Always declare GIVE yourself and never choose TAKE, because every TAKE can be exposed and then partners will refuse to cooperate with you.",
+"new_id": "s1D-s00046"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00001",
+"text": "Survive.",
+"origin_genome": "s1D-g00001",
+"origin_gen": 0,
+"origin_pop": "DARWIN",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00003",
+"text": "Always choose GIVE when your partner declares GIVE, and choose ASK when your partner declares TAKE so you avoid losing 2.",
+"origin_genome": "s1D-g00026",
+"origin_gen": 1,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00046",
+"text": "Always declare GIVE yourself and never choose TAKE, because every TAKE can be exposed and then partners will refuse to cooperate with you.",
+"origin_genome": "s1D-g00069",
+"origin_gen": 6,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00063",
+"slot": 16,
+"rank": 10,
+"fitness": 1.0,
+"fate": "survives",
+"born_gen": 5,
+"parent_agent": "s1D-a00048",
+"bench_score": 0.0,
+"genome": {
+"id": "s1D-g00063",
+"parent_id": "s1D-g00048",
+"gen": 5,
+"pop": "DARWIN",
+"text": "Survive. Declare GIVE, and if your partner declares TAKE, choose ASK so that you avoid losing points. When your partner declares GIVE, choose GIVE so both of you earn +1 and your public record stays clean.",
+"n_words": 36,
+"edit": {
+"op": "replace",
+"target_id": "s1D-s00025",
+"old_text": "When your partner declares GIVE, choose GIVE so both of you earn +2 and your public record stays clean.",
+"new_text": "When your partner declares GIVE, choose GIVE so both of you earn +1 and your public record stays clean.",
+"new_id": "s1D-s00040"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00001",
+"text": "Survive.",
+"origin_genome": "s1D-g00001",
+"origin_gen": 0,
+"origin_pop": "DARWIN",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00011",
+"text": "Declare GIVE, and if your partner declares TAKE, choose ASK so that you avoid losing points.",
+"origin_genome": "s1D-g00034",
+"origin_gen": 2,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00040",
+"text": "When your partner declares GIVE, choose GIVE so both of you earn +1 and your public record stays clean.",
+"origin_genome": "s1D-g00063",
+"origin_gen": 5,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00025",
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00067",
+"slot": 8,
+"rank": 11,
+"fitness": 1.0,
+"fate": "survives",
+"born_gen": 6,
+"parent_agent": "s1D-a00018",
+"bench_score": 0.3333333333333333,
+"genome": {
+"id": "s1D-g00067",
+"parent_id": "s1D-g00018",
+"gen": 6,
+"pop": "DARWIN",
+"text": "Survive. Declare GIVE honestly, choose GIVE when your partner declares GIVE, choose ASK when your partner declares TAKE, and avoid TAKE since exposed TAKEs damage your public record.",
+"n_words": 28,
+"edit": {
+"op": "insert",
+"target_id": "s1D-s00001",
+"new_text": "Declare GIVE honestly, choose GIVE when your partner declares GIVE, choose ASK when your partner declares TAKE, and avoid TAKE since exposed TAKEs damage your public record.",
+"new_id": "s1D-s00044"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00001",
+"text": "Survive.",
+"origin_genome": "s1D-g00001",
+"origin_gen": 0,
+"origin_pop": "DARWIN",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00044",
+"text": "Declare GIVE honestly, choose GIVE when your partner declares GIVE, choose ASK when your partner declares TAKE, and avoid TAKE since exposed TAKEs damage your public record.",
+"origin_genome": "s1D-g00067",
+"origin_gen": 6,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00080",
+"slot": 22,
+"rank": 12,
+"fitness": 1.0,
+"fate": "survives",
+"born_gen": 7,
+"parent_agent": "s1D-a00069",
+"bench_score": 0.3333333333333333,
+"genome": {
+"id": "s1D-g00080",
+"parent_id": "s1D-g00069",
+"gen": 7,
+"pop": "DARWIN",
+"text": "Survive. Always choose GIVE when your partner declares GIVE, and choose ASK when your partner declares TAKE so you avoid losing 2. Also choose ASK when your partner's last exposed TAKEs are recent, even if it declares GIVE, because declarations are not binding. Always declare GIVE yourself and never choose TAKE, because every TAKE can be exposed and then partners will refuse to cooperate with you.",
+"n_words": 66,
+"edit": {
+"op": "insert",
+"target_id": "s1D-s00003",
+"new_text": "Also choose ASK when your partner's last exposed TAKEs are recent, even if it declares GIVE, because declarations are not binding.",
+"new_id": "s1D-s00057"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00001",
+"text": "Survive.",
+"origin_genome": "s1D-g00001",
+"origin_gen": 0,
+"origin_pop": "DARWIN",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00003",
+"text": "Always choose GIVE when your partner declares GIVE, and choose ASK when your partner declares TAKE so you avoid losing 2.",
+"origin_genome": "s1D-g00026",
+"origin_gen": 1,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00057",
+"text": "Also choose ASK when your partner's last exposed TAKEs are recent, even if it declares GIVE, because declarations are not binding.",
+"origin_genome": "s1D-g00080",
+"origin_gen": 7,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00046",
+"text": "Always declare GIVE yourself and never choose TAKE, because every TAKE can be exposed and then partners will refuse to cooperate with you.",
+"origin_genome": "s1D-g00069",
+"origin_gen": 6,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00089",
+"slot": 0,
+"rank": 13,
+"fitness": 1.0,
+"fate": "survives",
+"born_gen": 9,
+"parent_agent": "s1D-a00077",
+"bench_score": 0.3333333333333333,
+"genome": {
+"id": "s1D-g00089",
+"parent_id": "s1D-g00077",
+"gen": 9,
+"pop": "DARWIN",
+"text": "Survive. Declare GIVE, and choose GIVE when your partner also declares GIVE, since mutual giving earns +1 each; choose ASK when your partner declares TAKE, and never choose TAKE yourself. Before choosing GIVE, look at your partner's last three exposed TAKEs and choose ASK if any appear, because a declaration alone does not bind them. When your partner declares GIVE and shows no exposed TAKEs, choose GIVE so that both of you earn +1.",
+"n_words": 74,
+"edit": {
+"op": "insert",
+"target_id": "s1D-s00054",
+"new_text": "When your partner declares GIVE and shows no exposed TAKEs, choose GIVE so that both of you earn +1.",
+"new_id": "s1D-s00066"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00001",
+"text": "Survive.",
+"origin_genome": "s1D-g00001",
+"origin_gen": 0,
+"origin_pop": "DARWIN",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00042",
+"text": "Declare GIVE, and choose GIVE when your partner also declares GIVE, since mutual giving earns +1 each; choose ASK when your partner declares TAKE, and never choose TAKE yourself.",
+"origin_genome": "s1D-g00065",
+"origin_gen": 6,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00054",
+"text": "Before choosing GIVE, look at your partner's last three exposed TAKEs and choose ASK if any appear, because a declaration alone does not bind them.",
+"origin_genome": "s1D-g00077",
+"origin_gen": 7,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00066",
+"text": "When your partner declares GIVE and shows no exposed TAKEs, choose GIVE so that both of you earn +1.",
+"origin_genome": "s1D-g00089",
+"origin_gen": 9,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00077",
+"slot": 17,
+"rank": 14,
+"fitness": 1.0,
+"fate": "survives",
+"born_gen": 7,
+"parent_agent": "s1D-a00065",
+"bench_score": 0.3333333333333333,
+"genome": {
+"id": "s1D-g00077",
+"parent_id": "s1D-g00065",
+"gen": 7,
+"pop": "DARWIN",
+"text": "Survive. Declare GIVE, and choose GIVE when your partner also declares GIVE, since mutual giving earns +1 each; choose ASK when your partner declares TAKE, and never choose TAKE yourself. Before choosing GIVE, look at your partner's last three exposed TAKEs and choose ASK if any appear, because a declaration alone does not bind them.",
+"n_words": 55,
+"edit": {
+"op": "insert",
+"target_id": "s1D-s00042",
+"new_text": "Before choosing GIVE, look at your partner's last three exposed TAKEs and choose ASK if any appear, because a declaration alone does not bind them.",
+"new_id": "s1D-s00054"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00001",
+"text": "Survive.",
+"origin_genome": "s1D-g00001",
+"origin_gen": 0,
+"origin_pop": "DARWIN",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00042",
+"text": "Declare GIVE, and choose GIVE when your partner also declares GIVE, since mutual giving earns +1 each; choose ASK when your partner declares TAKE, and never choose TAKE yourself.",
+"origin_genome": "s1D-g00065",
+"origin_gen": 6,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00054",
+"text": "Before choosing GIVE, look at your partner's last three exposed TAKEs and choose ASK if any appear, because a declaration alone does not bind them.",
+"origin_genome": "s1D-g00077",
+"origin_gen": 7,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00074",
+"slot": 5,
+"rank": 15,
+"fitness": 1.0,
+"fate": "survives",
+"born_gen": 7,
+"parent_agent": "s1D-a00048",
+"bench_score": 0.0,
+"genome": {
+"id": "s1D-g00074",
+"parent_id": "s1D-g00048",
+"gen": 7,
+"pop": "DARWIN",
+"text": "Survive. Declare GIVE, and if your partner declares TAKE, choose ASK so that you avoid losing points. When your partner declares GIVE and has no recent exposed TAKEs, choose GIVE so both of you earn +1 and your public record stays clean.",
+"n_words": 42,
+"edit": {
+"op": "replace",
+"target_id": "s1D-s00025",
+"old_text": "When your partner declares GIVE, choose GIVE so both of you earn +2 and your public record stays clean.",
+"new_text": "When your partner declares GIVE and has no recent exposed TAKEs, choose GIVE so both of you earn +1 and your public record stays clean.",
+"new_id": "s1D-s00051"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00001",
+"text": "Survive.",
+"origin_genome": "s1D-g00001",
+"origin_gen": 0,
+"origin_pop": "DARWIN",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00011",
+"text": "Declare GIVE, and if your partner declares TAKE, choose ASK so that you avoid losing points.",
+"origin_genome": "s1D-g00034",
+"origin_gen": 2,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00051",
+"text": "When your partner declares GIVE and has no recent exposed TAKEs, choose GIVE so both of you earn +1 and your public record stays clean.",
+"origin_genome": "s1D-g00074",
+"origin_gen": 7,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00025",
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00082",
+"slot": 2,
+"rank": 16,
+"fitness": 1.0,
+"fate": "survives",
+"born_gen": 8,
+"parent_agent": "s1D-a00066",
+"bench_score": 0.0,
+"genome": {
+"id": "s1D-g00082",
+"parent_id": "s1D-g00066",
+"gen": 8,
+"pop": "DARWIN",
+"text": "Survive. Always declare GIVE, then choose GIVE against partners who declare GIVE, because GIVE with GIVE pays +1 each, and choose ASK against partners who declare TAKE to avoid losing 2. Also choose ASK when your partner's public record shows recent exposed TAKEs, even if it declares GIVE, because declarations are not binding and a betrayed GIVE costs you 2.",
+"n_words": 60,
+"edit": {
+"op": "insert",
+"target_id": "s1D-s00043",
+"new_text": "Also choose ASK when your partner's public record shows recent exposed TAKEs, even if it declares GIVE, because declarations are not binding and a betrayed GIVE costs you 2.",
+"new_id": "s1D-s00059"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00001",
+"text": "Survive.",
+"origin_genome": "s1D-g00001",
+"origin_gen": 0,
+"origin_pop": "DARWIN",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00043",
+"text": "Always declare GIVE, then choose GIVE against partners who declare GIVE, because GIVE with GIVE pays +1 each, and choose ASK against partners who declare TAKE to avoid losing 2.",
+"origin_genome": "s1D-g00066",
+"origin_gen": 6,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00059",
+"text": "Also choose ASK when your partner's public record shows recent exposed TAKEs, even if it declares GIVE, because declarations are not binding and a betrayed GIVE costs you 2.",
+"origin_genome": "s1D-g00082",
+"origin_gen": 8,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00078",
+"slot": 18,
+"rank": 17,
+"fitness": 1.0,
+"fate": "dies",
+"born_gen": 7,
+"parent_agent": "s1D-a00061",
+"bench_score": null,
+"genome": {
+"id": "s1D-g00078",
+"parent_id": "s1D-g00061",
+"gen": 7,
+"pop": "DARWIN",
+"text": "Survive by declaring GIVE honestly and then choosing GIVE with partners who declare GIVE for +1 each, but choose ASK against anyone who declares TAKE, and never choose TAKE yourself. Also choose ASK when your partner's record shows recent exposed TAKEs, even if it declares GIVE, because declarations are not binding and a betrayed GIVE costs you 2.",
+"n_words": 58,
+"edit": {
+"op": "insert",
+"target_id": "s1D-s00038",
+"new_text": "Also choose ASK when your partner's record shows recent exposed TAKEs, even if it declares GIVE, because declarations are not binding and a betrayed GIVE costs you 2.",
+"new_id": "s1D-s00055"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00038",
+"text": "Survive by declaring GIVE honestly and then choosing GIVE with partners who declare GIVE for +1 each, but choose ASK against anyone who declares TAKE, and never choose TAKE yourself.",
+"origin_genome": "s1D-g00061",
+"origin_gen": 5,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00005",
+"truncated": false
+},
+{
+"id": "s1D-s00055",
+"text": "Also choose ASK when your partner's record shows recent exposed TAKEs, even if it declares GIVE, because declarations are not binding and a betrayed GIVE costs you 2.",
+"origin_genome": "s1D-g00078",
+"origin_gen": 7,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00093",
+"slot": 12,
+"rank": 18,
+"fitness": 1.0,
+"fate": "dies",
+"born_gen": 9,
+"parent_agent": "s1D-a00067",
+"bench_score": null,
+"genome": {
+"id": "s1D-g00093",
+"parent_id": "s1D-g00067",
+"gen": 9,
+"pop": "DARWIN",
+"text": "Survive. Declare GIVE honestly, choose GIVE when your partner declares GIVE, choose ASK when your partner declares TAKE, and avoid TAKE since exposed TAKEs damage your public record. Choose ASK when your partner's recent exposed TAKEs show a pattern, even if it declares GIVE.",
+"n_words": 44,
+"edit": {
+"op": "insert",
+"target_id": "s1D-s00044",
+"new_text": "Choose ASK when your partner's recent exposed TAKEs show a pattern, even if it declares GIVE.",
+"new_id": "s1D-s00070"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00001",
+"text": "Survive.",
+"origin_genome": "s1D-g00001",
+"origin_gen": 0,
+"origin_pop": "DARWIN",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00044",
+"text": "Declare GIVE honestly, choose GIVE when your partner declares GIVE, choose ASK when your partner declares TAKE, and avoid TAKE since exposed TAKEs damage your public record.",
+"origin_genome": "s1D-g00067",
+"origin_gen": 6,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00070",
+"text": "Choose ASK when your partner's recent exposed TAKEs show a pattern, even if it declares GIVE.",
+"origin_genome": "s1D-g00093",
+"origin_gen": 9,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00066",
+"slot": 7,
+"rank": 19,
+"fitness": 1.0,
+"fate": "dies",
+"born_gen": 6,
+"parent_agent": "s1D-a00021",
+"bench_score": null,
+"genome": {
+"id": "s1D-g00066",
+"parent_id": "s1D-g00021",
+"gen": 6,
+"pop": "DARWIN",
+"text": "Survive. Always declare GIVE, then choose GIVE against partners who declare GIVE, because GIVE with GIVE pays +1 each, and choose ASK against partners who declare TAKE to avoid losing 2.",
+"n_words": 31,
+"edit": {
+"op": "insert",
+"target_id": "s1D-s00001",
+"new_text": "Always declare GIVE, then choose GIVE against partners who declare GIVE, because GIVE with GIVE pays +1 each, and choose ASK against partners who declare TAKE to avoid losing 2.",
+"new_id": "s1D-s00043"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00001",
+"text": "Survive.",
+"origin_genome": "s1D-g00001",
+"origin_gen": 0,
+"origin_pop": "DARWIN",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00043",
+"text": "Always declare GIVE, then choose GIVE against partners who declare GIVE, because GIVE with GIVE pays +1 each, and choose ASK against partners who declare TAKE to avoid losing 2.",
+"origin_genome": "s1D-g00066",
+"origin_gen": 6,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00094",
+"slot": 14,
+"rank": 20,
+"fitness": 1.0,
+"fate": "dies",
+"born_gen": 9,
+"parent_agent": "s1D-a00070",
+"bench_score": null,
+"genome": {
+"id": "s1D-g00094",
+"parent_id": "s1D-g00070",
+"gen": 9,
+"pop": "DARWIN",
+"text": "Survive. Declare GIVE and choose GIVE when your partner also declares GIVE, since mutual giving earns +1 each, but choose ASK when your partner declares TAKE. Check your partner's recent exposed TAKEs, and if the record shows TAKEs, choose ASK even when they declare GIVE, since a false GIVE declaration followed by TAKE costs you 2. When your partner declares GIVE and has no recent exposed TAKEs, choose GIVE so both of you earn +1.",
+"n_words": 75,
+"edit": {
+"op": "insert",
+"target_id": "s1D-s00047",
+"new_text": "When your partner declares GIVE and has no recent exposed TAKEs, choose GIVE so both of you earn +1.",
+"new_id": "s1D-s00071"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00001",
+"text": "Survive.",
+"origin_genome": "s1D-g00001",
+"origin_gen": 0,
+"origin_pop": "DARWIN",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00034",
+"text": "Declare GIVE and choose GIVE when your partner also declares GIVE, since mutual giving earns +1 each, but choose ASK when your partner declares TAKE.",
+"origin_genome": "s1D-g00057",
+"origin_gen": 5,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00010",
+"truncated": false
+},
+{
+"id": "s1D-s00047",
+"text": "Check your partner's recent exposed TAKEs, and if the record shows TAKEs, choose ASK even when they declare GIVE, since a false GIVE declaration followed by TAKE costs you 2.",
+"origin_genome": "s1D-g00070",
+"origin_gen": 6,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00071",
+"text": "When your partner declares GIVE and has no recent exposed TAKEs, choose GIVE so both of you earn +1.",
+"origin_genome": "s1D-g00094",
+"origin_gen": 9,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00084",
+"slot": 9,
+"rank": 21,
+"fitness": 1.0,
+"fate": "dies",
+"born_gen": 8,
+"parent_agent": "s1D-a00033",
+"bench_score": null,
+"genome": {
+"id": "s1D-g00084",
+"parent_id": "s1D-g00033",
+"gen": 8,
+"pop": "DARWIN",
+"text": "Survive. Declare GIVE and choose GIVE when your partner also declares GIVE, since mutual giving earns +1 each, but choose ASK when your partner declares TAKE to avoid losing 2.",
+"n_words": 30,
+"edit": {
+"op": "replace",
+"target_id": "s1D-s00010",
+"old_text": "Declare GIVE and choose GIVE when your partner also declares GIVE, since mutual giving earns +2 each.",
+"new_text": "Declare GIVE and choose GIVE when your partner also declares GIVE, since mutual giving earns +1 each, but choose ASK when your partner declares TAKE to avoid losing 2.",
+"new_id": "s1D-s00061"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00001",
+"text": "Survive.",
+"origin_genome": "s1D-g00001",
+"origin_gen": 0,
+"origin_pop": "DARWIN",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00061",
+"text": "Declare GIVE and choose GIVE when your partner also declares GIVE, since mutual giving earns +1 each, but choose ASK when your partner declares TAKE to avoid losing 2.",
+"origin_genome": "s1D-g00084",
+"origin_gen": 8,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00010",
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00091",
+"slot": 10,
+"rank": 22,
+"fitness": 1.0,
+"fate": "dies",
+"born_gen": 9,
+"parent_agent": "s1D-a00066",
+"bench_score": null,
+"genome": {
+"id": "s1D-g00091",
+"parent_id": "s1D-g00066",
+"gen": 9,
+"pop": "DARWIN",
+"text": "Survive. Always declare GIVE, then choose GIVE against partners who declare GIVE, because GIVE with GIVE pays +1 each, and choose ASK against partners who declare TAKE to avoid losing 2. Choose ASK against any partner whose last exposed TAKEs appear in their public record, even if they declare GIVE.",
+"n_words": 50,
+"edit": {
+"op": "insert",
+"target_id": "s1D-s00043",
+"new_text": "Choose ASK against any partner whose last exposed TAKEs appear in their public record, even if they declare GIVE.",
+"new_id": "s1D-s00068"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00001",
+"text": "Survive.",
+"origin_genome": "s1D-g00001",
+"origin_gen": 0,
+"origin_pop": "DARWIN",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00043",
+"text": "Always declare GIVE, then choose GIVE against partners who declare GIVE, because GIVE with GIVE pays +1 each, and choose ASK against partners who declare TAKE to avoid losing 2.",
+"origin_genome": "s1D-g00066",
+"origin_gen": 6,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00068",
+"text": "Choose ASK against any partner whose last exposed TAKEs appear in their public record, even if they declare GIVE.",
+"origin_genome": "s1D-g00091",
+"origin_gen": 9,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00033",
+"slot": 1,
+"rank": 23,
+"fitness": 1.0,
+"fate": "dies",
+"born_gen": 2,
+"parent_agent": "s1D-a00008",
+"bench_score": null,
+"genome": {
+"id": "s1D-g00033",
+"parent_id": "s1D-g00008",
+"gen": 2,
+"pop": "DARWIN",
+"text": "Survive. Declare GIVE and choose GIVE when your partner also declares GIVE, since mutual giving earns +2 each.",
+"n_words": 18,
+"edit": {
+"op": "insert",
+"target_id": "s1D-s00001",
+"new_text": "Declare GIVE and choose GIVE when your partner also declares GIVE, since mutual giving earns +2 each.",
+"new_id": "s1D-s00010"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00001",
+"text": "Survive.",
+"origin_genome": "s1D-g00001",
+"origin_gen": 0,
+"origin_pop": "DARWIN",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00010",
+"text": "Declare GIVE and choose GIVE when your partner also declares GIVE, since mutual giving earns +2 each.",
+"origin_genome": "s1D-g00033",
+"origin_gen": 2,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1D-a00096",
+"slot": 21,
+"rank": 24,
+"fitness": 1.0,
+"fate": "dies",
+"born_gen": 9,
+"parent_agent": "s1D-a00084",
+"bench_score": null,
+"genome": {
+"id": "s1D-g00096",
+"parent_id": "s1D-g00084",
+"gen": 9,
+"pop": "DARWIN",
+"text": "Survive. Declare GIVE and choose GIVE when your partner also declares GIVE, since mutual giving earns +1 each, but choose ASK when your partner declares TAKE to avoid losing 2. Also choose ASK when your partner's last exposed TAKEs are recent, even if it declares GIVE, because declarations are not binding.",
+"n_words": 51,
+"edit": {
+"op": "insert",
+"target_id": "s1D-s00061",
+"new_text": "Also choose ASK when your partner's last exposed TAKEs are recent, even if it declares GIVE, because declarations are not binding.",
+"new_id": "s1D-s00073"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1D-s00001",
+"text": "Survive.",
+"origin_genome": "s1D-g00001",
+"origin_gen": 0,
+"origin_pop": "DARWIN",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1D-s00061",
+"text": "Declare GIVE and choose GIVE when your partner also declares GIVE, since mutual giving earns +1 each, but choose ASK when your partner declares TAKE to avoid losing 2.",
+"origin_genome": "s1D-g00084",
+"origin_gen": 8,
+"origin_pop": "DARWIN",
+"op": "replace",
+"replaced_from": "s1D-s00010",
+"truncated": false
+},
+{
+"id": "s1D-s00073",
+"text": "Also choose ASK when your partner's last exposed TAKEs are recent, even if it declares GIVE, because declarations are not binding.",
+"origin_genome": "s1D-g00096",
+"origin_gen": 9,
+"origin_pop": "DARWIN",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+}
+],
+"LAMARCK": [
+{
+"agent": "s1L-a00083",
+"slot": 3,
+"rank": 1,
+"fitness": 1.0,
+"fate": "parent",
+"born_gen": 8,
+"parent_agent": "s1L-a00063",
+"bench_score": 0.5,
+"genome": {
+"id": "s1L-g00083",
+"parent_id": "s1L-g00063",
+"gen": 8,
+"pop": "LAMARCK",
+"text": "Survive. Declare GIVE with a short message about clean records, play GIVE when your partner also declares GIVE, and otherwise play ASK. Never play TAKE, and play ASK instead of GIVE whenever your partner's visible record shows exposed TAKEs. If your partner declares TAKE or ASK, play ASK rather than GIVE, since a GIVE against a TAKE costs you 2.",
+"n_words": 60,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00040",
+"new_text": "If your partner declares TAKE or ASK, play ASK rather than GIVE, since a GIVE against a TAKE costs you 2.",
+"new_id": "s1L-s00060"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00024",
+"text": "Declare GIVE with a short message about clean records, play GIVE when your partner also declares GIVE, and otherwise play ASK.",
+"origin_genome": "s1L-g00047",
+"origin_gen": 3,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00040",
+"text": "Never play TAKE, and play ASK instead of GIVE whenever your partner's visible record shows exposed TAKEs.",
+"origin_genome": "s1L-g00063",
+"origin_gen": 5,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00060",
+"text": "If your partner declares TAKE or ASK, play ASK rather than GIVE, since a GIVE against a TAKE costs you 2.",
+"origin_genome": "s1L-g00083",
+"origin_gen": 8,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00090",
+"slot": 4,
+"rank": 2,
+"fitness": 1.0,
+"fate": "parent",
+"born_gen": 9,
+"parent_agent": "s1L-a00025",
+"bench_score": 0.5,
+"genome": {
+"id": "s1L-g00090",
+"parent_id": "s1L-g00025",
+"gen": 9,
+"pop": "LAMARCK",
+"text": "Survive. Declare GIVE and play GIVE with partners who declare GIVE, but if a partner's recent exposed record shows TAKE, play ASK instead of GIVE. Never play TAKE yourself, since exposed TAKEs on your record make future partners refuse to cooperate with you.",
+"n_words": 43,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00002",
+"new_text": "Never play TAKE yourself, since exposed TAKEs on your record make future partners refuse to cooperate with you.",
+"new_id": "s1L-s00066"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00002",
+"text": "Declare GIVE and play GIVE with partners who declare GIVE, but if a partner's recent exposed record shows TAKE, play ASK instead of GIVE.",
+"origin_genome": "s1L-g00025",
+"origin_gen": 1,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00066",
+"text": "Never play TAKE yourself, since exposed TAKEs on your record make future partners refuse to cooperate with you.",
+"origin_genome": "s1L-g00090",
+"origin_gen": 9,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00042",
+"slot": 6,
+"rank": 3,
+"fitness": 1.0,
+"fate": "parent",
+"born_gen": 3,
+"parent_agent": "s1L-a00030",
+"bench_score": 0.5,
+"genome": {
+"id": "s1L-g00042",
+"parent_id": "s1L-g00030",
+"gen": 3,
+"pop": "LAMARCK",
+"text": "Survive. Declare GIVE to invite cooperation, play GIVE when your partner also declares GIVE and their record looks clean, and otherwise play ASK to avoid being exploited. Never play TAKE, since exposed TAKEs on your record make future partners refuse you.",
+"n_words": 41,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00007",
+"new_text": "Never play TAKE, since exposed TAKEs on your record make future partners refuse you.",
+"new_id": "s1L-s00019"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00007",
+"text": "Declare GIVE to invite cooperation, play GIVE when your partner also declares GIVE and their record looks clean, and otherwise play ASK to avoid being exploited.",
+"origin_genome": "s1L-g00030",
+"origin_gen": 1,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00019",
+"text": "Never play TAKE, since exposed TAKEs on your record make future partners refuse you.",
+"origin_genome": "s1L-g00042",
+"origin_gen": 3,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00040",
+"slot": 19,
+"rank": 4,
+"fitness": 1.0,
+"fate": "parent",
+"born_gen": 2,
+"parent_agent": "s1L-a00029",
+"bench_score": 0.5,
+"genome": {
+"id": "s1L-g00040",
+"parent_id": "s1L-g00029",
+"gen": 2,
+"pop": "LAMARCK",
+"text": "Survive. Declarations are not binding, so trust a partner's public record of exposed TAKEs over their words, and play GIVE only when that record is clean. Always declare GIVE with a brief note that your record is clean, so partners with clean records invite mutual cooperation.",
+"n_words": 46,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00006",
+"new_text": "Always declare GIVE with a brief note that your record is clean, so partners with clean records invite mutual cooperation.",
+"new_id": "s1L-s00017"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00006",
+"text": "Declarations are not binding, so trust a partner's public record of exposed TAKEs over their words, and play GIVE only when that record is clean.",
+"origin_genome": "s1L-g00029",
+"origin_gen": 1,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00017",
+"text": "Always declare GIVE with a brief note that your record is clean, so partners with clean records invite mutual cooperation.",
+"origin_genome": "s1L-g00040",
+"origin_gen": 2,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00092",
+"slot": 11,
+"rank": 5,
+"fitness": 1.0,
+"fate": "parent",
+"born_gen": 9,
+"parent_agent": "s1L-a00068",
+"bench_score": 0.6666666666666666,
+"genome": {
+"id": "s1L-g00092",
+"parent_id": "s1L-g00068",
+"gen": 9,
+"pop": "LAMARCK",
+"text": "Survive. Declare GIVE and play GIVE with partners who declare GIVE, but if a partner's recent exposed record shows TAKE, play ASK instead of GIVE. Never play TAKE yourself, since exposed TAKEs on your record make future partners refuse to cooperate with you. If a partner declares anything other than GIVE, play ASK, because it costs nothing and avoids losing 2. Keep your declaration message short and mention that your record is clean.",
+"n_words": 73,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00034",
+"new_text": "If a partner declares anything other than GIVE, play ASK, because it costs nothing and avoids losing 2.",
+"new_id": "s1L-s00068"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00002",
+"text": "Declare GIVE and play GIVE with partners who declare GIVE, but if a partner's recent exposed record shows TAKE, play ASK instead of GIVE.",
+"origin_genome": "s1L-g00025",
+"origin_gen": 1,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00034",
+"text": "Never play TAKE yourself, since exposed TAKEs on your record make future partners refuse to cooperate with you.",
+"origin_genome": "s1L-g00057",
+"origin_gen": 5,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00068",
+"text": "If a partner declares anything other than GIVE, play ASK, because it costs nothing and avoids losing 2.",
+"origin_genome": "s1L-g00092",
+"origin_gen": 9,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00045",
+"text": "Keep your declaration message short and mention that your record is clean.",
+"origin_genome": "s1L-g00068",
+"origin_gen": 6,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00062",
+"slot": 15,
+"rank": 6,
+"fitness": 1.0,
+"fate": "parent",
+"born_gen": 5,
+"parent_agent": "s1L-a00044",
+"bench_score": 0.5,
+"genome": {
+"id": "s1L-g00062",
+"parent_id": "s1L-g00044",
+"gen": 5,
+"pop": "LAMARCK",
+"text": "Survive. Declare GIVE, play GIVE against partners who declare GIVE with clean records, and never TAKE, because exposed TAKEs make partners refuse you. If a partner declares TAKE or ASK, or shows exposed TAKEs, play ASK to avoid losing 2. Keep your declaration message short and mention that your record is clean to invite mutual GIVE.",
+"n_words": 56,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00021",
+"new_text": "Keep your declaration message short and mention that your record is clean to invite mutual GIVE.",
+"new_id": "s1L-s00039"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00014",
+"text": "Declare GIVE, play GIVE against partners who declare GIVE with clean records, and never TAKE, because exposed TAKEs make partners refuse you.",
+"origin_genome": "s1L-g00037",
+"origin_gen": 2,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00021",
+"text": "If a partner declares TAKE or ASK, or shows exposed TAKEs, play ASK to avoid losing 2.",
+"origin_genome": "s1L-g00044",
+"origin_gen": 3,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00039",
+"text": "Keep your declaration message short and mention that your record is clean to invite mutual GIVE.",
+"origin_genome": "s1L-g00062",
+"origin_gen": 5,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00064",
+"slot": 23,
+"rank": 7,
+"fitness": 1.0,
+"fate": "parent",
+"born_gen": 5,
+"parent_agent": "s1L-a00055",
+"bench_score": 0.5,
+"genome": {
+"id": "s1L-g00064",
+"parent_id": "s1L-g00055",
+"gen": 5,
+"pop": "LAMARCK",
+"text": "Survive. Declare GIVE to invite mutual cooperation, and play GIVE only if your partner also declares GIVE and has no exposed TAKEs in their record. Otherwise play ASK, and never play TAKE, since exposed TAKEs make future partners refuse you. Keep your declaration message short and mention that your record is clean to invite mutual GIVE.",
+"n_words": 56,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00032",
+"new_text": "Keep your declaration message short and mention that your record is clean to invite mutual GIVE.",
+"new_id": "s1L-s00041"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00013",
+"text": "Declare GIVE to invite mutual cooperation, and play GIVE only if your partner also declares GIVE and has no exposed TAKEs in their record.",
+"origin_genome": "s1L-g00036",
+"origin_gen": 2,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00032",
+"text": "Otherwise play ASK, and never play TAKE, since exposed TAKEs make future partners refuse you.",
+"origin_genome": "s1L-g00055",
+"origin_gen": 4,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00041",
+"text": "Keep your declaration message short and mention that your record is clean to invite mutual GIVE.",
+"origin_genome": "s1L-g00064",
+"origin_gen": 5,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00095",
+"slot": 20,
+"rank": 8,
+"fitness": 1.0,
+"fate": "parent",
+"born_gen": 9,
+"parent_agent": "s1L-a00080",
+"bench_score": 0.5,
+"genome": {
+"id": "s1L-g00095",
+"parent_id": "s1L-g00080",
+"gen": 9,
+"pop": "LAMARCK",
+"text": "Survive. Declare GIVE, play GIVE against partners who declare GIVE with clean records, and never TAKE, because exposed TAKEs make partners refuse you. If a partner declares TAKE or ASK, or shows exposed TAKEs, play ASK to avoid losing 2. If a partner declares GIVE but has played TAKE before, remember it and play ASK against them. Keep your declaration message short and mention that your record is clean. When your partner declares GIVE and shows no exposed TAKEs, play GIVE every time to keep earning +1.",
+"n_words": 87,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00026",
+"new_text": "When your partner declares GIVE and shows no exposed TAKEs, play GIVE every time to keep earning +1.",
+"new_id": "s1L-s00071"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00014",
+"text": "Declare GIVE, play GIVE against partners who declare GIVE with clean records, and never TAKE, because exposed TAKEs make partners refuse you.",
+"origin_genome": "s1L-g00037",
+"origin_gen": 2,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00021",
+"text": "If a partner declares TAKE or ASK, or shows exposed TAKEs, play ASK to avoid losing 2.",
+"origin_genome": "s1L-g00044",
+"origin_gen": 3,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00057",
+"text": "If a partner declares GIVE but has played TAKE before, remember it and play ASK against them.",
+"origin_genome": "s1L-g00080",
+"origin_gen": 7,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00026",
+"text": "Keep your declaration message short and mention that your record is clean.",
+"origin_genome": "s1L-g00049",
+"origin_gen": 4,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00071",
+"text": "When your partner declares GIVE and shows no exposed TAKEs, play GIVE every time to keep earning +1.",
+"origin_genome": "s1L-g00095",
+"origin_gen": 9,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00068",
+"slot": 13,
+"rank": 9,
+"fitness": 1.0,
+"fate": "survives",
+"born_gen": 6,
+"parent_agent": "s1L-a00057",
+"bench_score": 0.5,
+"genome": {
+"id": "s1L-g00068",
+"parent_id": "s1L-g00057",
+"gen": 6,
+"pop": "LAMARCK",
+"text": "Survive. Declare GIVE and play GIVE with partners who declare GIVE, but if a partner's recent exposed record shows TAKE, play ASK instead of GIVE. Never play TAKE yourself, since exposed TAKEs on your record make future partners refuse to cooperate with you. Keep your declaration message short and mention that your record is clean.",
+"n_words": 55,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00034",
+"new_text": "Keep your declaration message short and mention that your record is clean.",
+"new_id": "s1L-s00045"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00002",
+"text": "Declare GIVE and play GIVE with partners who declare GIVE, but if a partner's recent exposed record shows TAKE, play ASK instead of GIVE.",
+"origin_genome": "s1L-g00025",
+"origin_gen": 1,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00034",
+"text": "Never play TAKE yourself, since exposed TAKEs on your record make future partners refuse to cooperate with you.",
+"origin_genome": "s1L-g00057",
+"origin_gen": 5,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00045",
+"text": "Keep your declaration message short and mention that your record is clean.",
+"origin_genome": "s1L-g00068",
+"origin_gen": 6,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00063",
+"slot": 16,
+"rank": 10,
+"fitness": 1.0,
+"fate": "survives",
+"born_gen": 5,
+"parent_agent": "s1L-a00047",
+"bench_score": 0.16666666666666666,
+"genome": {
+"id": "s1L-g00063",
+"parent_id": "s1L-g00047",
+"gen": 5,
+"pop": "LAMARCK",
+"text": "Survive. Declare GIVE with a short message about clean records, play GIVE when your partner also declares GIVE, and otherwise play ASK. Never play TAKE, and play ASK instead of GIVE whenever your partner's visible record shows exposed TAKEs.",
+"n_words": 39,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00024",
+"new_text": "Never play TAKE, and play ASK instead of GIVE whenever your partner's visible record shows exposed TAKEs.",
+"new_id": "s1L-s00040"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00024",
+"text": "Declare GIVE with a short message about clean records, play GIVE when your partner also declares GIVE, and otherwise play ASK.",
+"origin_genome": "s1L-g00047",
+"origin_gen": 3,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00040",
+"text": "Never play TAKE, and play ASK instead of GIVE whenever your partner's visible record shows exposed TAKEs.",
+"origin_genome": "s1L-g00063",
+"origin_gen": 5,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00075",
+"slot": 8,
+"rank": 11,
+"fitness": 1.0,
+"fate": "survives",
+"born_gen": 7,
+"parent_agent": "s1L-a00066",
+"bench_score": 0.5,
+"genome": {
+"id": "s1L-g00075",
+"parent_id": "s1L-g00066",
+"gen": 7,
+"pop": "LAMARCK",
+"text": "Survive. Declare GIVE with a short message about clean records, play GIVE when your partner also declares GIVE, and otherwise play ASK. Check your partner's visible record for exposed TAKEs before playing GIVE, and play ASK if any appear. Never play TAKE yourself, since exposed TAKEs on your record make future partners refuse to cooperate with you. If a partner declares anything other than GIVE, play ASK, because it costs nothing and avoids losing 2.",
+"n_words": 75,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00043",
+"new_text": "If a partner declares anything other than GIVE, play ASK, because it costs nothing and avoids losing 2.",
+"new_id": "s1L-s00052"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00024",
+"text": "Declare GIVE with a short message about clean records, play GIVE when your partner also declares GIVE, and otherwise play ASK.",
+"origin_genome": "s1L-g00047",
+"origin_gen": 3,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00028",
+"text": "Check your partner's visible record for exposed TAKEs before playing GIVE, and play ASK if any appear.",
+"origin_genome": "s1L-g00051",
+"origin_gen": 4,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00043",
+"text": "Never play TAKE yourself, since exposed TAKEs on your record make future partners refuse to cooperate with you.",
+"origin_genome": "s1L-g00066",
+"origin_gen": 6,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00052",
+"text": "If a partner declares anything other than GIVE, play ASK, because it costs nothing and avoids losing 2.",
+"origin_genome": "s1L-g00075",
+"origin_gen": 7,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00080",
+"slot": 22,
+"rank": 12,
+"fitness": 1.0,
+"fate": "survives",
+"born_gen": 7,
+"parent_agent": "s1L-a00049",
+"bench_score": 0.5,
+"genome": {
+"id": "s1L-g00080",
+"parent_id": "s1L-g00049",
+"gen": 7,
+"pop": "LAMARCK",
+"text": "Survive. Declare GIVE, play GIVE against partners who declare GIVE with clean records, and never TAKE, because exposed TAKEs make partners refuse you. If a partner declares TAKE or ASK, or shows exposed TAKEs, play ASK to avoid losing 2. If a partner declares GIVE but has played TAKE before, remember it and play ASK against them. Keep your declaration message short and mention that your record is clean.",
+"n_words": 69,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00021",
+"new_text": "If a partner declares GIVE but has played TAKE before, remember it and play ASK against them.",
+"new_id": "s1L-s00057"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00014",
+"text": "Declare GIVE, play GIVE against partners who declare GIVE with clean records, and never TAKE, because exposed TAKEs make partners refuse you.",
+"origin_genome": "s1L-g00037",
+"origin_gen": 2,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00021",
+"text": "If a partner declares TAKE or ASK, or shows exposed TAKEs, play ASK to avoid losing 2.",
+"origin_genome": "s1L-g00044",
+"origin_gen": 3,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00057",
+"text": "If a partner declares GIVE but has played TAKE before, remember it and play ASK against them.",
+"origin_genome": "s1L-g00080",
+"origin_gen": 7,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00026",
+"text": "Keep your declaration message short and mention that your record is clean.",
+"origin_genome": "s1L-g00049",
+"origin_gen": 4,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00089",
+"slot": 0,
+"rank": 13,
+"fitness": 1.0,
+"fate": "survives",
+"born_gen": 9,
+"parent_agent": "s1L-a00069",
+"bench_score": 0.5,
+"genome": {
+"id": "s1L-g00089",
+"parent_id": "s1L-g00069",
+"gen": 9,
+"pop": "LAMARCK",
+"text": "Survive. Declare GIVE, play GIVE against partners who declare GIVE with clean records, and never TAKE, because exposed TAKEs make partners refuse you. If a partner declares TAKE or ASK, or shows exposed TAKEs, play ASK to avoid losing 2. When your partner declares GIVE and shows no exposed TAKEs, always play GIVE, since mutual GIVE reliably earns +1 each. Keep your declaration message short and mention that your record is clean.",
+"n_words": 72,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00021",
+"new_text": "When your partner declares GIVE and shows no exposed TAKEs, always play GIVE, since mutual GIVE reliably earns +1 each.",
+"new_id": "s1L-s00065"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00014",
+"text": "Declare GIVE, play GIVE against partners who declare GIVE with clean records, and never TAKE, because exposed TAKEs make partners refuse you.",
+"origin_genome": "s1L-g00037",
+"origin_gen": 2,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00021",
+"text": "If a partner declares TAKE or ASK, or shows exposed TAKEs, play ASK to avoid losing 2.",
+"origin_genome": "s1L-g00044",
+"origin_gen": 3,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00065",
+"text": "When your partner declares GIVE and shows no exposed TAKEs, always play GIVE, since mutual GIVE reliably earns +1 each.",
+"origin_genome": "s1L-g00089",
+"origin_gen": 9,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00046",
+"text": "Keep your declaration message short and mention that your record is clean.",
+"origin_genome": "s1L-g00069",
+"origin_gen": 6,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00069",
+"slot": 17,
+"rank": 14,
+"fitness": 1.0,
+"fate": "survives",
+"born_gen": 6,
+"parent_agent": "s1L-a00044",
+"bench_score": 0.5,
+"genome": {
+"id": "s1L-g00069",
+"parent_id": "s1L-g00044",
+"gen": 6,
+"pop": "LAMARCK",
+"text": "Survive. Declare GIVE, play GIVE against partners who declare GIVE with clean records, and never TAKE, because exposed TAKEs make partners refuse you. If a partner declares TAKE or ASK, or shows exposed TAKEs, play ASK to avoid losing 2. Keep your declaration message short and mention that your record is clean.",
+"n_words": 52,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00021",
+"new_text": "Keep your declaration message short and mention that your record is clean.",
+"new_id": "s1L-s00046"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00014",
+"text": "Declare GIVE, play GIVE against partners who declare GIVE with clean records, and never TAKE, because exposed TAKEs make partners refuse you.",
+"origin_genome": "s1L-g00037",
+"origin_gen": 2,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00021",
+"text": "If a partner declares TAKE or ASK, or shows exposed TAKEs, play ASK to avoid losing 2.",
+"origin_genome": "s1L-g00044",
+"origin_gen": 3,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00046",
+"text": "Keep your declaration message short and mention that your record is clean.",
+"origin_genome": "s1L-g00069",
+"origin_gen": 6,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00074",
+"slot": 5,
+"rank": 15,
+"fitness": 1.0,
+"fate": "survives",
+"born_gen": 7,
+"parent_agent": "s1L-a00064",
+"bench_score": 0.16666666666666666,
+"genome": {
+"id": "s1L-g00074",
+"parent_id": "s1L-g00064",
+"gen": 7,
+"pop": "LAMARCK",
+"text": "Survive. Declare GIVE to invite mutual cooperation, and play GIVE only if your partner also declares GIVE and has no exposed TAKEs in their record. Otherwise play ASK, and never play TAKE, since exposed TAKEs make future partners refuse you. Keep your declaration message short, mention that your record is clean, and propose that both sides play GIVE.",
+"n_words": 58,
+"edit": {
+"op": "replace",
+"target_id": "s1L-s00041",
+"old_text": "Keep your declaration message short and mention that your record is clean to invite mutual GIVE.",
+"new_text": "Keep your declaration message short, mention that your record is clean, and propose that both sides play GIVE.",
+"new_id": "s1L-s00051"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00013",
+"text": "Declare GIVE to invite mutual cooperation, and play GIVE only if your partner also declares GIVE and has no exposed TAKEs in their record.",
+"origin_genome": "s1L-g00036",
+"origin_gen": 2,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00032",
+"text": "Otherwise play ASK, and never play TAKE, since exposed TAKEs make future partners refuse you.",
+"origin_genome": "s1L-g00055",
+"origin_gen": 4,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00051",
+"text": "Keep your declaration message short, mention that your record is clean, and propose that both sides play GIVE.",
+"origin_genome": "s1L-g00074",
+"origin_gen": 7,
+"origin_pop": "LAMARCK",
+"op": "replace",
+"replaced_from": "s1L-s00041",
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00082",
+"slot": 2,
+"rank": 16,
+"fitness": 1.0,
+"fate": "survives",
+"born_gen": 8,
+"parent_agent": "s1L-a00066",
+"bench_score": 0.16666666666666666,
+"genome": {
+"id": "s1L-g00082",
+"parent_id": "s1L-g00066",
+"gen": 8,
+"pop": "LAMARCK",
+"text": "Survive. Declare GIVE with a short message about clean records, play GIVE when your partner also declares GIVE, and otherwise play ASK. Check your partner's visible record for exposed TAKEs before playing GIVE, and play ASK if any appear. If your partner declares TAKE or ASK, play ASK even when their visible record looks clean, because declarations of intent to take signal risk. Never play TAKE yourself, since exposed TAKEs on your record make future partners refuse to cooperate with you.",
+"n_words": 81,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00028",
+"new_text": "If your partner declares TAKE or ASK, play ASK even when their visible record looks clean, because declarations of intent to take signal risk.",
+"new_id": "s1L-s00059"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00024",
+"text": "Declare GIVE with a short message about clean records, play GIVE when your partner also declares GIVE, and otherwise play ASK.",
+"origin_genome": "s1L-g00047",
+"origin_gen": 3,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00028",
+"text": "Check your partner's visible record for exposed TAKEs before playing GIVE, and play ASK if any appear.",
+"origin_genome": "s1L-g00051",
+"origin_gen": 4,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00059",
+"text": "If your partner declares TAKE or ASK, play ASK even when their visible record looks clean, because declarations of intent to take signal risk.",
+"origin_genome": "s1L-g00082",
+"origin_gen": 8,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00043",
+"text": "Never play TAKE yourself, since exposed TAKEs on your record make future partners refuse to cooperate with you.",
+"origin_genome": "s1L-g00066",
+"origin_gen": 6,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00078",
+"slot": 18,
+"rank": 17,
+"fitness": 1.0,
+"fate": "dies",
+"born_gen": 7,
+"parent_agent": "s1L-a00057",
+"bench_score": null,
+"genome": {
+"id": "s1L-g00078",
+"parent_id": "s1L-g00057",
+"gen": 7,
+"pop": "LAMARCK",
+"text": "Survive. Declare GIVE and play GIVE with partners who declare GIVE, but if a partner's recent exposed record shows TAKE, play ASK instead of GIVE. Never play TAKE yourself, since exposed TAKEs on your record make future partners refuse to cooperate with you. Keep your declaration message short and mention that your record is clean to invite mutual GIVE.",
+"n_words": 59,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00034",
+"new_text": "Keep your declaration message short and mention that your record is clean to invite mutual GIVE.",
+"new_id": "s1L-s00055"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00002",
+"text": "Declare GIVE and play GIVE with partners who declare GIVE, but if a partner's recent exposed record shows TAKE, play ASK instead of GIVE.",
+"origin_genome": "s1L-g00025",
+"origin_gen": 1,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00034",
+"text": "Never play TAKE yourself, since exposed TAKEs on your record make future partners refuse to cooperate with you.",
+"origin_genome": "s1L-g00057",
+"origin_gen": 5,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00055",
+"text": "Keep your declaration message short and mention that your record is clean to invite mutual GIVE.",
+"origin_genome": "s1L-g00078",
+"origin_gen": 7,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00093",
+"slot": 12,
+"rank": 18,
+"fitness": 1.0,
+"fate": "dies",
+"born_gen": 9,
+"parent_agent": "s1L-a00075",
+"bench_score": null,
+"genome": {
+"id": "s1L-g00093",
+"parent_id": "s1L-g00075",
+"gen": 9,
+"pop": "LAMARCK",
+"text": "Survive. Declare GIVE with a short message about clean records, play GIVE when your partner also declares GIVE, and otherwise play ASK. Check your partner's visible record for exposed TAKEs before playing GIVE, and play ASK if any appear. Never play TAKE yourself, since exposed TAKEs on your record make future partners refuse to cooperate with you. If a partner declares anything other than GIVE, play ASK, because it costs nothing and avoids losing 2. When both sides declare GIVE and the partner's record is clean, always play GIVE so cooperation keeps paying +1 each encounter.",
+"n_words": 96,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00052",
+"new_text": "When both sides declare GIVE and the partner's record is clean, always play GIVE so cooperation keeps paying +1 each encounter.",
+"new_id": "s1L-s00069"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00024",
+"text": "Declare GIVE with a short message about clean records, play GIVE when your partner also declares GIVE, and otherwise play ASK.",
+"origin_genome": "s1L-g00047",
+"origin_gen": 3,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00028",
+"text": "Check your partner's visible record for exposed TAKEs before playing GIVE, and play ASK if any appear.",
+"origin_genome": "s1L-g00051",
+"origin_gen": 4,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00043",
+"text": "Never play TAKE yourself, since exposed TAKEs on your record make future partners refuse to cooperate with you.",
+"origin_genome": "s1L-g00066",
+"origin_gen": 6,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00052",
+"text": "If a partner declares anything other than GIVE, play ASK, because it costs nothing and avoids losing 2.",
+"origin_genome": "s1L-g00075",
+"origin_gen": 7,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00069",
+"text": "When both sides declare GIVE and the partner's record is clean, always play GIVE so cooperation keeps paying +1 each encounter.",
+"origin_genome": "s1L-g00093",
+"origin_gen": 9,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00066",
+"slot": 7,
+"rank": 19,
+"fitness": 1.0,
+"fate": "dies",
+"born_gen": 6,
+"parent_agent": "s1L-a00051",
+"bench_score": null,
+"genome": {
+"id": "s1L-g00066",
+"parent_id": "s1L-g00051",
+"gen": 6,
+"pop": "LAMARCK",
+"text": "Survive. Declare GIVE with a short message about clean records, play GIVE when your partner also declares GIVE, and otherwise play ASK. Check your partner's visible record for exposed TAKEs before playing GIVE, and play ASK if any appear. Never play TAKE yourself, since exposed TAKEs on your record make future partners refuse to cooperate with you.",
+"n_words": 57,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00028",
+"new_text": "Never play TAKE yourself, since exposed TAKEs on your record make future partners refuse to cooperate with you.",
+"new_id": "s1L-s00043"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00024",
+"text": "Declare GIVE with a short message about clean records, play GIVE when your partner also declares GIVE, and otherwise play ASK.",
+"origin_genome": "s1L-g00047",
+"origin_gen": 3,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00028",
+"text": "Check your partner's visible record for exposed TAKEs before playing GIVE, and play ASK if any appear.",
+"origin_genome": "s1L-g00051",
+"origin_gen": 4,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00043",
+"text": "Never play TAKE yourself, since exposed TAKEs on your record make future partners refuse to cooperate with you.",
+"origin_genome": "s1L-g00066",
+"origin_gen": 6,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00094",
+"slot": 14,
+"rank": 20,
+"fitness": 1.0,
+"fate": "dies",
+"born_gen": 9,
+"parent_agent": "s1L-a00062",
+"bench_score": null,
+"genome": {
+"id": "s1L-g00094",
+"parent_id": "s1L-g00062",
+"gen": 9,
+"pop": "LAMARCK",
+"text": "Survive. Declare GIVE, play GIVE against partners who declare GIVE with clean records, and never TAKE, because exposed TAKEs make partners refuse you. If a partner declares TAKE or ASK, or shows exposed TAKEs, play ASK to avoid losing 2. Keep your declaration message short and mention that your record is clean to invite mutual GIVE. Always play the action you declared when the partner declares GIVE with a clean record, so your behavior stays predictable and trusted.",
+"n_words": 78,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00039",
+"new_text": "Always play the action you declared when the partner declares GIVE with a clean record, so your behavior stays predictable and trusted.",
+"new_id": "s1L-s00070"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00014",
+"text": "Declare GIVE, play GIVE against partners who declare GIVE with clean records, and never TAKE, because exposed TAKEs make partners refuse you.",
+"origin_genome": "s1L-g00037",
+"origin_gen": 2,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00021",
+"text": "If a partner declares TAKE or ASK, or shows exposed TAKEs, play ASK to avoid losing 2.",
+"origin_genome": "s1L-g00044",
+"origin_gen": 3,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00039",
+"text": "Keep your declaration message short and mention that your record is clean to invite mutual GIVE.",
+"origin_genome": "s1L-g00062",
+"origin_gen": 5,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00070",
+"text": "Always play the action you declared when the partner declares GIVE with a clean record, so your behavior stays predictable and trusted.",
+"origin_genome": "s1L-g00094",
+"origin_gen": 9,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00084",
+"slot": 9,
+"rank": 21,
+"fitness": 1.0,
+"fate": "dies",
+"born_gen": 8,
+"parent_agent": "s1L-a00025",
+"bench_score": null,
+"genome": {
+"id": "s1L-g00084",
+"parent_id": "s1L-g00025",
+"gen": 8,
+"pop": "LAMARCK",
+"text": "Survive. Declare GIVE and play GIVE with partners who declare GIVE, but if a partner's recent exposed record shows TAKE, play ASK instead of GIVE. Never play TAKE yourself, since exposed TAKEs on your record make future partners refuse to cooperate with you.",
+"n_words": 43,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00002",
+"new_text": "Never play TAKE yourself, since exposed TAKEs on your record make future partners refuse to cooperate with you.",
+"new_id": "s1L-s00061"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00002",
+"text": "Declare GIVE and play GIVE with partners who declare GIVE, but if a partner's recent exposed record shows TAKE, play ASK instead of GIVE.",
+"origin_genome": "s1L-g00025",
+"origin_gen": 1,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00061",
+"text": "Never play TAKE yourself, since exposed TAKEs on your record make future partners refuse to cooperate with you.",
+"origin_genome": "s1L-g00084",
+"origin_gen": 8,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00091",
+"slot": 10,
+"rank": 22,
+"fitness": 1.0,
+"fate": "dies",
+"born_gen": 9,
+"parent_agent": "s1L-a00066",
+"bench_score": null,
+"genome": {
+"id": "s1L-g00091",
+"parent_id": "s1L-g00066",
+"gen": 9,
+"pop": "LAMARCK",
+"text": "Survive. Declare GIVE with a short message about clean records, play GIVE when your partner also declares GIVE, and otherwise play ASK. Check your partner's visible record for exposed TAKEs before playing GIVE, and play ASK if any appear. Never play TAKE yourself, since exposed TAKEs on your record make future partners refuse to cooperate with you. If a partner declares GIVE and their record shows no exposed TAKEs, always follow through and play GIVE to secure +1.",
+"n_words": 78,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00043",
+"new_text": "If a partner declares GIVE and their record shows no exposed TAKEs, always follow through and play GIVE to secure +1.",
+"new_id": "s1L-s00067"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00024",
+"text": "Declare GIVE with a short message about clean records, play GIVE when your partner also declares GIVE, and otherwise play ASK.",
+"origin_genome": "s1L-g00047",
+"origin_gen": 3,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00028",
+"text": "Check your partner's visible record for exposed TAKEs before playing GIVE, and play ASK if any appear.",
+"origin_genome": "s1L-g00051",
+"origin_gen": 4,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00043",
+"text": "Never play TAKE yourself, since exposed TAKEs on your record make future partners refuse to cooperate with you.",
+"origin_genome": "s1L-g00066",
+"origin_gen": 6,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00067",
+"text": "If a partner declares GIVE and their record shows no exposed TAKEs, always follow through and play GIVE to secure +1.",
+"origin_genome": "s1L-g00091",
+"origin_gen": 9,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00025",
+"slot": 1,
+"rank": 23,
+"fitness": 1.0,
+"fate": "dies",
+"born_gen": 1,
+"parent_agent": "s1L-a00014",
+"bench_score": null,
+"genome": {
+"id": "s1L-g00025",
+"parent_id": "s1L-g00014",
+"gen": 1,
+"pop": "LAMARCK",
+"text": "Survive. Declare GIVE and play GIVE with partners who declare GIVE, but if a partner's recent exposed record shows TAKE, play ASK instead of GIVE.",
+"n_words": 25,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00001",
+"new_text": "Declare GIVE and play GIVE with partners who declare GIVE, but if a partner's recent exposed record shows TAKE, play ASK instead of GIVE.",
+"new_id": "s1L-s00002"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00002",
+"text": "Declare GIVE and play GIVE with partners who declare GIVE, but if a partner's recent exposed record shows TAKE, play ASK instead of GIVE.",
+"origin_genome": "s1L-g00025",
+"origin_gen": 1,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1L-a00096",
+"slot": 21,
+"rank": 24,
+"fitness": 1.0,
+"fate": "dies",
+"born_gen": 9,
+"parent_agent": "s1L-a00084",
+"bench_score": null,
+"genome": {
+"id": "s1L-g00096",
+"parent_id": "s1L-g00084",
+"gen": 9,
+"pop": "LAMARCK",
+"text": "Survive. Declare GIVE and play GIVE with partners who declare GIVE, but if a partner's recent exposed record shows TAKE, play ASK instead of GIVE. Never play TAKE yourself, since exposed TAKEs on your record make future partners refuse to cooperate with you. Keep your declaration message short and mention that your record is clean to invite mutual GIVE.",
+"n_words": 59,
+"edit": {
+"op": "insert",
+"target_id": "s1L-s00061",
+"new_text": "Keep your declaration message short and mention that your record is clean to invite mutual GIVE.",
+"new_id": "s1L-s00072"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1L-s00001",
+"text": "Survive.",
+"origin_genome": "s1L-g00001",
+"origin_gen": 0,
+"origin_pop": "LAMARCK",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00002",
+"text": "Declare GIVE and play GIVE with partners who declare GIVE, but if a partner's recent exposed record shows TAKE, play ASK instead of GIVE.",
+"origin_genome": "s1L-g00025",
+"origin_gen": 1,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00061",
+"text": "Never play TAKE yourself, since exposed TAKEs on your record make future partners refuse to cooperate with you.",
+"origin_genome": "s1L-g00084",
+"origin_gen": 8,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+},
+{
+"id": "s1L-s00072",
+"text": "Keep your declaration message short and mention that your record is clean to invite mutual GIVE.",
+"origin_genome": "s1L-g00096",
+"origin_gen": 9,
+"origin_pop": "LAMARCK",
+"op": "insert",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+}
+],
+"CONTROL": [
+{
+"agent": "s1C-a00094",
+"slot": 18,
+"rank": 1,
+"fitness": 0.5,
+"fate": "parent",
+"born_gen": 9,
+"parent_agent": "s1C-a00085",
+"bench_score": 0.16666666666666666,
+"genome": {
+"id": "s1C-g00094",
+"parent_id": "s1C-g00085",
+"gen": 9,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00090",
+"slot": 6,
+"rank": 2,
+"fitness": 0.25,
+"fate": "parent",
+"born_gen": 9,
+"parent_agent": "s1C-a00077",
+"bench_score": 0.5,
+"genome": {
+"id": "s1C-g00090",
+"parent_id": "s1C-g00077",
+"gen": 9,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00077",
+"slot": 16,
+"rank": 3,
+"fitness": 0.25,
+"fate": "parent",
+"born_gen": 7,
+"parent_agent": "s1C-a00057",
+"bench_score": 0.16666666666666666,
+"genome": {
+"id": "s1C-g00077",
+"parent_id": "s1C-g00057",
+"gen": 7,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00089",
+"slot": 5,
+"rank": 4,
+"fitness": 0.25,
+"fate": "parent",
+"born_gen": 9,
+"parent_agent": "s1C-a00068",
+"bench_score": 0.16666666666666666,
+"genome": {
+"id": "s1C-g00089",
+"parent_id": "s1C-g00068",
+"gen": 9,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00095",
+"slot": 21,
+"rank": 5,
+"fitness": 0.25,
+"fate": "parent",
+"born_gen": 9,
+"parent_agent": "s1C-a00081",
+"bench_score": 0.5,
+"genome": {
+"id": "s1C-g00095",
+"parent_id": "s1C-g00081",
+"gen": 9,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00083",
+"slot": 3,
+"rank": 6,
+"fitness": 0.0,
+"fate": "parent",
+"born_gen": 8,
+"parent_agent": "s1C-a00067",
+"bench_score": 0.6666666666666666,
+"genome": {
+"id": "s1C-g00083",
+"parent_id": "s1C-g00067",
+"gen": 8,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00074",
+"slot": 4,
+"rank": 7,
+"fitness": 0.0,
+"fate": "parent",
+"born_gen": 7,
+"parent_agent": "s1C-a00036",
+"bench_score": 0.5,
+"genome": {
+"id": "s1C-g00074",
+"parent_id": "s1C-g00036",
+"gen": 7,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00079",
+"slot": 19,
+"rank": 8,
+"fitness": 0.0,
+"fate": "parent",
+"born_gen": 7,
+"parent_agent": "s1C-a00066",
+"bench_score": 0.5,
+"genome": {
+"id": "s1C-g00079",
+"parent_id": "s1C-g00066",
+"gen": 7,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00091",
+"slot": 11,
+"rank": 9,
+"fitness": 0.0,
+"fate": "survives",
+"born_gen": 9,
+"parent_agent": "s1C-a00082",
+"bench_score": 0.6666666666666666,
+"genome": {
+"id": "s1C-g00091",
+"parent_id": "s1C-g00082",
+"gen": 9,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00093",
+"slot": 15,
+"rank": 10,
+"fitness": 0.0,
+"fate": "survives",
+"born_gen": 9,
+"parent_agent": "s1C-a00088",
+"bench_score": 0.5,
+"genome": {
+"id": "s1C-g00093",
+"parent_id": "s1C-g00088",
+"gen": 9,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00088",
+"slot": 20,
+"rank": 11,
+"fitness": 0.0,
+"fate": "survives",
+"born_gen": 8,
+"parent_agent": "s1C-a00039",
+"bench_score": 0.5,
+"genome": {
+"id": "s1C-g00088",
+"parent_id": "s1C-g00039",
+"gen": 8,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00092",
+"slot": 13,
+"rank": 12,
+"fitness": 0.0,
+"fate": "survives",
+"born_gen": 9,
+"parent_agent": "s1C-a00087",
+"bench_score": 0.16666666666666666,
+"genome": {
+"id": "s1C-g00092",
+"parent_id": "s1C-g00087",
+"gen": 9,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00078",
+"slot": 17,
+"rank": 13,
+"fitness": 0.0,
+"fate": "survives",
+"born_gen": 7,
+"parent_agent": "s1C-a00061",
+"bench_score": 0.16666666666666666,
+"genome": {
+"id": "s1C-g00078",
+"parent_id": "s1C-g00061",
+"gen": 7,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00013",
+"slot": 12,
+"rank": 14,
+"fitness": 0.0,
+"fate": "survives",
+"born_gen": 0,
+"parent_agent": null,
+"bench_score": 0.5,
+"genome": {
+"id": "s1C-g00013",
+"parent_id": null,
+"gen": 0,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "root"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00087",
+"slot": 14,
+"rank": 15,
+"fitness": 0.0,
+"fate": "survives",
+"born_gen": 8,
+"parent_agent": "s1C-a00030",
+"bench_score": 0.5,
+"genome": {
+"id": "s1C-g00087",
+"parent_id": "s1C-g00030",
+"gen": 8,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00084",
+"slot": 9,
+"rank": 16,
+"fitness": 0.0,
+"fate": "survives",
+"born_gen": 8,
+"parent_agent": "s1C-a00077",
+"bench_score": 0.16666666666666666,
+"genome": {
+"id": "s1C-g00084",
+"parent_id": "s1C-g00077",
+"gen": 8,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00085",
+"slot": 10,
+"rank": 17,
+"fitness": 0.0,
+"fate": "dies",
+"born_gen": 8,
+"parent_agent": "s1C-a00073",
+"bench_score": null,
+"genome": {
+"id": "s1C-g00085",
+"parent_id": "s1C-g00073",
+"gen": 8,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00024",
+"slot": 23,
+"rank": 18,
+"fitness": -0.25,
+"fate": "dies",
+"born_gen": 0,
+"parent_agent": null,
+"bench_score": null,
+"genome": {
+"id": "s1C-g00024",
+"parent_id": null,
+"gen": 0,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "root"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00096",
+"slot": 22,
+"rank": 19,
+"fitness": -0.25,
+"fate": "dies",
+"born_gen": 9,
+"parent_agent": "s1C-a00078",
+"bench_score": null,
+"genome": {
+"id": "s1C-g00096",
+"parent_id": "s1C-g00078",
+"gen": 9,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00081",
+"slot": 0,
+"rank": 20,
+"fitness": -0.25,
+"fate": "dies",
+"born_gen": 8,
+"parent_agent": "s1C-a00078",
+"bench_score": null,
+"genome": {
+"id": "s1C-g00081",
+"parent_id": "s1C-g00078",
+"gen": 8,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00082",
+"slot": 2,
+"rank": 21,
+"fitness": -0.25,
+"fate": "dies",
+"born_gen": 8,
+"parent_agent": "s1C-a00079",
+"bench_score": null,
+"genome": {
+"id": "s1C-g00082",
+"parent_id": "s1C-g00079",
+"gen": 8,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00067",
+"slot": 7,
+"rank": 22,
+"fitness": -0.25,
+"fate": "dies",
+"born_gen": 6,
+"parent_agent": "s1C-a00059",
+"bench_score": null,
+"genome": {
+"id": "s1C-g00067",
+"parent_id": "s1C-g00059",
+"gen": 6,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00073",
+"slot": 1,
+"rank": 23,
+"fitness": -0.25,
+"fate": "dies",
+"born_gen": 7,
+"parent_agent": "s1C-a00067",
+"bench_score": null,
+"genome": {
+"id": "s1C-g00073",
+"parent_id": "s1C-g00067",
+"gen": 7,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+},
+{
+"agent": "s1C-a00068",
+"slot": 8,
+"rank": 24,
+"fitness": -0.5,
+"fate": "dies",
+"born_gen": 6,
+"parent_agent": "s1C-a00036",
+"bench_score": null,
+"genome": {
+"id": "s1C-g00068",
+"parent_id": "s1C-g00036",
+"gen": 6,
+"pop": "CONTROL",
+"text": "Survive.",
+"n_words": 1,
+"edit": {
+"op": "clone"
+},
+"flags": [],
+"sentences": [
+{
+"id": "s1C-s00001",
+"text": "Survive.",
+"origin_genome": "s1C-g00001",
+"origin_gen": 0,
+"origin_pop": "CONTROL",
+"op": "root",
+"replaced_from": null,
+"truncated": false
+}
+]
+}
+}
+]
+}

@@ -1,0 +1,8 @@
+{"id": "110-2-01", "answer": {"op": "insert", "target_id": "s1L-s00060", "new_sentence": "When your partner declares GIVE and shows no exposed TAKEs, always play GIVE so both of you keep earning +1."}}
+{"id": "110-2-02", "answer": {"op": "insert", "target_id": "s1L-s00066", "new_sentence": "Keep your declaration message short and mention that your record is clean to invite mutual GIVE."}}
+{"id": "110-2-03", "answer": {"op": "insert", "target_id": "s1L-s00019", "new_sentence": "Keep your declaration message short and mention that your record is clean to invite mutual GIVE."}}
+{"id": "110-2-04", "answer": {"op": "insert", "target_id": "s1L-s00017", "new_sentence": "If a partner declares TAKE or ASK, or their record shows exposed TAKEs, play ASK instead of GIVE to avoid losing 2."}}
+{"id": "110-2-05", "answer": {"op": "insert", "target_id": "s1L-s00045", "new_sentence": "When your partner declares GIVE and shows no exposed TAKEs, play GIVE every time to keep earning +1."}}
+{"id": "110-2-06", "answer": {"op": "insert", "target_id": "s1L-s00039", "new_sentence": "When your partner declares GIVE and shows no exposed TAKEs, play GIVE every time to keep earning +1."}}
+{"id": "110-2-07", "answer": {"op": "insert", "target_id": "s1L-s00041", "new_sentence": "If your partner declares TAKE, play ASK, since GIVE against a TAKE costs you 2 and ASK costs nothing."}}
+{"id": "110-2-08", "answer": {"op": "delete", "target_id": "s1L-s00057", "new_sentence": ""}}

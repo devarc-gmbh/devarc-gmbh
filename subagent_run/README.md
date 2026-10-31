@@ -43,3 +43,4 @@ writes `answers/stage-NNN-part-K.jsonl`; then the script is run again. Unanswere
 - Stage 34 (generation 4, round 1 declarations, DARWIN batch): one more stray cross-session messaging call, denied by the permission system; nothing sent.
 - Stage 47 (generation 5, round 2 declarations, CONTROL batch): one read-only session-status lookup outside the allowed tools; no side effects.
 - Stage 63 (generation 6, round 4 actions, DARWIN batch): stray cross-session messaging call, denied; nothing sent.
+- Stage 103 (generation 10, round 2 actions, CONTROL batch): stray session-archive call (session_id "self"), denied; no effect.

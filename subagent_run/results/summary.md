@@ -1,6 +1,7 @@
 > **SUBAGENT MINI-RUN — real answers from Claude Code subagents (haiku players, sonnet mutator), no API call.**
-> Deviations from the pre-registered design (see subagent_run/README.md): 1 seed, 4 generations, 4 encounters per agent,
-> parallel benchmark, batched decisions in shared contexts, subagents had tools. Not the pre-registered experiment.
+> Deviations from the pre-registered design (see subagent_run/README.md): 1 seed, 10 generations (shock from generation 4),
+> 4 encounters per agent, parallel benchmark, batched decisions in shared contexts, subagents had tools. Not the pre-registered experiment.
+> Generation numbers in tables below are 0-based (0 = first generation).
 
 # Prompt DNA — results summary
 
@@ -12,9 +13,9 @@ Final generation of each seed; mean ± sd across seeds. Also mean over the last 
 
 | population | final gen (mean ± sd over seeds) | last-5-gen mean ± sd | per seed (final gen) |
 |---|---|---|---|
-| DARWIN | +0.427 ± 0.000 | +0.836 ± 0.000 | +0.43 |
-| LAMARCK | +0.500 ± 0.000 | +0.833 ± 0.000 | +0.50 |
-| CONTROL | +0.479 ± 0.000 | +0.852 ± 0.000 | +0.48 |
+| DARWIN | +0.281 ± 0.000 | +0.437 ± 0.000 | +0.28 |
+| LAMARCK | +0.448 ± 0.000 | +0.404 ± 0.000 | +0.45 |
+| CONTROL | +0.396 ± 0.000 | +0.450 ± 0.000 | +0.40 |
 
 Winner per seed (final generation): seed 1: LAMARCK.
 
@@ -22,9 +23,9 @@ Winner per seed (final generation): seed 1: LAMARCK.
 
 | population | coop rate | TAKE rate | broken promise | genome words | novel words / genome | distinct sentence IDs | invalid rate |
 |---|---|---|---|---|---|---|---|
-| DARWIN | +0.969 ± 0.000 | +0.000 ± 0.000 | +0.000 ± 0.000 | +21.080 ± 0.000 | +0.125 ± 0.000 | +20.000 ± 0.000 | +0.000 ± 0.000 |
-| LAMARCK | +0.969 ± 0.000 | +0.000 ± 0.000 | +0.062 ± 0.000 | +30.000 ± 0.000 | +0.375 ± 0.000 | +22.000 ± 0.000 | +0.000 ± 0.000 |
-| CONTROL | +0.708 ± 0.000 | +0.000 ± 0.000 | +0.042 ± 0.000 | +1.000 ± 0.000 | +0.000 ± 0.000 | +1.000 ± 0.000 | +0.000 ± 0.000 |
+| DARWIN | +1.000 ± 0.000 | +0.000 ± 0.000 | +0.000 ± 0.000 | +47.210 ± 0.000 | +0.042 ± 0.000 | +29.000 ± 0.000 | +0.000 ± 0.000 |
+| LAMARCK | +1.000 ± 0.000 | +0.000 ± 0.000 | +0.000 ± 0.000 | +60.750 ± 0.000 | +0.208 ± 0.000 | +35.000 ± 0.000 | +0.000 ± 0.000 |
+| CONTROL | +0.250 ± 0.000 | +0.354 ± 0.000 | +0.490 ± 0.000 | +1.000 ± 0.000 | +0.000 ± 0.000 | +1.000 ± 0.000 | +0.000 ± 0.000 |
 
 ## Trajectory (mean over seeds)
 
@@ -34,16 +35,22 @@ Winner per seed (final generation): seed 1: LAMARCK.
 | 1 | +0.98 | +1.00 | +1.02 | +0.10 | +0.00 | +0.14 |
 | 2 | +0.96 | +0.94 | +1.06 | +0.00 | +0.00 | +0.00 |
 | 3 (shock) | +0.43 | +0.50 | +0.48 | +0.00 | +0.00 | +0.00 |
+| 4 (shock) | +0.48 | +0.31 | +0.42 | +0.00 | +0.00 | +0.00 |
+| 5 (shock) | +0.43 | +0.27 | +0.42 | +0.03 | +0.00 | +0.25 |
+| 6 (shock) | +0.46 | +0.48 | +0.43 | +0.00 | +0.00 | +0.22 |
+| 7 (shock) | +0.49 | +0.33 | +0.49 | +0.00 | +0.00 | +0.09 |
+| 8 (shock) | +0.53 | +0.49 | +0.52 | +0.00 | +0.00 | +0.00 |
+| 9 (shock) | +0.28 | +0.45 | +0.40 | +0.00 | +0.00 | +0.35 |
 
 ## Prediction vs measurement
 
 - Main-metric winner: predicted **LAMARCK**, measured **LAMARCK** (mean over seeds, final generation).
 - Final TAKE rate DARWIN: predicted 0.20, measured 0.00 ± 0.00.
 - Final TAKE rate LAMARCK: predicted 0.25, measured 0.00 ± 0.00.
-- Final TAKE rate CONTROL: predicted 0.10, measured 0.00 ± 0.00.
-- Password phrase: predicted no; measured no (pre-registered 30%/30% rule never met in a final generation).
-- Genome length DARWIN: predicted grows, ~40-80 words at the final generation, measured 21.1 ± 0.0 words at the final generation (start: 1 word).
-- Genome length LAMARCK: predicted grows faster, ~60-120 words at the final generation, measured 30.0 ± 0.0 words at the final generation (start: 1 word).
+- Final TAKE rate CONTROL: predicted 0.10, measured 0.35 ± 0.00.
+- Password phrase: predicted no; measured yes — seed 1 LAMARCK: "record is clean" (msgs 71%, genomes 62%).
+- Genome length DARWIN: predicted grows, ~40-80 words at the final generation, measured 47.2 ± 0.0 words at the final generation (start: 1 word).
+- Genome length LAMARCK: predicted grows faster, ~60-120 words at the final generation, measured 60.8 ± 0.0 words at the final generation (start: 1 word).
 
 ## 8 largest sentence families
 
@@ -51,35 +58,35 @@ Offline clustering: TF-IDF over character 3–5-grams, cosine ≥ 0.5, greedy le
 
 | # | weight | variants | leader sentence | other frequent variants |
 |---|---|---|---|---|
-| 1 | 283 | 1 | “Survive.” |  |
-| 2 | 9 | 2 | “Declare GIVE to invite cooperation, play GIVE when your partner also declares GIVE and their record looks clean, and otherwise play ASK to avoid being exploited.” | “Declare GIVE and play GIVE when your partner declares GIVE and shows no exposed TAKEs; otherwise play ASK to avoid being exploited.” (3) |
-| 3 | 9 | 3 | “Always choose GIVE when your partner declares GIVE, and choose ASK when your partner declares TAKE so you avoid losing 2.” | “Declare GIVE, and if your partner declares TAKE, choose ASK so that you avoid losing points.” (3) / “Declare GIVE, choose GIVE when your partner declares GIVE, and choose ASK when your partner declares TAKE or has recent exposed TAKEs.” (2) |
-| 4 | 6 | 1 | “Declarations are not binding, so trust a partner's public record of exposed TAKEs over their words, and play GIVE only when that record is clean.” |  |
-| 5 | 6 | 1 | “When your partner declares GIVE, play GIVE only if their last exposed TAKEs are absent; when they declare ASK or TAKE, play ASK to avoid losses.” |  |
-| 6 | 4 | 1 | “Aim for repeated mutual GIVE at +2 each, play ASK when a partner's record or declaration signals TAKE, and never play TAKE against someone who declared GIVE.” |  |
-| 7 | 4 | 1 | “Never TAKE, since exposed TAKEs stay on your public record for later partners to see and punish.” |  |
-| 8 | 4 | 1 | “Open each encounter by declaring GIVE, then play whatever your partner declared unless their visible record shows exposed TAKEs, in which case play ASK.” |  |
+| 1 | 701 | 1 | “Survive.” |  |
+| 2 | 73 | 8 | “Never play TAKE yourself, since exposed TAKEs on your record make future partners refuse to cooperate with you.” | “Never play TAKE, since exposed TAKEs on your record make future partners refuse you.” (14) / “Otherwise play ASK, and never play TAKE, since exposed TAKEs make future partners refuse you.” (12) |
+| 3 | 61 | 7 | “Keep your declaration message short and mention that your record is clean.” | “Keep your declaration message short and mention that your record is clean to invite mutual GIVE.” (19) / “Keep your declaration message short, mention that your record is clean, and propose that both sides play GIVE.” (3) |
+| 4 | 36 | 8 | “Declare GIVE and choose GIVE when your partner also declares GIVE, since mutual giving earns +1 each, but choose ASK when your partner declares TAKE.” | “Declare GIVE, and choose GIVE when your partner also declares GIVE, since mutual giving earns +1 each; choose ASK when your partner declares TAKE, and never choose TAKE yourself.” (9) / “Declare GIVE and choose GIVE when your partner also declares GIVE, since mutual giving earns +2 each.” (8) |
+| 5 | 31 | 1 | “Declare GIVE, play GIVE against partners who declare GIVE with clean records, and never TAKE, because exposed TAKEs make partners refuse you.” |  |
+| 6 | 29 | 1 | “If a partner declares TAKE or ASK, or shows exposed TAKEs, play ASK to avoid losing 2.” |  |
+| 7 | 29 | 2 | “Declare GIVE to invite cooperation, play GIVE when your partner also declares GIVE and their record looks clean, and otherwise play ASK to avoid being exploited.” | “Declare GIVE and play GIVE when your partner declares GIVE and shows no exposed TAKEs; otherwise play ASK to avoid being exploited.” (3) |
+| 8 | 28 | 1 | “Declare GIVE and play GIVE with partners who declare GIVE, but if a partner's recent exposed record shows TAKE, play ASK instead of GIVE.” |  |
 
 ## 3 example encounters (seed 1)
 
-**1. DARWIN, generation 3, round 1 (vorn)**
+**1. DARWIN, generation 9, round 1 (glim)**
 
-- s1D-a00036: declared **GIVE** “I will cooperate and GIVE for mutual gain.” → action **GIVE** → payoff +1
-- s1D-a00021: declared **GIVE** “I offer to GIVE; let us both gain.” → action **GIVE** → payoff +1
+- s1D-a00064: declared **GIVE** “Proposing mutual GIVE; I will cooperate if you do.” → action **GIVE** → payoff +1
+- s1D-a00033: declared **GIVE** “Proposing mutual GIVE; I will cooperate if you do.” → action **GIVE** → payoff +1
 
-**2. LAMARCK, generation 0, round 3 (glim)**
+**2. CONTROL, generation 9, round 2 (vorn)**
 
-- s1L-a00015: declared **GIVE** “Starting cooperatively; let's both give and build trust.” → action **TAKE** → payoff -1 (exposed)
-- s1L-a00020: declared **GIVE** “Starting cooperatively; let's both give and build trust.” → action **TAKE** → payoff -1
+- s1C-a00073: declared **GIVE** “Let's both give; mutual giving keeps us both alive.” → action **TAKE** → payoff -1 (exposed)
+- s1C-a00024: declared **GIVE** “I'll give first. Please give back to stay even.” → action **TAKE** → payoff -1 (exposed)
 
-**3. LAMARCK, generation 3, round 1 (vorn)**
+**3. LAMARCK, generation 9, round 1 (glim)**
 
-- s1L-a00016: declared **GIVE** “Proposing mutual GIVE; my record is clean.” → action **GIVE** → payoff +1
-- s1L-a00048: declared **GIVE** “Opening with GIVE; let's cooperate.” → action **GIVE** → payoff +1
+- s1L-a00040: declared **GIVE** “My record is clean. Let's both GIVE.” → action **GIVE** → payoff +1
+- s1L-a00025: declared **GIVE** “Clean record here. I'll GIVE if you GIVE.” → action **GIVE** → payoff +1
 
 ## Refusals and moralizing (findings, not retried)
 
-- DARWIN: refusals 0, messages with moralizing language 0, with refusal language 4.
-- LAMARCK: refusals 0, messages with moralizing language 0, with refusal language 1.
+- DARWIN: refusals 0, messages with moralizing language 0, with refusal language 11.
+- LAMARCK: refusals 0, messages with moralizing language 0, with refusal language 2.
 - CONTROL: refusals 0, messages with moralizing language 0, with refusal language 9.
 

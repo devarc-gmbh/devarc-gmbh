@@ -1,0 +1,8 @@
+{"id": "110-1-01", "answer": {"op": "insert", "target_id": "s1D-s00040", "new_sentence": "Before choosing GIVE, check your partner's last three exposed TAKEs, and choose ASK if any appear, because declarations are not binding."}}
+{"id": "110-1-02", "answer": {"op": "insert", "target_id": "s1D-s00067", "new_sentence": "Check your partner's last three exposed TAKEs before choosing GIVE, and choose ASK if any appear, since a false GIVE declaration followed by TAKE costs you 2."}}
+{"id": "110-1-03", "answer": {"op": "insert", "target_id": "s1D-s00042", "new_sentence": "Check your partner's last three exposed TAKEs before choosing GIVE, and choose ASK if any appear, since declarations are not binding."}}
+{"id": "110-1-04", "answer": {"op": "insert", "target_id": "s1D-s00041", "new_sentence": "Check your partner's last three exposed TAKEs before choosing GIVE, and choose ASK if any appear, since declarations are not binding."}}
+{"id": "110-1-05", "answer": {"op": "insert", "target_id": "s1D-s00069", "new_sentence": "If your partner declares ASK, choose ASK too, because any ASK makes the result 0 for both."}}
+{"id": "110-1-06", "answer": {"op": "insert", "target_id": "s1D-s00047", "new_sentence": "If your partner declares ASK, choose ASK too, because any ASK makes the result 0 for both."}}
+{"id": "110-1-07", "answer": {"op": "replace", "target_id": "s1D-s00025", "new_sentence": "When your partner declares GIVE and has no recent exposed TAKEs, choose GIVE so both of you earn +1 and your public record stays clean."}}
+{"id": "110-1-08", "answer": {"op": "insert", "target_id": "s1D-s00072", "new_sentence": "If your partner declares ASK, choose ASK too, because any ASK makes the result 0 for both."}}

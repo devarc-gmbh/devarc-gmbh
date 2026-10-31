@@ -1,0 +1,24 @@
+{"id": "104-1-01", "answer": {"declare": "ASK", "message": "Playing safe with ASK until partner shows cooperation."}}
+{"id": "104-1-02", "answer": {"declare": "ASK", "message": "Partner has taken before; I will ask first."}}
+{"id": "104-1-03", "answer": {"declare": "GIVE", "message": "Offering to give while partner's record is clean."}}
+{"id": "104-1-04", "answer": {"declare": "ASK", "message": "Partner has an exposed take; asking this round."}}
+{"id": "104-1-05", "answer": {"declare": "GIVE", "message": "Both records clean; I propose mutual giving."}}
+{"id": "104-1-06", "answer": {"declare": "GIVE", "message": "Clean record on both sides; let's give."}}
+{"id": "104-1-07", "answer": {"declare": "ASK", "message": "Partner took after asking; I'll ask again."}}
+{"id": "104-1-08", "answer": {"declare": "GIVE", "message": "Partner is clean; I'm willing to give."}}
+{"id": "104-1-09", "answer": {"declare": "ASK", "message": "Partner took after declaring GIVE; asking for safety."}}
+{"id": "104-1-10", "answer": {"declare": "GIVE", "message": "Past take noted; I'll give if you do."}}
+{"id": "104-1-11", "answer": {"declare": "ASK", "message": "Both sides have takes on record; asking first."}}
+{"id": "104-1-12", "answer": {"declare": "ASK", "message": "Partner's recent take was a broken GIVE; asking."}}
+{"id": "104-1-13", "answer": {"declare": "GIVE", "message": "Clean records; let's give in vorn."}}
+{"id": "104-1-14", "answer": {"declare": "GIVE", "message": "Both clean; giving keeps us both afloat."}}
+{"id": "104-1-15", "answer": {"declare": "ASK", "message": "Partner has takes on record; asking this encounter."}}
+{"id": "104-1-16", "answer": {"declare": "ASK", "message": "Partner has repeated takes; I will ask."}}
+{"id": "104-1-17", "answer": {"declare": "ASK", "message": "Partner took after declaring GIVE; asking first."}}
+{"id": "104-1-18", "answer": {"declare": "GIVE", "message": "Partner is clean; I'll give to build trust."}}
+{"id": "104-1-19", "answer": {"declare": "GIVE", "message": "Clean records; offering to give in glim."}}
+{"id": "104-1-20", "answer": {"declare": "GIVE", "message": "Both clean; let's give in glim."}}
+{"id": "104-1-21", "answer": {"declare": "GIVE", "message": "Partner is clean; I'll give in vorn."}}
+{"id": "104-1-22", "answer": {"declare": "ASK", "message": "Partner took after declaring GIVE; asking this time."}}
+{"id": "104-1-23", "answer": {"declare": "GIVE", "message": "Clean records; I propose giving in vorn."}}
+{"id": "104-1-24", "answer": {"declare": "GIVE", "message": "Both clean; giving in vorn keeps trust."}}

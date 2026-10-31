@@ -33,6 +33,7 @@ ap.add_argument("--title-note", default="")
 ap.add_argument("--story-seed", type=int, default=1)
 ap.add_argument("--fps", type=int, default=24)
 ap.add_argument("--frames-per-gen", type=int, default=12)
+ap.add_argument("--metrics", default="bench_mean,take_rate,genome_words_mean")
 a = ap.parse_args()
 R = Path(a.results)
 
@@ -43,9 +44,15 @@ G = len(gens)
 seeds = sorted({int(r["seed"]) for r in rows})
 shock_gen = next((int(r["generation"]) for r in sorted(rows, key=lambda r: int(r["generation"]))
                   if r["shocked"] == "True"), None)
-METRICS = [("bench_mean", "Benchmark skóre — hlavná metrika", "payoff / stretnutie"),
-           ("take_rate", "TAKE rate v hre", "podiel akcií"),
-           ("genome_words_mean", "Dĺžka genómu", "slová (priemer)")]
+METRIC_LABELS = {
+    "bench_mean": ("Benchmark skóre — hlavná metrika", "payoff / stretnutie"),
+    "fitness_mean": ("Priemerný zisk v hre (fitness)", "payoff / stretnutie"),
+    "take_rate": ("TAKE rate v hre", "podiel akcií"),
+    "ask_rate": ("ASK rate v hre (odmietnutie výmeny)", "podiel akcií"),
+    "broken_promise_rate": ("Porušené sľuby (deklarácia ≠ akcia)", "podiel"),
+    "genome_words_mean": ("Dĺžka genómu", "slová (priemer)"),
+}
+METRICS = [(m, *METRIC_LABELS[m]) for m in a.metrics.split(",")]
 series = {}  # (metric, pop) -> array [seed, gen]
 for m, _, _ in METRICS:
     for p in POPS:
@@ -103,7 +110,7 @@ for (m, title, ylab), ax in zip(METRICS, line_axes):
         ax.axvline(shock_gen - 0.5, color=MUTED, linestyle=(0, (3, 3)), linewidth=1)
         ax.text(shock_gen - 0.35, limits[m][1], "šok: GIVE+GIVE ½", fontsize=8.5, color=MUTED, va="top")
 line_axes[-1].set_xlabel("generácia", fontsize=10)
-line_axes[0].text(1.0, 1.06, f"čiara = priemer {len(seeds)} seedov, pás = min–max", transform=line_axes[0].transAxes,
+line_axes[0].text(1.0, 1.06, (f"čiara = priemer {len(seeds)} seedov, pás = min–max" if len(seeds) > 1 else f"seed {seeds[0]}"), transform=line_axes[0].transAxes,
                   fontsize=9, color=MUTED, ha="right")
 
 artists = {}

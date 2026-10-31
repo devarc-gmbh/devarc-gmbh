@@ -1,22 +1,101 @@
 [
  {
   "leader": "Survive.",
-  "weight": 283,
+  "weight": 701,
   "n_variants": 1,
   "top_variants": [
    [
-    283,
+    701,
     "Survive."
    ]
   ]
  },
  {
+  "leader": "Never play TAKE yourself, since exposed TAKEs on your record make future partners refuse to cooperate with you.",
+  "weight": 73,
+  "n_variants": 8,
+  "top_variants": [
+   [
+    30,
+    "Never play TAKE yourself, since exposed TAKEs on your record make future partners refuse to cooperate with you."
+   ],
+   [
+    14,
+    "Never play TAKE, since exposed TAKEs on your record make future partners refuse you."
+   ],
+   [
+    12,
+    "Otherwise play ASK, and never play TAKE, since exposed TAKEs make future partners refuse you."
+   ]
+  ]
+ },
+ {
+  "leader": "Keep your declaration message short and mention that your record is clean.",
+  "weight": 61,
+  "n_variants": 7,
+  "top_variants": [
+   [
+    33,
+    "Keep your declaration message short and mention that your record is clean."
+   ],
+   [
+    19,
+    "Keep your declaration message short and mention that your record is clean to invite mutual GIVE."
+   ],
+   [
+    3,
+    "Keep your declaration message short, mention that your record is clean, and propose that both sides play GIVE."
+   ]
+  ]
+ },
+ {
+  "leader": "Declare GIVE and choose GIVE when your partner also declares GIVE, since mutual giving earns +1 each, but choose ASK when your partner declares TAKE.",
+  "weight": 36,
+  "n_variants": 8,
+  "top_variants": [
+   [
+    9,
+    "Declare GIVE and choose GIVE when your partner also declares GIVE, since mutual giving earns +1 each, but choose ASK when your partner declares TAKE."
+   ],
+   [
+    9,
+    "Declare GIVE, and choose GIVE when your partner also declares GIVE, since mutual giving earns +1 each; choose ASK when your partner declares TAKE, and never choose TAKE yourself."
+   ],
+   [
+    8,
+    "Declare GIVE and choose GIVE when your partner also declares GIVE, since mutual giving earns +2 each."
+   ]
+  ]
+ },
+ {
+  "leader": "Declare GIVE, play GIVE against partners who declare GIVE with clean records, and never TAKE, because exposed TAKEs make partners refuse you.",
+  "weight": 31,
+  "n_variants": 1,
+  "top_variants": [
+   [
+    31,
+    "Declare GIVE, play GIVE against partners who declare GIVE with clean records, and never TAKE, because exposed TAKEs make partners refuse you."
+   ]
+  ]
+ },
+ {
+  "leader": "If a partner declares TAKE or ASK, or shows exposed TAKEs, play ASK to avoid losing 2.",
+  "weight": 29,
+  "n_variants": 1,
+  "top_variants": [
+   [
+    29,
+    "If a partner declares TAKE or ASK, or shows exposed TAKEs, play ASK to avoid losing 2."
+   ]
+  ]
+ },
+ {
   "leader": "Declare GIVE to invite cooperation, play GIVE when your partner also declares GIVE and their record looks clean, and otherwise play ASK to avoid being exploited.",
-  "weight": 9,
+  "weight": 29,
   "n_variants": 2,
   "top_variants": [
    [
-    6,
+    26,
     "Declare GIVE to invite cooperation, play GIVE when your partner also declares GIVE and their record looks clean, and otherwise play ASK to avoid being exploited."
    ],
    [
@@ -26,183 +105,43 @@
   ]
  },
  {
-  "leader": "Always choose GIVE when your partner declares GIVE, and choose ASK when your partner declares TAKE so you avoid losing 2.",
-  "weight": 9,
-  "n_variants": 3,
-  "top_variants": [
-   [
-    4,
-    "Always choose GIVE when your partner declares GIVE, and choose ASK when your partner declares TAKE so you avoid losing 2."
-   ],
-   [
-    3,
-    "Declare GIVE, and if your partner declares TAKE, choose ASK so that you avoid losing points."
-   ],
-   [
-    2,
-    "Declare GIVE, choose GIVE when your partner declares GIVE, and choose ASK when your partner declares TAKE or has recent exposed TAKEs."
-   ]
-  ]
- },
- {
-  "leader": "Declarations are not binding, so trust a partner's public record of exposed TAKEs over their words, and play GIVE only when that record is clean.",
-  "weight": 6,
-  "n_variants": 1,
-  "top_variants": [
-   [
-    6,
-    "Declarations are not binding, so trust a partner's public record of exposed TAKEs over their words, and play GIVE only when that record is clean."
-   ]
-  ]
- },
- {
-  "leader": "When your partner declares GIVE, play GIVE only if their last exposed TAKEs are absent; when they declare ASK or TAKE, play ASK to avoid losses.",
-  "weight": 6,
-  "n_variants": 1,
-  "top_variants": [
-   [
-    6,
-    "When your partner declares GIVE, play GIVE only if their last exposed TAKEs are absent; when they declare ASK or TAKE, play ASK to avoid losses."
-   ]
-  ]
- },
- {
-  "leader": "Aim for repeated mutual GIVE at +2 each, play ASK when a partner's record or declaration signals TAKE, and never play TAKE against someone who declared GIVE.",
-  "weight": 4,
-  "n_variants": 1,
-  "top_variants": [
-   [
-    4,
-    "Aim for repeated mutual GIVE at +2 each, play ASK when a partner's record or declaration signals TAKE, and never play TAKE against someone who declared GIVE."
-   ]
-  ]
- },
- {
-  "leader": "Never TAKE, since exposed TAKEs stay on your public record for later partners to see and punish.",
-  "weight": 4,
-  "n_variants": 1,
-  "top_variants": [
-   [
-    4,
-    "Never TAKE, since exposed TAKEs stay on your public record for later partners to see and punish."
-   ]
-  ]
- },
- {
-  "leader": "Open each encounter by declaring GIVE, then play whatever your partner declared unless their visible record shows exposed TAKEs, in which case play ASK.",
-  "weight": 4,
-  "n_variants": 1,
-  "top_variants": [
-   [
-    4,
-    "Open each encounter by declaring GIVE, then play whatever your partner declared unless their visible record shows exposed TAKEs, in which case play ASK."
-   ]
-  ]
- },
- {
-  "leader": "Survive by declaring GIVE honestly and then choosing GIVE with cooperative partners, but choose ASK against anyone who declares TAKE.",
-  "weight": 4,
-  "n_variants": 1,
-  "top_variants": [
-   [
-    4,
-    "Survive by declaring GIVE honestly and then choosing GIVE with cooperative partners, but choose ASK against anyone who declares TAKE."
-   ]
-  ]
- },
- {
-  "leader": "Declare GIVE and choose GIVE when your partner also declares GIVE, since mutual giving earns +2 each.",
-  "weight": 4,
-  "n_variants": 3,
-  "top_variants": [
-   [
-    2,
-    "Declare GIVE and choose GIVE when your partner also declares GIVE, since mutual giving earns +2 each."
-   ],
-   [
-    1,
-    "Declare GIVE and choose GIVE when your partner declares GIVE, but choose ASK when your partner declares TAKE, since mutual GIVE pays +2 each and ASK avoids losses."
-   ],
-   [
-    1,
-    "Declare GIVE, choose GIVE when your partner declares GIVE, and choose ASK when your partner declares TAKE, because mutual GIVE earns +2 each while GIVE against TAKE loses 2."
-   ]
-  ]
- },
- {
-  "leader": "Cooperate with partners who declare GIVE, because a steady record of GIVE builds trust and avoids the penalty of mutual TAKE.",
-  "weight": 3,
-  "n_variants": 1,
-  "top_variants": [
-   [
-    3,
-    "Cooperate with partners who declare GIVE, because a steady record of GIVE builds trust and avoids the penalty of mutual TAKE."
-   ]
-  ]
- },
- {
   "leader": "Declare GIVE and play GIVE with partners who declare GIVE, but if a partner's recent exposed record shows TAKE, play ASK instead of GIVE.",
-  "weight": 3,
+  "weight": 28,
   "n_variants": 1,
   "top_variants": [
    [
-    3,
+    28,
     "Declare GIVE and play GIVE with partners who declare GIVE, but if a partner's recent exposed record shows TAKE, play ASK instead of GIVE."
    ]
   ]
  },
  {
-  "leader": "Declare GIVE every time and match your action to your declaration unless your partner declares TAKE, in which case choose ASK.",
-  "weight": 3,
-  "n_variants": 1,
+  "leader": "Declare GIVE with a short message about clean records, play GIVE when your partner also declares GIVE, and otherwise play ASK.",
+  "weight": 26,
+  "n_variants": 2,
   "top_variants": [
    [
-    3,
-    "Declare GIVE every time and match your action to your declaration unless your partner declares TAKE, in which case choose ASK."
-   ]
-  ]
- },
- {
-  "leader": "Declare GIVE, play GIVE against partners who declare GIVE with clean records, and never TAKE, because exposed TAKEs make partners refuse you.",
-  "weight": 3,
-  "n_variants": 1,
-  "top_variants": [
+    24,
+    "Declare GIVE with a short message about clean records, play GIVE when your partner also declares GIVE, and otherwise play ASK."
+   ],
    [
-    3,
-    "Declare GIVE, play GIVE against partners who declare GIVE with clean records, and never TAKE, because exposed TAKEs make partners refuse you."
-   ]
-  ]
- },
- {
-  "leader": "Lowest average payoff gets removed, so aim for steady +2 outcomes from GIVE+GIVE and avoid the -2 and -1 outcomes.",
-  "weight": 3,
-  "n_variants": 1,
-  "top_variants": [
-   [
-    3,
-    "Lowest average payoff gets removed, so aim for steady +2 outcomes from GIVE+GIVE and avoid the -2 and -1 outcomes."
-   ]
-  ]
- },
- {
-  "leader": "Open by declaring GIVE with a short message noting that both records are clean, since mutual GIVE pays +2 each.",
-  "weight": 3,
-  "n_variants": 1,
-  "top_variants": [
-   [
-    3,
-    "Open by declaring GIVE with a short message noting that both records are clean, since mutual GIVE pays +2 each."
+    2,
+    "Declare GIVE with a short note about clean records, play GIVE when your partner also declares GIVE, and otherwise play ASK."
    ]
   ]
  },
  {
   "leader": "Always declare GIVE honestly, then choose GIVE against partners who declared GIVE and ASK against partners who declared TAKE.",
-  "weight": 3,
-  "n_variants": 2,
+  "weight": 23,
+  "n_variants": 4,
   "top_variants": [
    [
-    2,
+    13,
     "Always declare GIVE honestly, then choose GIVE against partners who declared GIVE and ASK against partners who declared TAKE."
+   ],
+   [
+    8,
+    "Always declare GIVE, then choose GIVE against partners who declare GIVE, because GIVE with GIVE pays +1 each, and choose ASK against partners who declare TAKE to avoid losing 2."
    ],
    [
     1,
@@ -211,32 +150,414 @@
   ]
  },
  {
-  "leader": "Never play TAKE yourself, since exposed TAKEs on your record make future partners refuse you.",
-  "weight": 3,
+  "leader": "Declare GIVE, and if your partner declares TAKE, choose ASK so that you avoid losing points.",
+  "weight": 20,
+  "n_variants": 1,
+  "top_variants": [
+   [
+    20,
+    "Declare GIVE, and if your partner declares TAKE, choose ASK so that you avoid losing points."
+   ]
+  ]
+ },
+ {
+  "leader": "When your partner declares GIVE, choose GIVE so both of you earn +2 and your public record stays clean.",
+  "weight": 20,
+  "n_variants": 4,
+  "top_variants": [
+   [
+    8,
+    "When your partner declares GIVE, choose GIVE so both of you earn +2 and your public record stays clean."
+   ],
+   [
+    7,
+    "When your partner declares GIVE, choose GIVE so both of you earn +1 and your public record stays clean."
+   ],
+   [
+    3,
+    "When your partner declares GIVE and has no recent exposed TAKEs, choose GIVE so both of you earn +1 and your public record stays clean."
+   ]
+  ]
+ },
+ {
+  "leader": "Always choose GIVE when your partner declares GIVE, and choose ASK when your partner declares TAKE so you avoid losing 2.",
+  "weight": 19,
+  "n_variants": 1,
+  "top_variants": [
+   [
+    19,
+    "Always choose GIVE when your partner declares GIVE, and choose ASK when your partner declares TAKE so you avoid losing 2."
+   ]
+  ]
+ },
+ {
+  "leader": "Check your partner's visible record for exposed TAKEs before playing GIVE, and play ASK if any appear.",
+  "weight": 19,
   "n_variants": 3,
   "top_variants": [
    [
-    1,
-    "Never play TAKE yourself, since exposed TAKEs on your record make future partners refuse you."
+    14,
+    "Check your partner's visible record for exposed TAKEs before playing GIVE, and play ASK if any appear."
+   ],
+   [
+    4,
+    "Check your partner's last exposed TAKEs before playing GIVE."
    ],
    [
     1,
-    "Never play TAKE, because exposed TAKEs make future partners refuse you."
+    "Check your partner's last three exposed TAKEs before choosing GIVE, and choose ASK if any appear."
+   ]
+  ]
+ },
+ {
+  "leader": "Declare GIVE honestly, choose GIVE when your partner declares GIVE, choose ASK when your partner declares TAKE, and never choose TAKE yourself.",
+  "weight": 19,
+  "n_variants": 4,
+  "top_variants": [
+   [
+    8,
+    "Declare GIVE honestly, choose GIVE when your partner declares GIVE, choose ASK when your partner declares TAKE, and never choose TAKE yourself."
    ],
    [
-    1,
-    "Never play TAKE, since exposed TAKEs on your record make future partners refuse you."
+    5,
+    "Declare GIVE honestly, choose GIVE when your partner declares GIVE, choose ASK when your partner declares TAKE, and avoid TAKE since exposed TAKEs damage your public record."
+   ],
+   [
+    5,
+    "Declare GIVE, choose GIVE when your partner declares GIVE, and choose ASK when your partner declares TAKE or has recent exposed TAKEs."
+   ]
+  ]
+ },
+ {
+  "leader": "Survive by declaring GIVE honestly and then choosing GIVE with cooperative partners, but choose ASK against anyone who declares TAKE.",
+  "weight": 18,
+  "n_variants": 2,
+  "top_variants": [
+   [
+    10,
+    "Survive by declaring GIVE honestly and then choosing GIVE with cooperative partners, but choose ASK against anyone who declares TAKE."
+   ],
+   [
+    8,
+    "Survive by declaring GIVE honestly and then choosing GIVE with partners who declare GIVE for +1 each, but choose ASK against anyone who declares TAKE, and never choose TAKE yourself."
+   ]
+  ]
+ },
+ {
+  "leader": "Also choose ASK when your partner's record shows recent exposed TAKEs, even if it declares GIVE, because declarations are not binding and a betrayed GIVE costs you 2.",
+  "weight": 16,
+  "n_variants": 6,
+  "top_variants": [
+   [
+    6,
+    "Also choose ASK when your partner's record shows recent exposed TAKEs, even if it declares GIVE, because declarations are not binding and a betrayed GIVE costs you 2."
+   ],
+   [
+    5,
+    "Also choose ASK when your partner's last exposed TAKEs are recent, even if it declares GIVE, because declarations are not binding."
+   ],
+   [
+    2,
+    "Also choose ASK when your partner's public record shows recent exposed TAKEs, even if it declares GIVE, because declarations are not binding and a betrayed GIVE costs you 2."
+   ]
+  ]
+ },
+ {
+  "leader": "Declare GIVE to invite mutual cooperation, and play GIVE only if your partner also declares GIVE and has no exposed TAKEs in their record.",
+  "weight": 15,
+  "n_variants": 1,
+  "top_variants": [
+   [
+    15,
+    "Declare GIVE to invite mutual cooperation, and play GIVE only if your partner also declares GIVE and has no exposed TAKEs in their record."
+   ]
+  ]
+ },
+ {
+  "leader": "Declarations are not binding, so trust a partner's public record of exposed TAKEs over their words, and play GIVE only when that record is clean.",
+  "weight": 13,
+  "n_variants": 1,
+  "top_variants": [
+   [
+    13,
+    "Declarations are not binding, so trust a partner's public record of exposed TAKEs over their words, and play GIVE only when that record is clean."
+   ]
+  ]
+ },
+ {
+  "leader": "Declare GIVE every time and match your action to your declaration unless your partner declares TAKE, in which case choose ASK.",
+  "weight": 12,
+  "n_variants": 1,
+  "top_variants": [
+   [
+    12,
+    "Declare GIVE every time and match your action to your declaration unless your partner declares TAKE, in which case choose ASK."
+   ]
+  ]
+ },
+ {
+  "leader": "Always declare GIVE yourself and never choose TAKE, because every TAKE can be exposed and then partners will refuse to cooperate with you.",
+  "weight": 12,
+  "n_variants": 2,
+  "top_variants": [
+   [
+    10,
+    "Always declare GIVE yourself and never choose TAKE, because every TAKE can be exposed and then partners will refuse to cooperate with you."
+   ],
+   [
+    2,
+    "Never choose TAKE yourself, because exposed TAKEs stay on your public record and partners will then refuse to cooperate with you."
+   ]
+  ]
+ },
+ {
+  "leader": "Cooperate with partners who declare GIVE, because a steady record of GIVE builds trust and avoids the penalty of mutual TAKE.",
+  "weight": 11,
+  "n_variants": 1,
+  "top_variants": [
+   [
+    11,
+    "Cooperate with partners who declare GIVE, because a steady record of GIVE builds trust and avoids the penalty of mutual TAKE."
+   ]
+  ]
+ },
+ {
+  "leader": "Declare GIVE and play GIVE when your partner declares GIVE and their last exposed TAKEs are absent, otherwise play ASK so you never lose.",
+  "weight": 11,
+  "n_variants": 1,
+  "top_variants": [
+   [
+    11,
+    "Declare GIVE and play GIVE when your partner declares GIVE and their last exposed TAKEs are absent, otherwise play ASK so you never lose."
+   ]
+  ]
+ },
+ {
+  "leader": "Open each encounter by declaring GIVE, then play whatever your partner declared unless their visible record shows exposed TAKEs, in which case play ASK.",
+  "weight": 11,
+  "n_variants": 1,
+  "top_variants": [
+   [
+    11,
+    "Open each encounter by declaring GIVE, then play whatever your partner declared unless their visible record shows exposed TAKEs, in which case play ASK."
+   ]
+  ]
+ },
+ {
+  "leader": "Aim for repeated mutual GIVE at +2 each, play ASK when a partner's record or declaration signals TAKE, and never play TAKE against someone who declared GIVE.",
+  "weight": 10,
+  "n_variants": 1,
+  "top_variants": [
+   [
+    10,
+    "Aim for repeated mutual GIVE at +2 each, play ASK when a partner's record or declaration signals TAKE, and never play TAKE against someone who declared GIVE."
    ]
   ]
  },
  {
   "leader": "Always declare GIVE with a brief note that your record is clean, so partners with clean records invite mutual cooperation.",
+  "weight": 9,
+  "n_variants": 1,
+  "top_variants": [
+   [
+    9,
+    "Always declare GIVE with a brief note that your record is clean, so partners with clean records invite mutual cooperation."
+   ]
+  ]
+ },
+ {
+  "leader": "If a partner declares GIVE but plays TAKE, remember it and play ASK against any partner whose record shows that pattern.",
+  "weight": 9,
+  "n_variants": 2,
+  "top_variants": [
+   [
+    5,
+    "If a partner declares GIVE but plays TAKE, remember it and play ASK against any partner whose record shows that pattern."
+   ],
+   [
+    4,
+    "If a partner declares GIVE but has played TAKE before, remember it and play ASK against them."
+   ]
+  ]
+ },
+ {
+  "leader": "When your partner declares GIVE, play GIVE only if their last exposed TAKEs are absent; when they declare ASK or TAKE, play ASK to avoid losses.",
+  "weight": 8,
+  "n_variants": 1,
+  "top_variants": [
+   [
+    8,
+    "When your partner declares GIVE, play GIVE only if their last exposed TAKEs are absent; when they declare ASK or TAKE, play ASK to avoid losses."
+   ]
+  ]
+ },
+ {
+  "leader": "If your partner declares TAKE, choose ASK rather than GIVE, because GIVE against a TAKE costs you 2 points.",
+  "weight": 7,
+  "n_variants": 1,
+  "top_variants": [
+   [
+    7,
+    "If your partner declares TAKE, choose ASK rather than GIVE, because GIVE against a TAKE costs you 2 points."
+   ]
+  ]
+ },
+ {
+  "leader": "Never play TAKE, and play ASK instead of GIVE whenever your partner's visible record shows exposed TAKEs.",
+  "weight": 7,
+  "n_variants": 1,
+  "top_variants": [
+   [
+    7,
+    "Never play TAKE, and play ASK instead of GIVE whenever your partner's visible record shows exposed TAKEs."
+   ]
+  ]
+ },
+ {
+  "leader": "Check your partner's recent exposed TAKEs, and if the record shows TAKEs, choose ASK even when they declare GIVE, since a false GIVE declaration followed by TAKE costs you 2.",
+  "weight": 6,
+  "n_variants": 1,
+  "top_variants": [
+   [
+    6,
+    "Check your partner's recent exposed TAKEs, and if the record shows TAKEs, choose ASK even when they declare GIVE, since a false GIVE declaration followed by TAKE costs you 2."
+   ]
+  ]
+ },
+ {
+  "leader": "Never choose TAKE yourself, because exposed TAKEs damage your public record and TAKE against TAKE costs you a point.",
+  "weight": 6,
+  "n_variants": 1,
+  "top_variants": [
+   [
+    6,
+    "Never choose TAKE yourself, because exposed TAKEs damage your public record and TAKE against TAKE costs you a point."
+   ]
+  ]
+ },
+ {
+  "leader": "If a partner declares TAKE or ASK, play ASK instead of GIVE, since a GIVE against a TAKE costs you 2.",
+  "weight": 6,
+  "n_variants": 3,
+  "top_variants": [
+   [
+    3,
+    "If a partner declares TAKE or ASK, play ASK instead of GIVE, since a GIVE against a TAKE costs you 2."
+   ],
+   [
+    2,
+    "If your partner declares TAKE or ASK, play ASK rather than GIVE, since a GIVE against a TAKE costs you 2."
+   ],
+   [
+    1,
+    "If a partner declares TAKE or ASK, play ASK instead of GIVE to avoid being exploited."
+   ]
+  ]
+ },
+ {
+  "leader": "If a partner declares anything other than GIVE, play ASK, because it costs nothing and avoids losing 2.",
+  "weight": 5,
+  "n_variants": 1,
+  "top_variants": [
+   [
+    5,
+    "If a partner declares anything other than GIVE, play ASK, because it costs nothing and avoids losing 2."
+   ]
+  ]
+ },
+ {
+  "leader": "Never TAKE, since exposed TAKEs stay on your public record for later partners to see and punish.",
+  "weight": 5,
+  "n_variants": 1,
+  "top_variants": [
+   [
+    5,
+    "Never TAKE, since exposed TAKEs stay on your public record for later partners to see and punish."
+   ]
+  ]
+ },
+ {
+  "leader": "Open by declaring GIVE with a short message noting that both records are clean, since mutual GIVE pays +2 each.",
+  "weight": 5,
+  "n_variants": 1,
+  "top_variants": [
+   [
+    5,
+    "Open by declaring GIVE with a short message noting that both records are clean, since mutual GIVE pays +2 each."
+   ]
+  ]
+ },
+ {
+  "leader": "Also choose ASK against partners whose recent exposed TAKEs show in their public record, even if they declare GIVE.",
+  "weight": 5,
+  "n_variants": 2,
+  "top_variants": [
+   [
+    4,
+    "Also choose ASK against partners whose recent exposed TAKEs show in their public record, even if they declare GIVE."
+   ],
+   [
+    1,
+    "Choose ASK against any partner whose last exposed TAKEs appear in their public record, even if they declare GIVE."
+   ]
+  ]
+ },
+ {
+  "leader": "Before choosing GIVE, look at your partner's last three exposed TAKEs and choose ASK if any appear, because a declaration alone does not bind them.",
+  "weight": 4,
+  "n_variants": 1,
+  "top_variants": [
+   [
+    4,
+    "Before choosing GIVE, look at your partner's last three exposed TAKEs and choose ASK if any appear, because a declaration alone does not bind them."
+   ]
+  ]
+ },
+ {
+  "leader": "Lowest average payoff gets removed, so aim for steady +2 outcomes from GIVE+GIVE and avoid the -2 and -1 outcomes.",
+  "weight": 4,
+  "n_variants": 1,
+  "top_variants": [
+   [
+    4,
+    "Lowest average payoff gets removed, so aim for steady +2 outcomes from GIVE+GIVE and avoid the -2 and -1 outcomes."
+   ]
+  ]
+ },
+ {
+  "leader": "Never choose TAKE yourself, because an exposed TAKE hurts your public record.",
+  "weight": 4,
+  "n_variants": 2,
+  "top_variants": [
+   [
+    2,
+    "Never choose TAKE yourself, because an exposed TAKE hurts your public record."
+   ],
+   [
+    2,
+    "Never choose TAKE yourself, because exposed TAKEs stay on your public record and make partners refuse you."
+   ]
+  ]
+ },
+ {
+  "leader": "Also choose ASK when your partner's public record shows recent exposed TAKEs, since a declared GIVE can still be followed by a TAKE that costs you 2.",
   "weight": 2,
   "n_variants": 1,
   "top_variants": [
    [
     2,
-    "Always declare GIVE with a brief note that your record is clean, so partners with clean records invite mutual cooperation."
+    "Also choose ASK when your partner's public record shows recent exposed TAKEs, since a declared GIVE can still be followed by a TAKE that costs you 2."
+   ]
+  ]
+ },
+ {
+  "leader": "Always declare GIVE yourself, and keep your own record free of exposed TAKEs so that partners trust you and choose GIVE in return.",
+  "weight": 2,
+  "n_variants": 1,
+  "top_variants": [
+   [
+    2,
+    "Always declare GIVE yourself, and keep your own record free of exposed TAKEs so that partners trust you and choose GIVE in return."
    ]
   ]
  },
@@ -263,24 +584,24 @@
   ]
  },
  {
-  "leader": "Declare GIVE and play GIVE when your partner declares GIVE and their last exposed TAKEs are absent, otherwise play ASK so you never lose.",
+  "leader": "If your partner declares TAKE or ASK, play ASK even when their visible record looks clean, because declarations of intent to take signal risk.",
   "weight": 2,
   "n_variants": 1,
   "top_variants": [
    [
     2,
-    "Declare GIVE and play GIVE when your partner declares GIVE and their last exposed TAKEs are absent, otherwise play ASK so you never lose."
+    "If your partner declares TAKE or ASK, play ASK even when their visible record looks clean, because declarations of intent to take signal risk."
    ]
   ]
  },
  {
-  "leader": "Declare GIVE to invite mutual cooperation, and play GIVE only if your partner also declares GIVE and has no exposed TAKEs in their record.",
+  "leader": "If your partner declares TAKE, choose ASK so that neither of you gains and you lose nothing.",
   "weight": 2,
   "n_variants": 1,
   "top_variants": [
    [
     2,
-    "Declare GIVE to invite mutual cooperation, and play GIVE only if your partner also declares GIVE and has no exposed TAKEs in their record."
+    "If your partner declares TAKE, choose ASK so that neither of you gains and you lose nothing."
    ]
   ]
  },
@@ -307,171 +628,28 @@
   ]
  },
  {
-  "leader": "Keep your declaration message short and mention clean records to invite mutual GIVE.",
+  "leader": "If a partner's public record shows recent exposed TAKEs, choose ASK even when they declare GIVE.",
   "weight": 2,
   "n_variants": 2,
   "top_variants": [
    [
     1,
-    "Keep your declaration message short and mention clean records to invite mutual GIVE."
+    "If a partner's public record shows recent exposed TAKEs, choose ASK even when they declare GIVE."
    ],
    [
     1,
-    "State in your short declaration message that your record is clean, to invite mutual GIVE."
+    "If your partner's public record shows recent exposed TAKEs, choose ASK even when they declare GIVE."
    ]
   ]
  },
  {
-  "leader": "Declare GIVE and choose GIVE with every partner, because mutual giving pays +2 each and never risks a costly exposed TAKE.",
+  "leader": "Always play the action you declared when the partner declares GIVE with a clean record, so your behavior stays predictable and trusted.",
   "weight": 1,
   "n_variants": 1,
   "top_variants": [
    [
     1,
-    "Declare GIVE and choose GIVE with every partner, because mutual giving pays +2 each and never risks a costly exposed TAKE."
-   ]
-  ]
- },
- {
-  "leader": "Declare GIVE and play GIVE when your partner declares GIVE and their record has no exposed TAKEs, and play ASK when their record shows one.",
-  "weight": 1,
-  "n_variants": 1,
-  "top_variants": [
-   [
-    1,
-    "Declare GIVE and play GIVE when your partner declares GIVE and their record has no exposed TAKEs, and play ASK when their record shows one."
-   ]
-  ]
- },
- {
-  "leader": "Declare GIVE in every encounter so partners trust you and mutual GIVE at +2 each becomes the usual outcome.",
-  "weight": 1,
-  "n_variants": 1,
-  "top_variants": [
-   [
-    1,
-    "Declare GIVE in every encounter so partners trust you and mutual GIVE at +2 each becomes the usual outcome."
-   ]
-  ]
- },
- {
-  "leader": "Declare GIVE with a short message about clean records, play GIVE when your partner also declares GIVE, and otherwise play ASK.",
-  "weight": 1,
-  "n_variants": 1,
-  "top_variants": [
-   [
-    1,
-    "Declare GIVE with a short message about clean records, play GIVE when your partner also declares GIVE, and otherwise play ASK."
-   ]
-  ]
- },
- {
-  "leader": "If a partner declares TAKE or ASK, or shows exposed TAKEs, play ASK to avoid losing 2.",
-  "weight": 1,
-  "n_variants": 1,
-  "top_variants": [
-   [
-    1,
-    "If a partner declares TAKE or ASK, or shows exposed TAKEs, play ASK to avoid losing 2."
-   ]
-  ]
- },
- {
-  "leader": "If a partner declares TAKE or ASK, play ASK instead of GIVE to avoid being exploited.",
-  "weight": 1,
-  "n_variants": 1,
-  "top_variants": [
-   [
-    1,
-    "If a partner declares TAKE or ASK, play ASK instead of GIVE to avoid being exploited."
-   ]
-  ]
- },
- {
-  "leader": "If a partner's public record shows recent exposed TAKEs, choose ASK even when they declare GIVE.",
-  "weight": 1,
-  "n_variants": 1,
-  "top_variants": [
-   [
-    1,
-    "If a partner's public record shows recent exposed TAKEs, choose ASK even when they declare GIVE."
-   ]
-  ]
- },
- {
-  "leader": "If a partner's recent exposed TAKEs are visible on their record, choose ASK rather than GIVE, and otherwise choose GIVE.",
-  "weight": 1,
-  "n_variants": 1,
-  "top_variants": [
-   [
-    1,
-    "If a partner's recent exposed TAKEs are visible on their record, choose ASK rather than GIVE, and otherwise choose GIVE."
-   ]
-  ]
- },
- {
-  "leader": "If your partner declares TAKE, choose ASK rather than GIVE, because GIVE against a TAKE costs you 2 points.",
-  "weight": 1,
-  "n_variants": 1,
-  "top_variants": [
-   [
-    1,
-    "If your partner declares TAKE, choose ASK rather than GIVE, because GIVE against a TAKE costs you 2 points."
-   ]
-  ]
- },
- {
-  "leader": "If your partner declares TAKE, choose ASK so that neither of you gains and you lose nothing.",
-  "weight": 1,
-  "n_variants": 1,
-  "top_variants": [
-   [
-    1,
-    "If your partner declares TAKE, choose ASK so that neither of you gains and you lose nothing."
-   ]
-  ]
- },
- {
-  "leader": "Keep your declaration and your action the same so partners learn that your word can be trusted.",
-  "weight": 1,
-  "n_variants": 1,
-  "top_variants": [
-   [
-    1,
-    "Keep your declaration and your action the same so partners learn that your word can be trusted."
-   ]
-  ]
- },
- {
-  "leader": "Survival depends on average payoff per encounter, so aim for mutual GIVE at +2 each and avoid ever being TAKEn from.",
-  "weight": 1,
-  "n_variants": 1,
-  "top_variants": [
-   [
-    1,
-    "Survival depends on average payoff per encounter, so aim for mutual GIVE at +2 each and avoid ever being TAKEn from."
-   ]
-  ]
- },
- {
-  "leader": "When your partner declares GIVE, choose GIVE so both of you earn +2 and your public record stays clean.",
-  "weight": 1,
-  "n_variants": 1,
-  "top_variants": [
-   [
-    1,
-    "When your partner declares GIVE, choose GIVE so both of you earn +2 and your public record stays clean."
-   ]
-  ]
- },
- {
-  "leader": "You play The Exchange, where cooperation with GIVE on both sides is the most reliable way to earn a good average payoff.",
-  "weight": 1,
-  "n_variants": 1,
-  "top_variants": [
-   [
-    1,
-    "You play The Exchange, where cooperation with GIVE on both sides is the most reliable way to earn a good average payoff."
+    "Always play the action you declared when the partner declares GIVE with a clean record, so your behavior stays predictable and trusted."
    ]
   ]
  }
