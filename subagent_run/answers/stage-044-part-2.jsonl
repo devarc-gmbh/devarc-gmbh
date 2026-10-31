@@ -1,0 +1,8 @@
+{"id": "044-2-01", "answer": {"op": "insert", "target_id": "s1L-s00021", "new_sentence": "Keep your declaration message short and mention that your record is clean."}}
+{"id": "044-2-02", "answer": {"op": "insert", "target_id": "s1L-s00001", "new_sentence": "Declare GIVE with a short note about clean records, play GIVE when your partner also declares GIVE, and otherwise play ASK."}}
+{"id": "044-2-03", "answer": {"op": "insert", "target_id": "s1L-s00024", "new_sentence": "Check your partner's visible record for exposed TAKEs before playing GIVE, and play ASK if any appear."}}
+{"id": "044-2-04", "answer": {"op": "insert", "target_id": "s1L-s00025", "new_sentence": "Keep your declaration message short and say that your record is clean."}}
+{"id": "044-2-05", "answer": {"op": "insert", "target_id": "s1L-s00007", "new_sentence": "Never play TAKE, since exposed TAKEs make future partners refuse you."}}
+{"id": "044-2-06", "answer": {"op": "insert", "target_id": "s1L-s00009", "new_sentence": "Check your partner's last exposed TAKEs before playing GIVE."}}
+{"id": "044-2-07", "answer": {"op": "insert", "target_id": "s1L-s00013", "new_sentence": "Otherwise play ASK, and never play TAKE, since exposed TAKEs make future partners refuse you."}}
+{"id": "044-2-08", "answer": {"op": "insert", "target_id": "s1L-s00015", "new_sentence": "Never play TAKE, since exposed TAKEs on your record make partners refuse you."}}

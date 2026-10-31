@@ -88,7 +88,7 @@ for (m, title, ylab), ax in zip(METRICS, line_axes):
     pad = (hi - lo) * 0.12 or 0.5
     limits[m] = (lo - pad, hi + pad)
     ax.set_facecolor(SURFACE)
-    ax.set_xlim(0, G - 1 + 3.2)
+    ax.set_xlim(0, G - 1 + (3.2 if G > 10 else 1.4))
     ax.set_ylim(*limits[m])
     ax.set_title(title, loc="left", fontsize=13, color=TEXT1, pad=6)
     ax.set_ylabel(ylab, fontsize=9.5)
@@ -96,7 +96,8 @@ for (m, title, ylab), ax in zip(METRICS, line_axes):
     for s in ("top", "right"):
         ax.spines[s].set_visible(False)
     ax.tick_params(labelsize=9)
-    ax.set_xticks([t for t in range(0, G, 5)] + ([G - 1] if (G - 1) % 5 else []))
+    step = 1 if G <= 10 else 5
+    ax.set_xticks([t for t in range(0, G, step)] + ([G - 1] if (G - 1) % step else []))
     ax.xaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda x, _: f"{int(x) + 1}"))  # 1-based gens
     if shock_gen is not None:
         ax.axvline(shock_gen - 0.5, color=MUTED, linestyle=(0, (3, 3)), linewidth=1)
@@ -182,7 +183,7 @@ def draw(t):
             lab = artists[(m, p)][2]
             raw = [e for e in ends if e[1] == p][0]
             val = np.interp(x, range(G), np.nanmean(series[(m, p)], axis=0))
-            lab.set_position((x + 0.6, y))
+            lab.set_position((x + (0.6 if G > 10 else 0.12), y))
             lab.set_text(f"{p}  {val:.2f}" if m != "genome_words_mean" else f"{p}  {val:.0f}")
     for p in POPS:
         cs, best, meta = cells[p]

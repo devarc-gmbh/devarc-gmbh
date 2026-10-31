@@ -40,3 +40,4 @@ writes `answers/stage-NNN-part-K.jsonl`; then the script is run again. Unanswere
   answer file was complete. From stage 18 on the prompt explicitly forbids every tool except Read and Write.
 - Stage 19 (generation 2, round 4 actions): one player subagent invoked a cross-session messaging tool despite the
   explicit ban. No message arrived in the stray session above or in the orchestrating session. Answer file complete.
+- Stage 34 (generation 4, round 1 declarations, DARWIN batch): one more stray cross-session messaging call, denied by the permission system; nothing sent.
