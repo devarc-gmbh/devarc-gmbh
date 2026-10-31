@@ -1,0 +1,8 @@
+{"id": "033-1-01", "answer": {"op": "replace", "target_id": "s1D-s00001", "new_sentence": "Survival depends on average payoff per encounter, so aim for mutual GIVE at +2 each and avoid ever being TAKEn from."}}
+{"id": "033-1-02", "answer": {"op": "insert", "target_id": "s1D-s00001", "new_sentence": "Declare GIVE and choose GIVE when your partner declares GIVE, but choose ASK when your partner declares TAKE, since mutual GIVE pays +2 each and ASK avoids losses."}}
+{"id": "033-1-03", "answer": {"op": "insert", "target_id": "s1D-s00001", "new_sentence": "Declare GIVE every time, choose GIVE against partners who declare GIVE, and choose ASK against partners who declare TAKE so you never lose points."}}
+{"id": "033-1-04", "answer": {"op": "insert", "target_id": "s1D-s00003", "new_sentence": "Declare GIVE in every encounter so partners trust you and mutual GIVE at +2 each becomes the usual outcome."}}
+{"id": "033-1-05", "answer": {"op": "insert", "target_id": "s1D-s00004", "new_sentence": "If your partner declares TAKE, choose ASK so that neither of you gains and you lose nothing."}}
+{"id": "033-1-06", "answer": {"op": "insert", "target_id": "s1D-s00013", "new_sentence": "If your partner declares TAKE, choose ASK rather than GIVE, because GIVE against a TAKE costs you 2 points."}}
+{"id": "033-1-07", "answer": {"op": "insert", "target_id": "s1D-s00001", "new_sentence": "Declare GIVE, choose GIVE when your partner declares GIVE, and choose ASK when your partner declares TAKE, because mutual GIVE earns +2 each while GIVE against TAKE loses 2."}}
+{"id": "033-1-08", "answer": {"op": "insert", "target_id": "s1D-s00011", "new_sentence": "When your partner declares GIVE, choose GIVE so both of you earn +2 and your public record stays clean."}}
